@@ -1,16 +1,16 @@
 ---
 layout: post
 title: A maior banda de todos os tempos dos últimos 40 anos
-date: 2023-07-27 14:57:00 -03000
+date: 2023-06-27 14:57:00 -03000
 categories:
   - cultura e arte
 tags:
   - bicicletas
   - música
 description: Fazia tempo que não ia num show. Mais tempo ainda que não ia num show em estádio. Aliás, o reencontro dos Titãs na semana passada foi o primeiro show em um estádio desde que eles passaram a se chamar "arenas" e ficaram limpinhos e caros.
-image: /divagar-blog/assets/images/2023-07/titas_encontro-1024x700.jpeg
+image: /assets/images/2023-06/titas_encontro-1024x700.jpeg
 ---
-<img src="{{ '/assets/images/2023-07/titas_encontro-1024x700.jpeg' | relative_url }}" alt="foto: Thiago Benicchio">
+![](/assets/images/2023-06/titas_encontro-1024x700.jpeg)
 
 Fazia tempo que não ia num show. Mais tempo ainda que não ia num show em estádio. Aliás, o reencontro dos Titãs na semana passada foi o primeiro show em um estádio desde que eles passaram a se chamar "arenas" e ficaram limpinhos e caros. Show de estátio me toca fundo. Desde o monumental o Rock in Rio com o Queen, do qual tenho vagas memórias de ter visto na TV (ou, mais provavelmente, em algum replay posterior).
 

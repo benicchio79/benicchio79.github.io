@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dicas de Sexta 01
-date: 2023-07-23 18:13 -0300
+date: 2023-06-23 18:13 -0300
 categories:
   - cidades
   - cultura e arte
@@ -12,10 +12,10 @@ tags:
   - livros
   - vídeos
   - junho2013
-image: assets/images/2023-07/junho2013-boitempo.png
+image: /assets/images/2023-07/junho2013-boitempo.png
 ---
+![](/assets/images/2023-06/junho2013-boitempo.png)
 
-![](/divagar-blog/assets/images/2023-07/junho2013-boitempo.png)
 
 Talvez o nome desta seção mude, mas pensei em começar a jogar aqui indicações de filmes, livros, vídeos, textos, passeios e outras coisas que vierem a telha.
 
