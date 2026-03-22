@@ -1,7 +1,9 @@
 title: Divagar.blog
 description: "Memórias, reflexões e pensamentos para (sobre)viver a distopia"
-url: ""
+url: "https://benicchio79.github.io"
 baseurl: "/divagar-blog"
+
+github_pages: true
 
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
