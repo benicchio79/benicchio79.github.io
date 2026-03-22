@@ -1,0 +1,17 @@
+title: Divagar.blog
+description: "Memórias, reflexões e pensamentos para (sobre)viver a distopia"
+url: ""
+baseurl: ""
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - .obsidian/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
