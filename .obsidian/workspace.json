@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-23-dicas-de-sexta-01.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2023-07-23-dicas-de-sexta-01"
+              "title": "index"
             }
           }
         ]
@@ -198,10 +198,10 @@
   },
   "active": "04876d69fa4ed03a",
   "lastOpenFiles": [
+    "_posts/2023-07-23-dicas-de-sexta-01.md",
     "_posts/2023-07-22-re-começo.md",
     "_posts/2023-07-27-a-maior-banda-de-todos-os-tempos-dos-ultimos-40-anos.md",
     "_posts/2023-07-22-re-comeco.md",
-    "_posts/2023-07-23-dicas-de-sexta-01.md",
     "_site/favicon.ico",
     "_site/favicon-32x32.png",
     "_site/favicon-16x16.png",
