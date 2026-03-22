@@ -15,7 +15,7 @@ tags:
 image: assets/images/2023-07/junho2013-boitempo.png
 ---
 
-![](/assets/images/2023-07/junho2013-boitempo.png)
+![](/divagar-blog/assets/images/2023-07/junho2013-boitempo.png)
 
 Talvez o nome desta seção mude, mas pensei em começar a jogar aqui indicações de filmes, livros, vídeos, textos, passeios e outras coisas que vierem a telha.
 

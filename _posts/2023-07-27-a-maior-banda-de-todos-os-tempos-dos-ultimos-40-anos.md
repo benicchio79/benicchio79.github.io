@@ -8,9 +8,9 @@ tags:
   - bicicletas
   - música
 description: Fazia tempo que não ia num show. Mais tempo ainda que não ia num show em estádio. Aliás, o reencontro dos Titãs na semana passada foi o primeiro show em um estádio desde que eles passaram a se chamar "arenas" e ficaram limpinhos e caros.
-image: /assets/images/2023-07/titas_encontro-1024x700.jpeg
+image: /divagar-blog/assets/images/2023-07/titas_encontro-1024x700.jpeg
 ---
-![foto: Thiago Benicchio](/assets/images/2023-07/titas_encontro-1024x700.jpeg)
+![foto: Thiago Benicchio](/divagar-blog/assets/images/2023-07/titas_encontro-1024x700.jpeg)
 
 Fazia tempo que não ia num show. Mais tempo ainda que não ia num show em estádio. Aliás, o reencontro dos Titãs na semana passada foi o primeiro show em um estádio desde que eles passaram a se chamar "arenas" e ficaram limpinhos e caros. Show de estátio me toca fundo. Desde o monumental o Rock in Rio com o Queen, do qual tenho vagas memórias de ter visto na TV (ou, mais provavelmente, em algum replay posterior).
 
