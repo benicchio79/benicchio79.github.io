@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ae3102405c74fb46",
+        "id": "74c375613e32b06b",
         "type": "tabs",
         "children": [
           {
-            "id": "622cce3301cb476b",
+            "id": "04876d69fa4ed03a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-07-22-(re)começo.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2023-07-22-(re)começo"
+              "title": "New tab"
             }
           }
         ]
@@ -196,8 +192,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "622cce3301cb476b",
+  "active": "04876d69fa4ed03a",
   "lastOpenFiles": [
+    "_posts/2023-07-22-re-começo.md",
+    "_posts/2023-07-23-dicas-de-sexta-01.md",
+    "_posts/2023-07-27-a-maior-banda-de-todos-os-tempos-dos-ultimos-40-anos.md",
     "_site/favicon.ico",
     "_site/favicon-32x32.png",
     "_site/favicon-16x16.png",
@@ -210,9 +209,6 @@
     "apple-touch-icon.png",
     "android-chrome-512x512.png",
     "android-chrome-192x192.png",
-    "_posts/2023-07-23-Dicas de Sexta 01.md",
-    "_posts/2023-07-27-A maior banda de todos os tempos dos últimos 40 anos.md",
-    "_posts/2023-07-22-(re)começo.md",
     "_site/2023/07/27/A-maior-banda-de-todos-os-tempos-dos-últimos-40-anos/index.html",
     "_site/2023/07/23/Dicas-de-Sexta-01/index.html",
     "_site/2023/07/22/(re)começo/index.html",
@@ -221,7 +217,6 @@
     "_site/2023/07/22/(re)começo",
     "_site/2023/07/27",
     "_site/2023/07/23",
-    "_site/2023/07/22",
     "index.md",
     "Welcome.md",
     "2023-07-22.md",
