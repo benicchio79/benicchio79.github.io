@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4d69b646df5f82aa",
+        "id": "7663f9d67cf0312f",
         "type": "tabs",
         "children": [
           {
-            "id": "f457d4683da7e0ab",
+            "id": "f63df16d8f64e9c7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -192,7 +192,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f457d4683da7e0ab",
+  "active": "f63df16d8f64e9c7",
   "lastOpenFiles": [
     "_posts/2023-10-06-dicas-de-sexta-06.md",
     "_posts/2023-10-04-o-arbusto-o-poste-e-a-lixeira.md",
