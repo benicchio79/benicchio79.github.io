@@ -1,30 +1,181 @@
+/* Reset básico e cores */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  line-height: 1.6;
-  max-width: 800px;
+  background-color: #000000;
+  color: #dddddd;
+  font-family: 'Courier New', 'SF Mono', 'Fira Code', monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header e navegação */
+.site-header {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.5rem;
+}
+
+.site-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.site-nav li {
+  display: inline;
+}
+
+.site-nav a {
+  color: #88aaff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-family: monospace;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+/* Container principal (duas colunas) */
+.container {
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
-  color: #111;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
 }
-header {
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 2rem;
+
+/* Coluna principal */
+.main-content {
+  border-right: 1px solid #333;
+  padding-right: 2rem;
 }
-footer {
-  border-top: 1px solid #ccc;
-  margin-top: 2rem;
-  padding-top: 1rem;
+
+/* Barra lateral */
+.sidebar {
+  padding-left: 1rem;
+}
+
+/* Posts */
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #222;
+  padding-bottom: 0.5rem;
+}
+
+.post-date {
+  color: #888;
+  font-family: monospace;
   font-size: 0.9rem;
-  color: #666;
+  min-width: 100px;
 }
+
+.post-title {
+  color: #dddddd;
+  text-decoration: none;
+  font-weight: normal;
+  margin-left: 1rem;
+}
+
+.post-title:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Títulos e links */
+h1, h2, h3 {
+  color: #ffffff;
+  font-weight: normal;
+  font-family: monospace;
+}
+
 a {
-  color: #0066cc;
+  color: #88aaff;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
-img {
-  max-width: 100%;
-  height: auto;
+/* Busca */
+.search-container {
+  margin: 2rem 0;
+}
+
+#search-input {
+  width: 100%;
+  padding: 0.5rem;
+  background: #111;
+  border: 1px solid #333;
+  color: #ddd;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+#search-results {
+  margin-top: 1rem;
+}
+
+#search-results ul {
+  list-style: none;
+  padding: 0;
+}
+
+#search-results li {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #222;
+}
+
+#search-results a {
+  color: #88aaff;
+  text-decoration: none;
+}
+
+#search-results a:hover {
+  text-decoration: underline;
+}
+
+/* Sidebar widgets */
+.widget {
+  margin-bottom: 2rem;
+}
+
+.widget h3 {
+  font-size: 1.2rem;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.widget ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.widget li {
+  margin-bottom: 0.5rem;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  border-top: 1px solid #333;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  color: #666;
 }

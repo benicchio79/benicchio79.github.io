@@ -2,29 +2,36 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>{{ page.title }} | {{ site.title }}</title>
-
-  <!-- Favicons -->
-  <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | relative_url }}">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <header>
-    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-  </header>
+  <div class="container">
+    <main class="main-content">
+      <!-- HEADER COM SEÇÕES -->
+      <header class="site-header">
+        <nav class="site-nav">
+          <ul>
+            <li><a href="{{ '/' | relative_url }}">Início</a></li>
+            <li><a href="{{ '/sobre' | relative_url }}">Sobre</a></li>
+            <li><a href="{{ '/outros-trampos' | relative_url }}">Outros Trampos</a></li>
+            <li><a href="{{ '/busca' | relative_url }}">Busca</a></li>
+            <li><a href="{{ '/por-email' | relative_url }}">Por Email</a></li>
+          </ul>
+        </nav>
+      </header>
 
-  <main>
-    {{ content }}
-  </main>
+      {{ content }}
+    </main>
+
+    <aside class="sidebar">
+      {% include sidebar.html %}
+    </aside>
+  </div>
 
   <footer>
-    <p>© {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    <p>cc {{ site.time | date: '%Y' }} {{ site.title }} • cc by-nc-sa • feito com Jekyll e GitHub Pages</p>
   </footer>
 </body>
 </html>
