@@ -9,19 +9,56 @@ body {
   padding: 0;
 }
 
-/* Header e navegação */
+/* Container principal - agora uma coluna */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Sidebar removida */
+.sidebar {
+  display: none;
+}
+
+/* Main content ocupa toda largura */
+.main-content {
+  width: 100%;
+}
+
+/* Header com logo à esquerda e menu à direita */
 .site-header {
-  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
   border-bottom: 1px solid #333;
   padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.site-title {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.site-title a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+.site-title a:hover {
+  text-decoration: underline;
 }
 
 .site-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .site-nav li {
@@ -40,25 +77,17 @@ body {
   color: #ffffff;
 }
 
-/* Container principal (duas colunas) */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 2rem;
-}
-
-/* Coluna principal */
-.main-content {
-  border-right: 1px solid #333;
-  padding-right: 2rem;
-}
-
-/* Barra lateral */
-.sidebar {
-  padding-left: 1rem;
+/* Responsivo: empilha em telas pequenas */
+@media (max-width: 600px) {
+  .site-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .site-nav ul {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
 }
 
 /* Posts */
@@ -110,6 +139,24 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* Nuvem de tags e categorias */
+.tag-cloud {
+  margin: 2rem 0;
+  line-height: 2;
+}
+
+.tag-link {
+  display: inline-block;
+  margin-right: 0.5rem;
+  color: #88aaff;
+  text-decoration: none;
+}
+
+.tag-link:hover {
+  text-decoration: underline;
+}
+
 /* Busca */
 .search-container {
   margin: 2rem 0;
@@ -147,27 +194,6 @@ a:hover {
 
 #search-results a:hover {
   text-decoration: underline;
-}
-
-/* Sidebar widgets */
-.widget {
-  margin-bottom: 2rem;
-}
-
-.widget h3 {
-  font-size: 1.2rem;
-  border-bottom: 1px solid #333;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-.widget ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.widget li {
-  margin-bottom: 0.5rem;
 }
 
 /* Rodapé */

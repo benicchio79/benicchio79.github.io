@@ -1,11 +1,17 @@
 ---
-layout: home
+layout: default
 title: Divagar
 ---
 Memórias, reflexões e pensamentos para (sobre)viver a(a) distopia. Política, comunicação, cinema, paternidade, cidades e outras milongas.
 
 
-<h2>Últimos posts</h2>
+## 🗂️ Categorias
+
+{% include category-cloud.html %}
+
+## 📝 Últimos posts
+
+<h2>Últimos textos</h2>
 <ul class="post-list">
   {% for post in site.posts %}
     <li>

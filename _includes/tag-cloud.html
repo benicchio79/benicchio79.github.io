@@ -1,0 +1,21 @@
+{% comment %}
+  Gera uma nuvem de tags com base nos posts.
+{% endcomment %}
+
+{% assign tags = site.tags | sort %}
+{% if tags.size > 0 %}
+  <div class="tag-cloud">
+    {% for tag in tags %}
+      {% assign tag_name = tag[0] %}
+      {% assign tag_count = tag[1] | size %}
+      {% assign tag_size = tag_count | times: 0.5 | plus: 0.8 %}
+      <a href="{{ '/tags/' | relative_url }}#{{ tag_name | slugify }}"
+         style="font-size: {{ tag_size | at_least: 0.8 | at_most: 2 }}rem;"
+         class="tag-link">
+        {{ tag_name }} ({{ tag_count }})
+      </a>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>Nenhuma tag encontrada.</p>
+{% endif %}

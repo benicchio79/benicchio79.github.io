@@ -9,15 +9,17 @@
 <body>
   <div class="container">
     <main class="main-content">
-      <!-- HEADER COM SEÇÕES -->
+      <!-- HEADER COM LOGO À ESQUERDA E MENU À DIREITA -->
       <header class="site-header">
+        <div class="site-title">
+          <a href="{{ '/' | relative_url }}">divagar.blog</a>
+        </div>
         <nav class="site-nav">
           <ul>
-            <li><a href="{{ '/' | relative_url }}">Início</a></li>
             <li><a href="{{ '/sobre' | relative_url }}">Sobre</a></li>
-            <li><a href="{{ '/outros-trampos' | relative_url }}">Outros Trampos</a></li>
+            <li><a href="{{ '/outros-lugares' | relative_url }}">Outros lugares</a></li>
             <li><a href="{{ '/busca' | relative_url }}">Busca</a></li>
-            <li><a href="{{ '/por-email' | relative_url }}">Por Email</a></li>
+            <li><a href="{{ '/receba-atualizacoes' | relative_url }}">Receba atualizações</a></li>
           </ul>
         </nav>
       </header>
@@ -25,9 +27,7 @@
       {{ content }}
     </main>
 
-    <aside class="sidebar">
-      {% include sidebar.html %}
-    </aside>
+    <!-- Sidebar removida -->
   </div>
 
   <footer>

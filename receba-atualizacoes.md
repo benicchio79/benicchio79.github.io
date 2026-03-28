@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Por email
-permalink: /por-email/
+title: Receba atualizações
+permalink: /receba-atualizacoes/
 ---
 
 ---\nlayout: page\ntitle: Por Email\n---\n{% include newsletter.html %}
