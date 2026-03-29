@@ -235,7 +235,8 @@ a:hover {
 }
 
 .tag-link:hover {
-  text-decoration: underline;
+  color:#ffffff ;
+  text-decoration: none;
 }
 
 /* Nuvem de categorias */

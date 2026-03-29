@@ -8,11 +8,11 @@ permalink: /busca/
 
 {% include tag-cloud.html %}
 
-## Busca
+## Busca:
 
 {% include search.html %}
 
-## Mais recentes
+## Mais recentes:
 
 <ul class="post-list">
   {% for post in site.posts limit:10 %}
