@@ -4,16 +4,16 @@
 
 {% assign categories = site.categories | sort %}
 {% if categories.size > 0 %}
-  <div class="tag-cloud">
+  <div class="category-cloud">
     {% for category in categories %}
       {% assign cat_name = category[0] %}
       {% assign cat_count = category[1] | size %}
-      {% assign cat_size = cat_count | times: 0.5 | plus: 0.8 %}
+      {% assign cat_size = cat_count | times: 0.3 | plus: 0.8 %}
       <a href="{{ '/categorias/' | relative_url }}#{{ cat_name | slugify }}"
-         style="font-size: {{ cat_size | at_least: 0.8 | at_most: 2 }}rem;"
-         class="tag-link">
-        {{ cat_name }} ({{ cat_count }})
-      </a>
+         style="font-size: 1.6rem;"
+         class="category-link">
+        {{ cat_name }}
+      </a>{% unless forloop.last %}<span class="category-separator">, </span>{% endunless %}
     {% endfor %}
   </div>
 {% else %}

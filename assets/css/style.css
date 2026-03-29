@@ -1,8 +1,43 @@
+/* iA Writer Duo Font */
+
+@font-face {
+  font-family: 'iA Writer Duo';
+  src: url('/assets/fonts/iA-Writer-Duo/iAWriterDuoS-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'iA Writer Duo';
+  src: url('/assets/fonts/iA-Writer-Duo/iAWriterDuoS-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'iA Writer Duo';
+  src: url('/assets/fonts/iA-Writer-Duo/iAWriterDuoS-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'iA Writer Duo';
+  src: url('/assets/fonts/iA-Writer-Duo/iAWriterDuoS-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+
 /* Reset básico e cores */
 body {
-  background-color: #000000;
-  color: #dddddd;
-  font-family: 'Courier New', 'SF Mono', 'Fira Code', monospace;
+  background-color: #0e0525;
+  color: #ffffff;
+  font-family: 'iA Writer Duo', 'Courier New', 'SF Mono', 'Fira Code', monospace;
   font-size: 16px;
   line-height: 1.5;
   margin: 0;
@@ -38,19 +73,20 @@ body {
 }
 
 .site-title {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: normal;
   margin: 0;
 }
 
 .site-title a {
-  color: #ffffff;
+  color: #4c03f6;
   text-decoration: none;
   font-family: monospace;
 }
 
 .site-title a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color:#88aaff;
 }
 
 .site-nav ul {
@@ -63,17 +99,20 @@ body {
 
 .site-nav li {
   display: inline;
+  font-family: 'iA Writer Duo', monospace;
+  font-size: 1.2rem;
 }
 
 .site-nav a {
   color: #88aaff;
   text-decoration: none;
-  font-size: 0.9rem;
-  font-family: monospace;
+  font-size: 1.1rem;
+  gap: 0.5rem;
+  font-family: 'iA Writer Duo', monospace;
 }
 
 .site-nav a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #ffffff;
 }
 
@@ -107,8 +146,8 @@ body {
 
 .post-date {
   color: #888;
-  font-family: monospace;
-  font-size: 0.9rem;
+  font-family: 'iA Writer Duo', monospace;
+  font-size: 1.0rem;
   min-width: 100px;
 }
 
@@ -116,20 +155,60 @@ body {
   color: #dddddd;
   text-decoration: none;
   font-weight: normal;
-  margin-left: 1rem;
+  margin-left: 1.2rem;
 }
 
 .post-title:hover {
-  color: #ffffff;
-  text-decoration: underline;
+  color: #88aaff;
+  text-decoration: none;
+}
+
+.post-content { 
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.post-content p {
+  margin-bottom: 1rem;
+  font-family: 'iA Writer Duo', monospace;
+  font-size: 1.2rem;
+  font-style: normal;
+  color:#ffffff
+}
+
+.post-content date {
+  color: #888;
+  font-family: 'iA Writer Duo', monospace;
+  font-size: 0.9rem;
+}
+
+.post-content li,
+.post-content blockquote {
 }
 
 /* Títulos e links */
-h1, h2, h3 {
+h1 {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'iA Writer Duo', monospace;
+  font-size: 1.6rem;
+}
+
+h2 {
   color: #ffffff;
   font-weight: normal;
-  font-family: monospace;
+  font-family: 'iA Writer Duo', monospace;
+  font-size: 1.4rem;
 }
+
+h3 {
+  color: #888;
+  font-weight: 100;
+  font-style: italic;
+  font-family: 'iA Writer Duo', monospace;
+  font-size: 1.2rem;
+}
+
 
 a {
   color: #88aaff;
@@ -137,24 +216,52 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-/* Nuvem de tags e categorias */
+/* Nuvem de tags */
 .tag-cloud {
   margin: 2rem 0;
-  line-height: 2;
+  line-height: 1.4;
+  text-align: center;
 }
 
 .tag-link {
   display: inline-block;
-  margin-right: 0.5rem;
+  margin-right: 0.3rem;
   color: #88aaff;
   text-decoration: none;
 }
 
 .tag-link:hover {
   text-decoration: underline;
+}
+
+/* Nuvem de categorias */
+.category-cloud {
+  margin: 2rem 0;
+  line-height: 1.2;
+  text-align: center;
+  font-family: 'iA Writer Duo', monospace;
+}
+
+.category-link {
+  display: inline-block;
+  color: #88aaff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.category-link:hover {
+  color:#ffffff ;
+  text-decoration: none;
+}
+
+.category-separator {
+  color: #666666;
+  margin: 0 0.1rem;
 }
 
 /* Busca */

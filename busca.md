@@ -4,21 +4,21 @@ title: Busca
 permalink: /busca/
 ---
 
-## 🏷️ Nuvem de tags
+## Assuntos:
 
 {% include tag-cloud.html %}
 
-## 🔍 Campo de busca
+## Busca
 
 {% include search.html %}
 
-## 📝 Últimos posts
+## Mais recentes
 
 <ul class="post-list">
   {% for post in site.posts limit:10 %}
     <li>
-      <span class="post-date">{{ post.date | date: "%Y.%m.%d" }}</span>
       <a href="{{ post.url | relative_url }}" class="post-title">{{ post.title }}</a>
+      <span class="post-date">{{ post.date | date: "%Y.%m.%d" }}</span>
     </li>
   {% endfor %}
 </ul>

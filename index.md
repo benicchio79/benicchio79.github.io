@@ -2,21 +2,17 @@
 layout: default
 title: Divagar
 ---
-Memórias, reflexões e pensamentos para (sobre)viver a(a) distopia. Política, comunicação, cinema, paternidade, cidades e outras milongas.
+<h3>Memórias, reflexões e pensamentos para (sobre)viver a(a) distopia.</h3>
 
 
-## 🗂️ Categorias
+<h2>{% include category-cloud.html %}</h2>
 
-{% include category-cloud.html %}
-
-## 📝 Últimos posts
-
-<h2>Últimos textos</h2>
+<h2>Mais recentes:</h2>
 <ul class="post-list">
   {% for post in site.posts %}
     <li>
-      <span class="post-date">{{ post.date | date: "%Y.%m.%d" }}</span>
       <a href="{{ post.url | relative_url }}" class="post-title">{{ post.title }}</a>
+      <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
     </li>
   {% endfor %}
 </ul>
