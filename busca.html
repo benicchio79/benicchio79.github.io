@@ -15,11 +15,8 @@ permalink: /busca/
 ## Mais recentes:
 
 <ul class="post-list">
-  {% for post in paginator.posts %}
-    <li>
-      <a href="{{ post.url | relative_url }}" class="post-title">{{ post.title }}</a>
-      <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
-    </li>
+  {% for post in site.posts limit:10 %}
+    {% include post-list-item.html post=post %}
   {% endfor %}
 </ul>
 

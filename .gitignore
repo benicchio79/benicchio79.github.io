@@ -1,1 +1,6 @@
 _site/
+export_config.sh
+.jekyll-cache/
+.DS_Store
+.obsidian/
+Gemfile.lock

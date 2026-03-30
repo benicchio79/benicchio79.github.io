@@ -68,7 +68,7 @@ body {
   align-items: baseline;
   border-bottom: 1px solid #333;
   padding-bottom: 0.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
   flex-wrap: wrap;
 }
 
@@ -129,20 +129,48 @@ body {
   }
 }
 
+
+/* Títulos e links */
+h1 {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'iA Writer Duo', monospace;
+  font-size: 1.6rem;
+}
+
+h2 {
+  color: #ffffff;
+  font-weight: normal;
+  font-family: 'iA Writer Duo', monospace;
+  font-size: 1.4rem;
+}
+
+h3 {
+  color: #888;
+  font-weight: 100;
+  font-style: italic;
+  font-family: 'iA Writer Duo', monospace;
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+
+a {
+  color: #88aaff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
 /* Posts */
 .post-list {
   list-style: none;
   padding: 0;
 }
 
-.post-list li {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid #222;
-  padding-bottom: 0.5rem;
-}
 
 .post-date {
   color: #888;
@@ -176,7 +204,14 @@ body {
   color:#ffffff
 }
 
+.post-content h1 {
+  margin-bottom: 0.25rem;   /* reduz espaço abaixo do título */
+}
+
 .post-content date {
+  display: block;           /* força a data a ocupar linha inteira */
+  margin-top: 0;            /* remove espaço acima */
+  margin-bottom: 0.5rem;    /* espaço abaixo da data (antes das tags) */
   color: #888;
   font-family: 'iA Writer Duo', monospace;
   font-size: 0.9rem;
@@ -186,38 +221,181 @@ body {
 .post-content blockquote {
 }
 
-/* Títulos e links */
-h1 {
-  color: #ffffff;
-  font-weight: bold;
-  font-family: 'iA Writer Duo', monospace;
-  font-size: 1.6rem;
+/* Item da lista de posts */
+.post-item {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #222;
+  padding-bottom: 0.5rem;
+  transition: all 0.2s ease;
 }
 
-h2 {
-  color: #ffffff;
-  font-weight: normal;
-  font-family: 'iA Writer Duo', monospace;
-  font-size: 1.4rem;
+/* Cabeçalho do post (título + data) */
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
-h3 {
+/* Tags no post individual */
+.post-tags {
+  margin: 0.5rem 0 2rem 0;
+  font-size: 0.9rem;
   color: #888;
-  font-weight: 100;
+  font-family: 'iA Writer Duo', monospace;
+}
+
+.tags-label {
+  font-weight: bold;
+  color: #ffffff;
+  margin-right: 0.9rem;
+}
+
+.post-tag {
+  color: #88aaff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.post-tag:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Descrição oculta por padrão */
+.post-description {
+  display: none;
+  font-size: 0.85rem;
+  color: #aaaaaa;
+  margin-top: 0.5rem;
+  line-height: 1.4;
   font-style: italic;
+  margin-left: 1.2rem;
+}
+
+.post-description-link {
+  text-decoration: none;
+  display: block;
+}
+
+.post-description-link:hover .post-description {
+  color: #88aaff;
+}
+
+/* Ao passar o mouse, mostra a descrição */
+.post-item:hover .post-description {
+  display: block;
+}
+
+/* Ajuste para não quebrar o layout */
+.post-item:hover {
+  margin-bottom: 1.5rem;
+}
+
+/* Pages */
+.page-content {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.page-content li {
+  margin-bottom: 1.8rem;
   font-family: 'iA Writer Duo', monospace;
   font-size: 1.2rem;
 }
 
 
-a {
-  color: #88aaff;
+/* Seção de destaques */
+.featured-posts {
+  margin: 2rem 0;
+}
+
+.featured-posts h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.5rem;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.featured-item {
+  background-color: #111;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.featured-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.featured-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.featured-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.featured-item:hover .featured-image img {
+  transform: scale(1.05);
+}
+
+.featured-content {
+  padding: 1.2rem;
+}
+
+.featured-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.featured-title a {
+  color: #ffffff;
   text-decoration: none;
 }
 
-a:hover {
+.featured-title a:hover {
+  color: #88aaff;
+}
+
+.featured-excerpt {
+  font-size: 0.9rem;
+  color: #aaaaaa;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.read-more {
+  display: inline-block;
+  color: #88aaff;
   text-decoration: none;
+  font-size: 0.85rem;
   font-weight: bold;
+}
+
+.read-more:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Responsivo: em telas pequenas, uma coluna */
+@media (max-width: 700px) {
+  .featured-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }
 
 /* Nuvem de tags */
@@ -297,6 +475,8 @@ a:hover {
   background-color: #88aaff22;
   border-radius: 4px;
   padding: 0.2rem 0.4rem;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 /* Busca */

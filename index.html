@@ -7,13 +7,37 @@ title: Divagar
 
 <h2>{% include category-cloud.html %}</h2>
 
-<h2>Mais recentes:</h2>
+<!-- Destaque: dois posts mais recentes -->
+<div class="featured-posts">
+  <h2>Mais recentes:</h2>
+  <div class="featured-grid">
+    {% for post in site.posts limit:2 %}
+      <article class="featured-item">
+        {% if post.image %}
+          <div class="featured-image">
+            <a href="{{ post.url | relative_url }}">
+              <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+            </a>
+          </div>
+        {% endif %}
+        <div class="featured-content">
+          <h3 class="featured-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h3>
+          <div class="featured-excerpt">
+            {{ post.excerpt | strip_html | truncate: 150 }}
+          </div>
+          <a href="{{ post.url | relative_url }}" class="read-more">Leia mais →</a>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</div>
+
+<h2>Anteriores:</h2>
 <ul class="post-list">
   {% for post in paginator.posts %}
-    <li>
-      <a href="{{ post.url | relative_url }}" class="post-title">{{ post.title }}</a>
-      <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
-    </li>
+    {% include post-list-item.html post=post %}
   {% endfor %}
 </ul>
 

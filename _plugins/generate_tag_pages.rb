@@ -1,3 +1,5 @@
+require 'jekyll/utils'
+
 module GenerateTagPages
   class Generator < Jekyll::Generator
     safe true
@@ -14,7 +16,7 @@ module GenerateTagPages
     def initialize(site, tag)
       @site = site
       @base = site.source
-      @dir = File.join('tags', tag)
+      @dir = File.join('tags', Jekyll::Utils.slugify(tag))
       @name = 'index.html'
 
       process(@name)

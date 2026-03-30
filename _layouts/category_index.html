@@ -6,9 +6,6 @@ layout: default
 
 <ul class="post-list">
   {% for post in site.categories[page.category] %}
-    <li>
-      <a href="{{ post.url | relative_url }}" class="post-title">{{ post.title }}</a>
-      <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
-    </li>
+    {% include post-list-item.html post=post %}
   {% endfor %}
 </ul>
