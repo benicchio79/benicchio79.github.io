@@ -9,9 +9,15 @@
       {% assign cat_name = category[0] %}
       {% assign cat_count = category[1] | size %}
       {% assign cat_size = cat_count | times: 0.3 | plus: 0.8 %}
-      <a href="{{ '/categorias/' | relative_url }}#{{ cat_name | slugify }}"
-         style="font-size: 1.6rem;"
-         class="category-link">
+      
+      {% assign is_active = false %}
+      {% if page.category == cat_name %}
+        {% assign is_active = true %}
+      {% endif %}
+      
+      <a href="{{ '/categorias/' | relative_url }}{{ cat_name | slugify }}/"
+         class="category-link {% if is_active %}active{% endif %}"
+         style="font-size: 1.6rem;">
         {{ cat_name }}
       </a>{% unless forloop.last %}<span class="category-separator">, </span>{% endunless %}
     {% endfor %}

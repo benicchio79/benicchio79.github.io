@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h2>{% include category-cloud.html %}</h2>
+
+<ul class="post-list">
+  {% for post in site.categories[page.category] %}
+    <li>
+      <a href="{{ post.url | relative_url }}" class="post-title">{{ post.title }}</a>
+      <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+    </li>
+  {% endfor %}
+</ul>

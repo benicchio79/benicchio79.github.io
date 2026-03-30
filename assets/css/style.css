@@ -239,6 +239,33 @@ a:hover {
   text-decoration: none;
 }
 
+/* Tag ativa (quando na página da tag) */
+.tag-link.active {
+  background-color: #88aaff22;
+  border-radius: 4px;
+  padding: 0.2rem 0.4rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Paginação */
+.pagination {
+  text-align: center;
+  margin: 2rem 0;
+  font-family: 'iA Writer Duo', monospace;
+}
+
+.pagination a {
+  margin: 0 1rem;
+  color: #88aaff;
+  text-decoration: none;
+}
+
+.pagination a:hover {
+  color: #ffffff;
+}
+
+
 /* Nuvem de categorias */
 .category-cloud {
   margin: 2rem 0;
@@ -263,6 +290,13 @@ a:hover {
 .category-separator {
   color: #666666;
   margin: 0 0.1rem;
+}
+
+/* Categoria ativa (quando na página da categoria) */
+.category-link.active {
+  background-color: #88aaff22;
+  border-radius: 4px;
+  padding: 0.2rem 0.4rem;
 }
 
 /* Busca */
@@ -305,7 +339,7 @@ a:hover {
 }
 
 /* Rodapé */
-footer {
+.site-footer {
   text-align: center;
   border-top: 1px solid #333;
   margin-top: 2rem;

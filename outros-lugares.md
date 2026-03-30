@@ -3,7 +3,7 @@ layout: page
 title: Outros Lugares
 permalink: /outros-lugares/
 ---
-- Meu trabalho de conclusão do curso de Jornalismo na PUC-SP, em 2005, foi o vídeo [Sociedade do Automóvel](https://archive.org/details/automobile_society), sobre (i)mobilidade urbana
+- Meu trabalho de conclusão do curso de Jornalismo na PUC-SP, em 2005, foi o vídeo [Sociedade do Automóvel](https://archive.org/details/automobile_society), sobre (i)mobilidade urbana e a ideologia dos motores sobre rodas
 - Entre 2005 e 2011 publiquei o blog [Apocalipse Motorizado](https://wwww.apocalipsemotorizado.net)
 - Guardei muitas fotos no [Flickr](https://flickr.com/photos/luddista), mas o site começou a aplicar limites curtos para contas gratuitas e cobrar custos irreais.
 - Tenho meia dúzia de vídeos no [Vimeo](https://vimeo.com/benicchio) e no [Youtube](https://www.youtube.com/user/benicchio/videos)

@@ -1,0 +1,30 @@
+---
+layout: default
+title: Divagar
+---
+
+<h3>Memórias, reflexões e pensamentos para (sobre)viver a(a) distopia.</h3>
+
+<h2>{% include category-cloud.html %}</h2>
+
+<h2>Mais recentes:</h2>
+<ul class="post-list">
+  {% for post in paginator.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}" class="post-title">{{ post.title }}</a>
+      <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+    </li>
+  {% endfor %}
+</ul>
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">← Anteriores</a>
+  {% endif %}
+  <span>Página {{ paginator.page }} de {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">Próximas →</a>
+  {% endif %}
+</div>
+{% endif %}

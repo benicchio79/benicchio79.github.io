@@ -9,9 +9,16 @@
       {% assign tag_name = tag[0] %}
       {% assign tag_count = tag[1] | size %}
       {% assign tag_size = tag_count | times: 0.5 | plus: 0.8 %}
-      <a href="{{ '/tags/' | relative_url }}#{{ tag_name | slugify }}"
-         style="font-size: {{ tag_size | at_least: 0.8 | at_most: 2 }}rem;"
-         class="tag-link">
+      
+      {% comment %} Verifica se é a tag atual {% endcomment %}
+      {% assign is_active = false %}
+      {% if page.tag == tag_name %}
+        {% assign is_active = true %}
+      {% endif %}
+      
+      <a href="{{ '/tags/' | relative_url }}{{ tag_name | slugify }}/"
+         style="font-size: {{ tag_size | at_least: 0.4 | at_most: 1.6 }}rem;"
+         class="tag-link {% if is_active %}active{% endif %}">
         {{ tag_name }} ({{ tag_count }})
       </a>
     {% endfor %}
