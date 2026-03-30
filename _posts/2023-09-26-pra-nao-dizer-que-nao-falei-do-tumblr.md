@@ -14,7 +14,7 @@ tags:
   - redes_sociais
   - tecnologia
 ---
-![Reprodução: Bike Hype / Tumblr](/assets/images/2023-09/bikehype.11-1200x700.png)
+{% include image-with-caption.html src="/assets/images/2023-09/bikehype.11-1200x700.png" alt="Reprodução: Bike Hype / Tumblr" %}
 
 No [último texto sobre tecnologia publicado aqui no blog](https://divagar.blog/2023/08/aplicativos-para-gestao-da-informacao/), comentei que depois que o Elon Musk resolveu matar o Twitter, saí de todas as redes socais. Mas isso é não é exatamente verdade.
 
@@ -28,7 +28,7 @@ Sinto que a pausa na minha escrita naquele momento aconteceu por duas razões: h
 
 O [Bike Hype segue ativo](http://bikehype.tumblr.com/) e o Tumblr é uma plataforma deliciosa, que tem o melhor da Velha Internet: o foco em conteúdos, não em pessoas. Você não “segue” alguém porque é tal pessoa, mas sim porque o conteúdo te agradou.
 
-![Captura de tela do app Multitab for Tumblr no iPad](/assets/images/2023-09/multitab-1200x700.jpeg)
+{% include image-with-caption.html src="/assets/images/2023-09/multitab-1200x700.jpeg" alt="Captura de tela do app Multitab for Tumblr no iPad" %}
 
 Faz alguns anos descobri um aplicativo chamado [MultiTab for Tumblr](https://fastfeed.tumblr.com/) (para iPad) e é a minha forma de entrar no Tumblr.
 
@@ -42,4 +42,3 @@ Por fim, uso dois serviços que não são exatamente redes sociais, mas que pode
 
 Além de conhecer os gostos de pessoas que você encontra por lá e, a partir disso, descobrir coisas novas, as páginas de estatísticas dos dois serviços são um mergulho fabuloso na vida através da música e do cinema. Saber, por exemplo, em quais momentos você estava ouvindo tais músicas é uma viagem quase terapeutica. Ou o que você escutava naquele ano em que aconteceu tal fato na sua vida, ou quando exatamente você viu aquele filme marcante na sua vida.
 
-A Velha Internet segue viva em alguns cantos. A massa tá rolando feed infinito de publicidade no Instagram, compartilhando fake news no Whatsapp ou alimentando ansiedade no Twitter. Mas dá pra buscar algo melhor.

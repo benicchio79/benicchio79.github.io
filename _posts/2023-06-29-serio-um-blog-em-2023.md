@@ -13,7 +13,7 @@ tags:
   - tecnologia
   - apocalipsemotorizado
 ---
-![](/assets/images/2023-06/paperboy-1024x1024.jpg)
+{% include image-with-caption.html src="/assets/images/2023-06/paperboy-1024x1024.jpg" alt="" %}
 
 Pois é, pesquisei bastante algumas ferramentas para tirar o pó dos dedos e fazer fluir os afetos através das palavras. O mais simples teria sido abrir um documento de texto ou um caderno de papel, mas achei que empinar os pensamentos no vento digital ainda pode fazer algum sentido. Talvez sobre alguma poeira cósmica em um futuro distante.
 
@@ -29,4 +29,3 @@ Tinha alguns requisitos ao escolher a ferramenta de publicação: ser dono do co
 
 Titubiei e quase fui pro Substack. Me parecia uma ferramenta decente, que cumpriria os requisitos acima e serviria ao propósito de algo fácil e sem pretensões, com a vantagem de enviar o conteúdo por e-mail. Mas já tinha começado a pagar um servidor para conservar o formol do apocalispe motorizado. Gosto bastante do Wordpress e vi que dava pra montar newsletters por aqui. Além disso o Substack, como toda ferramenta das big tech, se você não paga, você é o produto ([esse texto do Manual do Usuário](https://manualdousuario.net/substack-ameaca-newsletters/) tem uma boa reflexão sobre o Substack).
 
-Então habemus blog no Wordpress. Com domínio próprio, controle do conteúdo e sem invadir a privacidade de quem lê. Espero que seja uma boa jornada.

@@ -12,7 +12,7 @@ tags:
   - pessoal
 iamge: /assets/images/2023-07/fallen_angels-1200x700.jpg
 ---
-![](/assets/images/2023-07/fallen_angels-1200x700.jpg)
+{% include image-with-caption.html src="/assets/images/2023-07/fallen_angels-1200x700.jpg" alt="" %}
 
 *Fallen Angels*, Wong Kar-wai / reprodução
 
@@ -68,4 +68,3 @@ Termino esse texto duas noites depois de começar. Sinto que podia ter ficado be
 
 Meu filho tem quase 5 anos e ainda não consegue ler esse texto. Também não conversei com ele sobre os filmes de Wong Kar-wai nem sobre a geração 'xennial', mas ele escutou algumas vezes Cyndi Lauper nos últimos dias.
 
-No jantar de hoje ele repetiu um pedido que já fez algumas vezes: "papai, posso ficar acordado até de manhã?". O objetivo era adiar a hora de dormir hoje, mas prometi que faremos isso em outro dia das férias. Só agora, tentando achar um final para esse texto, percebi a relevância do pedido. Quem sabe daqui alguns anos conseguiremos chegar perto da hora azul...

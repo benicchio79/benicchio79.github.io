@@ -25,7 +25,7 @@ title: Divagar
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           </h3>
           <div class="featured-excerpt">
-            {{ post.excerpt | strip_html | truncate: 150 }}
+            {{ post.description | strip_html | truncate: 150 }}
           </div>
           <a href="{{ post.url | relative_url }}" class="read-more">Leia mais →</a>
         </div>

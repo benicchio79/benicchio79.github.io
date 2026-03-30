@@ -14,7 +14,7 @@ tags:
   - junho2013
 image: /assets/images/2023-07/junho2013-boitempo.png
 ---
-![](/assets/images/2023-06/junho2013-boitempo.png)
+{% include image-with-caption.html src="/assets/images/2023-06/junho2013-boitempo.png" alt="" %}
 
 
 Talvez o nome desta seção mude, mas pensei em começar a jogar aqui indicações de filmes, livros, vídeos, textos, passeios e outras coisas que vierem a telha.
@@ -30,4 +30,3 @@ Concordo muito com análise, entre outros, do Vladimir Safatle, de que a insurei
 - Tenho escutado bastante o Jones Manoel, e ele também tem um [vídeo bom](https://youtu.be/m98p1cjnWDQ) sobre junho de 2013
 - Também no Opera Mundi, uma conversa imperdível com [Miguel Nicolelis](https://www.youtube.com/live/pb4b4_MlNwo?feature=share) sobre inteligência artificial. Que tem um complemento muito bom nesta entrevista com o [Sidarta Ribeiro](https://youtu.be/Vs2XnnLQRbk) sobre política, psicoativos e a beleza de sonhar, no Outras Palavras.
 - Outra conversa ótima no Opera Mundi foi com o [Christian Dunker](https://www.youtube.com/live/LLOAkLd4k0A?feature=share), uma luz para entender a ascensão do ódio
-- O melhor filme que vi na semana foi [Invisible Demons](https://letterboxd.com/film/invisible-demons/) ([Mubi](https://mubi.com/films/invisible-demons)). Uma mistura de Koyaanisqatsi e Estamira, em Nova Dheli (India). Os efeitos da poluição, do lixo e do "desenvolvimento" na periferia do sistema em imagens brutais.

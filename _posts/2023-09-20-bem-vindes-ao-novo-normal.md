@@ -14,7 +14,7 @@ tags:
   - distopia
 ---
 
-![Reprodução: European Centre for Medium-Range Weather Forecasts](/assets/images/2023-09/onda_calor.png)
+{% include image-with-caption.html src="/assets/images/2023-09/onda_calor.png" alt="Reprodução: European Centre for Medium-Range Weather Forecasts" %}
 
 Durante o arrefecimento da pandemia de COVID-19, muito se falou sobre um Novo Normal, referindo-se às alterações comportamentais e sistêmicas que poderiam decorrer do aprendizado coletivo resultante da crise planetária.
 
@@ -26,7 +26,7 @@ Mas o capitalismo tem a grande habilidade de fagocitar as críticas (e os críti
 
 Aqui no Grande Sul Global, exceto pela manutenção dos detestáveis cardápios digitais, pelo aumento astronômico dos preços de passagens aéreas e pela consolidação do moedor de carne do delivery como forma de consumo prioritária das classes dominantes, pouco mudou.
 
-![](/assets/images/2023-09/Novo_normal.jpeg)
+{% include image-with-caption.html src="/assets/images/2023-09/Novo_normal.jpeg" alt="" %}
 
 E parece que 2023 marca a chegada do verdadeiro Novo Normal ao Brasil, após uma [turnê inesquecível](https://g1.globo.com/mundo/noticia/2023/07/10/mais-de-61-000-pessoas-morreram-de-calor-na-europa-no-verao-de-2022.ghtml) no verão do hemisfério Norte em 2022. Depois de ciclones, tempestades fora de época ou de escala, deslizamentos de encostas (com casas em cima) e "gangorras térmicas" com variação de 15 graus no mesmo dia, chegamos à Onda de Calor Excepcional.
 
@@ -38,7 +38,7 @@ Durante a pandemia li Deus das Avencas, de Daniel Galera. Em uma das três novel
 
 Muito se fala que a ficção científica atual não avança sequer uma década no tempo cronológico ao imaginar o futuro. A distopia é agora, não dá pra imaginar além. Controle de populações através da tecnologia e das linguagens, migrações em massa, digitalização de sentimentos e catástrofes naturais foram descritas pela ficção desde a primeira metade do século XX e parecem ganhar apenas um detalhamento nas obras contemporâneas.
 
-![Reprodução: Invisible Demons / Raul Jain](/assets/images/2023-09/invisible_demons.png)
+{% include image-with-caption.html src="/assets/images/2023-09/invisible_demons.png" alt="Reprodução: Invisible Demons / Raul Jain" %}
 
 O filme indiano [Invisible Demons](https://letterboxd.com/film/invisible-demons/) aproxima um pouco a ficção da realidade e joga um olhar interessante sobre a existência de diversos mundos em um só planeta em crise. Trata-se de um documentário sobre a poluição do ar, dos rios e do lixo em Nova Delhi, mas também uma inspiração para o entendimento do capitalismo climático.
 
@@ -60,7 +60,7 @@ No Brasil, a esquizofrenia entre o desenvolvimentismo e a preservação ambienta
 
 Em São Paulo, o prefeito Ricardo Nunes bota todas as suas fichas e [R$ 2,8 bilhões do orçamento no recapeamento de vias](https://www.metropoles.com/sao-paulo/nunes-tira-r-220-milhoes-de-oito-orgaos-para-turbinar-recapeamento) como grande vitrine para sua reeleição. Asfalto para carros em uma cidade que deveria estar construindo praças e parques, fortalecendo radicalmente o transporte público e os modos ativos, cuidando das nascentes de água e plantando árvores, além de cuidar de todas as outras necessidades básicas da população.
 
-![Redução de emissões de carbono no transporte / Reprodução: Burning man, Mihael Milunovic](/assets/images/2023-09/burning_man-1080x700.jpg)
+{% include image-with-caption.html src="/assets/images/2023-09/burning_man-1080x700.jpg" alt="Redução de emissões de carbono no transporte / Reprodução: Burning man, Mihael Milunovic" %}
 
 Imperativo neste momento seria repensar radicalmente a nossa forma de vida em coletivo e como “usamos” o planeta, e não continuar insistindo que a tecnocracia financeira vai resolver o que ela mesma criou, utilizando [as mesmas ferramentas que nos trouxeram até aqui](https://www.dw.com/pt-br/cr%C3%A9ditos-de-carbono-na-amaz%C3%B4nia-s%C3%A3o-ineficazes-diz-estudo/a-66829606). Do jeito que a coisa caminha, o Novo perto de Normal é apenas o selo no rótulo do requeijão, dá até pra adicionar um "mais cremoso".
 
@@ -68,4 +68,3 @@ Substituir carros a combustão por carros elétricos, por exemplo, em nada resol
 
 Além disso, acreditar que a periferia do sistema tem capacidade de realizar a "transição verde" na mesma escala e velocidade que os países centrais sem mudar o caminho é cair novamente no falso-paradigma de que o desenvolvimento acontece de forma linear, apenas em tempos diferentes nos diversos países.
 
-Gustavo Petro, presidente da Colômbia, foi na mosca recentemente: [“transição verde é o negacionismo da esquerda”](https://revistapoder.uol.com.br/2023/08/09/transicao-verde-de-lula-e-negacionismo-de-esquerda-para-petro/). Transformar a natureza em commoditie no mercado de carbono ou substituir a fonte de energia dos carros sem mudar os padrões de consumo e uso dos recursos é mais uma armadilha do capital para continuar a exploração. Talvez seja a última antes do esgarçamento definitivo do que um dia pretensiosamente se chamou de civilização.

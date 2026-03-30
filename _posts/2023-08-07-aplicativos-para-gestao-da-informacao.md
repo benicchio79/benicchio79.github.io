@@ -11,7 +11,7 @@ tags:
   - tecnologia
   - software
 ---
-![arte: charge.ai](/assets/images/2023-08/information_management-1020x700.jpg)
+{% include image-with-caption.html src="/assets/images/2023-08/information_management-1020x700.jpg" alt="arte: charge.ai" %}
 
 
 No último final de semana descobri dois aplicativos que mudaram bastante o meu fluxo de leitura e organização da informação digital. Um leitor de RSS com “read later” integrado ([Reeder](https://reeder.app/) - MacOS e iOS) e um aplicativo de notas que funciona como um canivete ([Notion](https://www.notion.so/) - todas as plataformas). Gostei tanto que resolvi escrever um texto sobre eles.
@@ -30,13 +30,13 @@ Com o fim do aplicativo do Pocket, comecei a buscar uma alternativa e logo achei
 
 Moto-contínuo, resolvi repensar o leitor de RSS. O Feedly já foi muito bom, mas ficou cheio de penduricalhos (muitos disponíveis apenas para assinantes), estava lento demais no tablet e também não oferecia mais o aplicativo, obrigando o uso pelo navegador (ou por outro frontend). Testei primeiro o [NetNewsWire](https://netnewswire.com/), código aberto, cumpre o que promete, mas meio feio e atrapalhado.
 
-![Captura de tela do módulo "read later" do Reeder](/assets/images/2023-08/reeder_app-800x450.png)
+{% include image-with-caption.html src="/assets/images/2023-08/reeder_app-800x450.png" alt='Captura de tela do módulo "read later" do Reeder' %}
 
 Aí resolvi arriscar o [Reeder](https://reeder.app/). É um aplicativo pago, mas com preço acessível e sem a praga da assinatura. Caramba, é muito bom. Rápido demais, tem sincronização entre dispositivos (Apple apenas), permite tags, abre os links para leitura em tela própria (sem precisar do navegador). E ainda vinha com um “read later” integrado (!!).
 
 Abandonei o Omnivore e o Feedly e fiquei apenas com o Reeder. Pra quem usa ecossistema da Apple, acho que é a melhor opção. Caso contrário, vá de Omnivore e NetNewsWire. Ou mesmo de Feedly e Pocket, mas apenas pare de achar que rede social serve para ficar bem informado.
 
-![Captura de tela do aplicativo Notion](/assets/images/2023-08/notion-800x450.png)
+{% include image-with-caption.html src="/assets/images/2023-08/notion-800x450.png" alt="Captura de tela do aplicativo Notion" %}
 
 
 Finalizando o mergulho nerd do final de semana, resolvi testar o [Notion](https://www.notion.so/), um aplicativo que se apresenta como editor de notas e gerenciador de projetos, mas é bem mais do que isso. Dá pra chamar de “organizador geral”. Pra quem tem TOC, é uma delícia.
@@ -47,4 +47,3 @@ Botei um monte de coisas no Notion: receitas de comidas que estavam no Evernote,
 
 Parece que existe um conceito chamado “brain dump”, algo como “esvaziar o cérebro”. Não fui muito a fundo, mas ter uma ferramenta simples como o Notion para descarregar o caos da mente e ajudar na criação tem sido uma experiência interessante. Não consegui manter o hábito dos cadernos de papel ao longo da vida e acredito que eles não resolveriam integralmente o problema, já que a fonte de boa parte do que eu quero “esvaziar” vem do mundo digital.
 
-O Notion também se mostrou uma excelente ferramenta para desenvolver os textos aqui para o blog. A facilidade de uso permite escrever a ideia inicial e ir agregando facilmente links e pensamentos que vão aparecendo ao longo dos dias. Quem sabe aumenta a frequência das postagens por aqui. :)

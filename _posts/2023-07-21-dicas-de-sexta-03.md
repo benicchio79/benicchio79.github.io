@@ -13,7 +13,7 @@ tags:
   - tecnologia
 image: /assets/images/2023-07/waymo-taxi.png
 ---
-![](/assets/images/2023-07/waymo-taxi.png)
+{% include image-with-caption.html src="/assets/images/2023-07/waymo-taxi.png" alt="" %}
 
 Carro autônomo desativado com um cone (via [Safe Street Rebel](https://twitter.com/SafeStreetRebel))
 
@@ -37,4 +37,3 @@ Carro autônomo desativado com um cone (via [Safe Street Rebel](https://twitter.
 
 🎬 Um fime bem diferente do Nanni Moretti é o [A Missa Acabou](https://letterboxd.com/film/the-mass-is-ended/) (1985). Uma obra agridoce sobre amor e solidão. Lindo demais. Disponível por aí na internet.
 
-🎬 Outro filme que gostei bastante foi o [*Sueño Florianopolis*](https://letterboxd.com/film/florianopolis-dream/), da argentina Ana Katz. Com Andrea Beltrão, Marco Ricca e uma família argentina como protagonista. O filme é de 2018, mas se passa nos anos 90. É um produção simples e às vezes meio tosca, mas tem momentos bastante sutis. Sobre sair do lugar. Esse também não tem no streaming.

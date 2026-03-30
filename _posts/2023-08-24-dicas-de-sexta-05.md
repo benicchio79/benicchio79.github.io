@@ -18,7 +18,7 @@ tags:
   - racismo
   - urbanismo
 ---
-![Reprodução: Em busca de Anselmo / Carlos Alberto Jr. (HBO)](/assets/images/2023-09/em_busca_de_anselmo-1024x573.jpg)
+{% include image-with-caption.html src="/assets/images/2023-09/em_busca_de_anselmo-1024x573.jpg" alt="Reprodução: Em busca de Anselmo / Carlos Alberto Jr. (HBO)" %}
 
 🎬 Descobri em uma [entrevista do diretor Carlos Alberto Jr. ao Opera Mundi](https://www.youtube.com/live/dGbrE1iLvi8?si=sA26mTQpGOI4A3qY) a série documental *Em busca de Anselmo*, [disponível na HBO](https://www.hbomax.com/br/pt/series/urn:hbo:series:GYLlDXwqoYrGLCwEAAAck). Em cinco episódios, a produção apresenta não apenas a história do maior X9 da resistência à ditadura civil-militar de 1964, mas também uma visão bastante detalhada da luta armada no contexto político do Brasil nos anos 60 e 70.
 
@@ -36,4 +36,3 @@ tags:
 
 🏡 Uma baita aula com a professora [Bianca Tavolari no Opera Mundi](https://www.youtube.com/live/WkzPJN_WHbc?si=Ws2ldkPP5eNfBqYZ). Sobre planos diretores, habitação e política urbana no Brasil.
 
-🍽️ Três coisas que você precisa saber sobre novos rótulos de alimentos, no [Joio e o Trigo](https://ojoioeotrigo.com.br/2023/09/lista-rotulagem-nutricional-lupa/)

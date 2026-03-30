@@ -9,7 +9,7 @@ image:
 tags:
   - pedestre
 ---
-![Carnaval 2023 em São Paulo / Foto: Thiago Benicchio](/assets/images/2023-08/dia_pedestre-1024x700.jpeg)
+{% include image-with-caption.html src="/assets/images/2023-08/dia_pedestre-1024x700.jpeg" alt="Carnaval 2023 em São Paulo / Foto: Thiago Benicchio" %}
 
 Hoje, 8 de agosto, é Dia Internacional do Pedestre. Pouco a celebrar por quem vive em São Paulo e na maior parte das cidades brasileiras. Diz a lenda que data foi escolhida por ter sido a mesma da foto dos Beatles atravessando Abbey Road na faixa de pedestres em 1969.
 
@@ -22,12 +22,11 @@ Evitar mortes é fundamental e toda ação neste sentido é bem vinda, incluindo
 Será que não deveríamos falar também de calçadas de qualidade, da redução das velocidades motorizadas, da prioridade absoluta na travessia, de tempos semafóricos decentes, da continuidade dos percursos e de outros ítens tão importantes para que mais pessoas caminhem e com mais qualidade?
 
 
-![Capa do álbum Live at the BBC 2 / Reprodução](/assets/images/2023-08/live_at_the_BBC.jpeg)
+{% include image-with-caption.html src="/assets/images/2023-08/live_at_the_BBC.jpeg" alt="Capa do álbum Live at the BBC 2 / Reprodução" %}
 
 Se é pra ficar em fotos dos Beatles, prefiro essa. Uma calçada com piso sem obstáculos onde cabem quatro pessoas lado a lado (e ainda sobra espaço). Quantas dessas existem em São Paulo?
 
-![Cena do filme "A Hard Day's Night" / Reprodução](/assets/images/2023-08/beatles_hard_days.jpg)
+{% include image-with-caption.html src="/assets/images/2023-08/beatles_hard_days.jpg" alt='Cena do filme ˜A Hard Days Night" / Reprodução' %}
 
 Ou então essa, com os quatro correndo no meio da rua, sem nenhum carro ameaçando. Se fosse nos EUA da década de 1930, poderiam ser presos.
 
-PS: Em São Paulo a [Associação Cidade a Pé](https://cidadeape.org) junta boas pessoas e tem feito um belo e persistente trabalho nesse tempo de refluxo das discussões urbanas.

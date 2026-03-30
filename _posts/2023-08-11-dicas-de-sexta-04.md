@@ -19,7 +19,7 @@ tags:
   - publicidade
   - música
 ---
-![](/assets/images/2023-08/hell.jpg)
+{% include image-with-caption.html src="/assets/images/2023-08/hell.jpg" alt="" %}
 
 O mundo segue esquentando (hoje faz 32 graus no Agosto paulistano), a vigilância algoritmica avança em São Paulo e a Barbie segue junto com a Kombi da Maria Rita na estrada do Capital. Essas e outras dicas de sexta.
 
@@ -37,4 +37,3 @@ O mundo segue esquentando (hoje faz 32 graus no Agosto paulistano), a vigilânci
 
 🎵 Se você usa o Apple Music, agora tem uma estação algoritmica pra descobrir novas músicas. Em [inglês no MacRumors](https://www.macrumors.com/2023/08/07/apple-music-discovery-station/).
 
-🎬 Está disponível na HBO Max [The Cameraman](https://letterboxd.com/film/the-cameraman/). Foi meu primeiro filme do Buster Keaton e adorei. Uma epópeia do amor no cinema mudo.

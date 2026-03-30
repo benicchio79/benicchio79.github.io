@@ -15,7 +15,7 @@ tags:
   - política
   - transporte
 ---
-![Reprodução: J. Sauras / El País](/assets/images/2023-10/agua_pueblo.png)
+{% include image-with-caption.html src="/assets/images/2023-10/agua_pueblo.png" alt="Reprodução: J. Sauras / El País" %}
 
 
 🚇 Os metrôs das grandes cidades do mundo são públicos ou privados? [BBC](https://www.bbc.com/portuguese/articles/cd1v2gxdyy0o).
@@ -38,4 +38,3 @@ tags:
 
 🖥️ Se você tem um Mac antigo e quer contornar a obsolecência programada da Apple e rodar sistemas operacionais mais recentes, vale muito a pena instalar o Open Core Legacy Patcher. Uso desde o Big Sur em um iMac de 2013, sem nenhuma dificuldade nem problema pra instalar. [Github](https://dortania.github.io/OpenCore-Legacy-Patcher/)
 
-🎬 Entre 19/10 e 01/11 tem Mostra de Cinema em São Paulo. [O site tá quase no ar](https://46.mostra.org/).

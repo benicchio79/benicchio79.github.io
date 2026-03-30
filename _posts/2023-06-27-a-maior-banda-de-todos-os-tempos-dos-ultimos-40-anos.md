@@ -10,7 +10,7 @@ tags:
 description: Fazia tempo que não ia num show. Mais tempo ainda que não ia num show em estádio. Aliás, o reencontro dos Titãs na semana passada foi o primeiro show em um estádio desde que eles passaram a se chamar "arenas" e ficaram limpinhos e caros.
 image: /assets/images/2023-06/titas_encontro-1024x700.jpeg
 ---
-![](/assets/images/2023-06/titas_encontro-1024x700.jpeg)
+{% include image-with-caption.html src="/assets/images/2023-06/titas_encontro-1024x700.jpeg" alt="" %}
 
 Fazia tempo que não ia num show. Mais tempo ainda que não ia num show em estádio. Aliás, o reencontro dos Titãs na semana passada foi o primeiro show em um estádio desde que eles passaram a se chamar "arenas" e ficaram limpinhos e caros. Show de estátio me toca fundo. Desde o monumental o Rock in Rio com o Queen, do qual tenho vagas memórias de ter visto na TV (ou, mais provavelmente, em algum replay posterior).
 
@@ -30,4 +30,3 @@ Foi um belo show, perfeitinho e empolgante. O Alexandre Matias escreveu [dois](h
 
 Cabeça Dinossauro foi a minha primeira fita K-7 (comprada) e nunca deixei de curtir e escutar os Titãs, além de acompanhar e curtir as carreiras solo do Arnaldo Antunes e do Nando Reis. Estamos todos ficando velhos, então tem um longo momento "sentado e acústico" no meio do show que dá uma desanimada. Mas depois volta e acaba bonito. Compreensível: pular no palco durante duas horas aos 60 é só pro Mick Jagger e pro Iggy Pop.
 
-Fui e voltei com as bicicletas compartilhadas da Tembici/Itaú. O grande ponto alto do Palestra Itália é a localização. No centro da cidade, não na puta que pariu. Tem ônibus, metrô e trem por perto. Achei que a demanda seria alta e que não teria vaga pra estacionar na chegada ou bicicleta disponível na volta. Mas tinha, até elétrica. A turma prefere o precariado do Uber e parece que as bicicletas compartilhadas se tornaram mesmo o veículo do sub-precariado do iFood. Sorte minha.
