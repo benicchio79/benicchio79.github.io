@@ -519,54 +519,65 @@ img {
   font-weight: bold;
 }
 
-
-/* Cusdis - Comentários */
+/* ========== CUSDIS - CORREÇÃO TOTAL ========== */
 #cusdis_thread {
-  margin-top: 1rem;
+  width: 100% !important;
+  overflow-x: auto !important;
 }
 
-/* Ajusta a aparência geral da caixa de comentários */
 #cusdis_thread iframe {
   width: 100% !important;
-  min-height: 300px;
+  min-height: 500px !important;
+  border: none !important;
 }
 
-/* Estilo do formulário de comentários */
-.cusdis-form {
-  background-color: #0e0525;
-  color: #ffffff;
+/* Força cores escuras para todo o conteúdo do Cusdis */
+.cusdis-form,
+.cusdis-form *,
+.cusdis-comment,
+.cusdis-comment * {
+  background-color: #0e0525 !important;
+  color: #ffffff !important;
 }
 
-/* Campo de texto do comentário */
-.cusdis-form textarea {
+/* Campos de texto */
+.cusdis-form textarea,
+.cusdis-form input {
   background-color: #111 !important;
-  color: #ddd !important;
-  border: 1px solid #333 !important;
-  font-family: 'iA Writer Duo', monospace;
-  font-size: 0.9rem;
-  padding: 0.8rem;
+  color: #ffffff !important;
+  border: 1px solid #444 !important;
+  font-family: 'iA Writer Duo', monospace !important;
+  font-size: 0.9rem !important;
+  padding: 0.8rem !important;
   width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.cusdis-form textarea {
   min-height: 120px !important;
 }
 
-/* Campo de nome e e-mail */
-.cusdis-form input {
-  background-color: #111 !important;
-  color: #ddd !important;
-  border: 1px solid #333 !important;
-  font-family: 'iA Writer Duo', monospace;
-  padding: 0.5rem;
+/* Labels */
+.cusdis-form label {
+  color: #ffffff !important;
+  font-family: 'iA Writer Duo', monospace !important;
+  font-weight: bold !important;
+  margin-bottom: 0.25rem !important;
+  display: inline-block !important;
+  background-color: transparent !important;
 }
 
-/* Botão de enviar */
+/* Botão */
 .cusdis-form button {
   background-color: #88aaff !important;
   color: #0e0525 !important;
   border: none !important;
-  padding: 0.5rem 1rem !important;
-  cursor: pointer;
-  font-family: 'iA Writer Duo', monospace;
-  font-weight: bold;
+  padding: 0.5rem 1.5rem !important;
+  cursor: pointer !important;
+  font-family: 'iA Writer Duo', monospace !important;
+  font-weight: bold !important;
+  border-radius: 4px !important;
+  margin-top: 0.5rem !important;
 }
 
 .cusdis-form button:hover {
@@ -574,38 +585,42 @@ img {
   color: #0e0525 !important;
 }
 
-/* Títulos da seção de comentários (ex: "Leave a comment") */
-.cusdis-form h3,
-.cusdis-form label {
-  color: #ffffff !important;
-}
-
-/* Comentários já publicados */
+/* Comentários existentes */
 .cusdis-comment {
-  background-color: #111;
-  border: 1px solid #333;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  border-radius: 4px;
+  background-color: #111 !important;
+  border: 1px solid #333 !important;
+  margin-bottom: 1rem !important;
+  padding: 1rem !important;
+  border-radius: 4px !important;
 }
 
 .cusdis-comment .author {
-  color: #88aaff;
-  font-weight: bold;
+  color: #88aaff !important;
+  font-weight: bold !important;
 }
 
 .cusdis-comment .date {
-  color: #888;
-  font-size: 0.7rem;
-  margin-left: 0.5rem;
+  color: #888 !important;
+  font-size: 0.7rem !important;
+  margin-left: 0.5rem !important;
 }
 
 .cusdis-comment .text {
-  color: #ddd;
-  margin-top: 0.5rem;
+  color: #ddd !important;
+  margin-top: 0.5rem !important;
+  line-height: 1.5 !important;
 }
 
+/* Link Reply */
+.cusdis-comment .reply a {
+  color: #88aaff !important;
+  text-decoration: none !important;
+  font-size: 0.8rem !important;
+}
 
+.cusdis-comment .reply a:hover {
+  color: #ffffff !important;
+}
 
 /* Busca */
 .search-container {

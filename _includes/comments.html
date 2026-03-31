@@ -1,11 +1,16 @@
+{% comment %}
+  Cusdis - Comentários abertos sem login
+  Tema escuro para combinar com o blog
+{% endcomment %}
+
+
+
 <div id="cusdis_thread"
   data-host="https://cusdis.com"
   data-app-id="6763f2be-930c-438a-9031-a642770e8134"
-  data-page-id="{{ PAGE_ID }}"
-  data-page-url="{{ PAGE_URL }}"
-  data-page-title="{{ PAGE_TITLE }}"
-></div>
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+  data-page-id="{{ page.url }}"
+  data-page-url="{{ page.url | absolute_url }}"
+  data-page-title="{{ page.title }}">
+</div>
 
-<!-- Customização de textos e cores -->
-<script src="{{ '/assets/js/cusdis-custom.js' | relative_url }}"></script>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
