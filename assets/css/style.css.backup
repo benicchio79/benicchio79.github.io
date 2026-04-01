@@ -284,55 +284,36 @@ img {
   color: #88aaff;
 }
 
-/* Tooltip para descrição do post */
-.post-title {
-  position: relative;
-  display: inline-block;
-  text-decoration: none;
-  color: #dddddd;
-  font-weight: normal;
-  font-size: 1.05rem;
+
+/* Descrição oculta por padrão */
+.post-description {
+  display: none;
+  font-size: 0.85rem;
+  color: #aaaaaa;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+  font-style: italic;
   margin-left: 1.2rem;
 }
 
-.post-title:hover {
+.post-description-link {
+  text-decoration: none;
+  display: block;
+}
+
+.post-description-link:hover .post-description {
   color: #88aaff;
 }
 
-.post-title:hover::after {
-  content: attr(data-description);
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  margin-bottom: 0.5rem;
-  background-color: #111;
-  color: #888;
-  padding: 0.5rem 0.8rem;
-  border-radius: 0px;
-  font-size: 0.8rem;
-  font-weight: normal;
-  font-style: normal;
-  white-space: normal;
-  width: 50vw;
-  min-width: 150px;
-  max-width: 300px;
-  z-index: 10;
-  border: 1px solid #333;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  font-family: 'iA Writer Duo', monospace;
-  line-height: 1.4;
-  word-wrap: break-word;
+/* Ao passar o mouse, mostra a descrição */
+.post-item:hover .post-description {
+  display: block;
 }
 
-/* Para telas pequenas, ajusta o tooltip */
-@media (max-width: 600px) {
-  .post-title:hover::after {
-    white-space: normal;
-    max-width: 200px;
-    left: -10px;
-  }
+/* Ajuste para não quebrar o layout */
+.post-item:hover {
+  margin-bottom: 1.5rem;
 }
-
 
 /* Pages */
 .page-content {
@@ -402,7 +383,6 @@ img {
   margin: 0 0 0.5rem 0;
   font-size: 1.3rem;
   font-weight: bold;
-  font-style: normal;
 }
 
 .featured-title a {

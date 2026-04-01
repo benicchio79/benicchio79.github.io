@@ -3,6 +3,7 @@ layout: page
 title: Receba atualizações
 permalink: /receba-atualizacoes/
 ---
+
 📬 Para receber as novas postagens por email, cadastre-se aqui:
 
 {% include newsletter.html %}
