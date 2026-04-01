@@ -4,38 +4,62 @@
 </div>
 
 <script>
-  // Coleta todos os posts e páginas
-  const pages = [
-    {% for page in site.pages %}
-      { title: "{{ page.title | escape }}", url: "{{ page.url | relative_url }}", content: "{{ page.content | strip_html | escape }}" },
-    {% endfor %}
+  // Coleta todos os posts com título, URL, conteúdo e descrição
+  const posts = [
     {% for post in site.posts %}
-      { title: "{{ post.title | escape }}", url: "{{ post.url | relative_url }}", content: "{{ post.content | strip_html | escape }}" },
+      {
+        title: {{ post.title | jsonify }},
+        url: {{ post.url | relative_url | jsonify }},
+        description: {{ post.description | default: post.excerpt | strip_html | truncate: 160 | jsonify }},
+        content: {{ post.content | strip_html | normalize_whitespace | truncatewords: 100 | jsonify }}
+      }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
 
   const searchInput = document.getElementById('search-input');
   const resultsDiv = document.getElementById('search-results');
 
-  searchInput.addEventListener('input', function() {
-    const query = this.value.toLowerCase().trim();
+  function highlightText(text, query) {
+    if (!query) return text;
+    const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+    return text.replace(regex, '<mark>$1</mark>');
+  }
+
+  function searchPosts() {
+    const query = searchInput.value.toLowerCase().trim();
+    
     if (query.length < 3) {
       resultsDiv.innerHTML = '';
       return;
     }
 
-    const results = pages.filter(page => 
-      page.title.toLowerCase().includes(query) || 
-      page.content.toLowerCase().includes(query)
-    ).slice(0, 10); // limite de 10 resultados
+    const results = posts.filter(post => 
+      post.title.toLowerCase().includes(query) || 
+      post.content.toLowerCase().includes(query)
+    ).slice(0, 10);
 
     if (results.length === 0) {
-      resultsDiv.innerHTML = '<p>Nenhum resultado encontrado.</p>';
+      resultsDiv.innerHTML = '<div class="no-results">Nenhum resultado encontrado para "<strong>' + query + '</strong>".</div>';
       return;
     }
 
-    resultsDiv.innerHTML = '<ul>' + results.map(page => 
-      `<li><a href="${page.url}">${page.title}</a></li>`
-    ).join('') + '</ul>';
-  });
+    resultsDiv.innerHTML = `
+      <div class="search-summary">Encontrados ${results.length} resultado${results.length > 1 ? 's' : ''} para "<strong>${query}</strong>"</div>
+      <div class="search-results-list">
+        ${results.map(post => `
+          <div class="search-result-item">
+            <h3 class="search-result-title">
+              <a href="${post.url}">${highlightText(post.title, query)}</a>
+            </h3>
+            ${post.description ? `<p class="search-result-description">${highlightText(post.description, query)}</p>` : ''}
+            <div class="search-result-meta">
+              <a href="${post.url}" class="read-more">Leia mais →</a>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    `;
+  }
+
+  searchInput.addEventListener('input', searchPosts);
 </script>

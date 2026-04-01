@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-06-22-re-comeco.md",
+                "file": "sobre.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2023-06-22-re-comeco"
+              "title": "sobre"
             }
           }
         ]
@@ -198,6 +198,7 @@
   },
   "active": "933cb56ebe8aa712",
   "lastOpenFiles": [
+    "_posts/2023-06-22-re-comeco.md",
     "sobre.md",
     "receba-atualizacoes.md",
     "outros-lugares.md",
@@ -234,7 +235,6 @@
     "_posts/2023-08-08-dia-do-pedestre.md",
     "_posts/2023-06-30-dicas-de-sexta-02.md",
     "_posts/2023-06-23-dicas-de-sexta-01.md",
-    "_posts/2023-06-22-re-comeco.md",
     "_posts/2023-10-06-dicas-de-sexta-06.md",
     "_posts/2023-10-04-o-arbusto-o-poste-e-a-lixeira.md",
     "_posts/2023-09-20-bem-vindes-ao-novo-normal.md",

@@ -4,16 +4,14 @@ title: Busca
 permalink: /busca/
 ---
 
-## Assuntos:
-
-{% include tag-cloud.html %}
-
-## Busca:
-
+<h1>Busca:</h1>
 {% include search.html %}
 
-## Mais recentes:
+<h1>Assuntos:</h1>
+{% include tag-cloud.html %}
 
+
+<h1>Mais recentes:</h1>
 <ul class="post-list">
   {% for post in site.posts limit:10 %}
     {% include post-list-item.html post=post %}
