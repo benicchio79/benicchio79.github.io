@@ -5,3 +5,4 @@ export_config.sh
 .obsidian/
 Gemfile.lock
 .DS_Store
+.obsidian/workspace.json
