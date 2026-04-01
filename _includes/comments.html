@@ -15,3 +15,21 @@
 </div>
 
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+
+<script>
+  // Ajusta a altura após o iframe carregar
+  function fixIframeHeight() {
+    var iframe = document.querySelector('#cusdis_thread iframe');
+    if (iframe && iframe.contentDocument) {
+      var height = iframe.contentDocument.body.scrollHeight;
+      iframe.style.height = height + 'px';
+    }
+  }
+
+  // Tenta ajustar quando a página carregar e depois de alguns segundos
+  window.addEventListener('load', function() {
+    setTimeout(fixIframeHeight, 500);
+    setTimeout(fixIframeHeight, 1500);
+    setTimeout(fixIframeHeight, 3000);
+  });
+</script>
