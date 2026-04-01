@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sobre.md",
+                "file": "_posts/2023-06-22-re-comeco.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sobre"
+              "title": "2023-06-22-re-comeco"
             }
           }
         ]
@@ -198,10 +198,10 @@
   },
   "active": "933cb56ebe8aa712",
   "lastOpenFiles": [
+    "sobre.md",
     "receba-atualizacoes.md",
     "outros-lugares.md",
     "www.buttondown.com.md",
-    "sobre.md",
     "_site/2023/10/06/dicas-de-sexta-06/index.html",
     "_site/2023/10/04/o-arbusto-o-poste-e-a-lixeira/index.html",
     "_site/2023/09/26/pra-nao-dizer-que-nao-falei-do-tumblr/index.html",
