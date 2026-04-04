@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A palestina global
+title: A Palestina global
 date: 03-04-2026 19:44 -0300
 categories:
   - política
