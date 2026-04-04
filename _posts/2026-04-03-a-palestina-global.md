@@ -28,15 +28,15 @@ Estimativas feitas por pesquisadores da Brown University estimam que cerca de [2
 
 Me lembro de Angela Davis em um debate nos primeiros meses dizendo que Gaza era “a questão moral da nossa época”.
 
-Guilherme Terreri deixou a persona de Rita Von Hunty em Setembro do ano passado para [publicar um vídeo](https://youtu.be/9GiM7Zgb8eI?si=BI-fexd9eCuTovIi) dizendo que iria fazer um hiato no trabalho, pois precisava se “reflorestar” para evitar o colapso frente ao terror.
+Guilherme Terreri deixou a persona de Rita Von Hunty em Setembro do ano passado e [publicou um vídeo](https://youtu.be/9GiM7Zgb8eI?si=BI-fexd9eCuTovIi) em seu canal. Anunciou um hiato no trabalho, pois precisava se “reflorestar” para evitar o colapso frente ao terror.
 
-Ele cita uma obra de Susan Sontag, "Diante da dor dos outros", publicada no início dos anos 2000, no calor da "Guerra ao terror". Sontag trazia uma hipótese: que nos anos seguintes estaríamos expostos a genocídios em tempo real, mas que esta exposição não produziria o horror necessário para que este genocídio fosse parado.
+Ele citou uma obra de Susan Sontag, "Diante da dor dos outros", publicada no início dos anos 2000. No início da "Guerra ao terror", Sontag trazia uma hipótese: que nos anos seguintes estaríamos expostos a genocídios em tempo real, mas que esta exposição não produziria o horror necessário para que os genocídios fossem interrompidos.
 
 ***
 
-A exposição em tempo real ao genocídio ainda não foi capaz de para-lo. Pelo contrário, ele se expandiu, reutilizou velhas formas e criou novas.
+A exposição em tempo real ao genocídio palestino ainda não foi capaz de para-lo. Pelo contrário, ele se expandiu, reutilizou velhas formas e criou novas maneiras de extermínio.
 
-Vimos a destruição da Síria e a posse de um líder da Al-Qaeda apoiado pelo ocidente, o sequestro de um presidente na Venezuela, a expansão violenta de assentamentos ilegais nas Cisjordânia, a invasão e o bombardeio do Líbano, a utilização de pagers hackeados para explodir centenas de pessoas no mesmo Líbano, o assassinato de um líder espiritual no Irã, o início de uma guerra contra o mesmo Irã, o estrangulamento criminoso de Cuba, o lançamento de mísseis em barcos no Caribe, o massacre na favela da Maré, Pablo Marçal nas eleições paulistanas, milicianos encapuzados do ICE matando e sequestrando civis e por aí vai.
+Vimos a destruição da Síria e a posse de um líder da Al-Qaeda apoiado pelo ocidente, o sequestro de um presidente na Venezuela, a expansão violenta de assentamentos ilegais nas Cisjordânia, a invasão e o bombardeio do Líbano, a utilização de pagers hackeados para explodir centenas de pessoas no mesmo Líbano, o assassinato de um líder espiritual no Irã, o início de uma guerra contra o mesmo Irã com o primeiro bombardeio matando 180 meninas em uma escola, o estrangulamento criminoso de Cuba, o lançamento de mísseis em barcos aleatórios no mar do Caribe, o massacre na favela da Maré, Pablo Marçal nas eleições paulistanas, milicianos encapuzados do ICE matando e sequestrando civis e por aí vai.
 
 Vladimir Safatle, ainda em 2024, falou em sua aula inaugural na USP sobre ["Pensar após Gaza"](https://blogdaboitempo.com.br/2024/05/15/pensar-apos-gaza/). Segundo ele, a catástrofe no território palestino era um momento de inflexão, com grande chance de resultar em uma transformação estrutural da governabilidade das crises e da subjetividade humana.
 
