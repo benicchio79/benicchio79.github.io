@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: 'iA Writer Duo';
-  src: url('/assets/fonts/iA-Writer-Duo/iAWriterDuoV-Italic.woff2') format('woff2-variations');
+  src: url('/assets/fonts/iA-Writer-Duo/iAWriterDuoV-Italic.woff2') format('woff2'-variations);
   font-weight: 100 900;
   font-style: italic;
   font-display: swap;
@@ -137,7 +137,6 @@ h3 {
   margin-top: 0;
 }
 
-
 a {
   color: #88aaff;
   text-decoration: none;
@@ -180,7 +179,6 @@ img {
   list-style: none;
   padding: 0;
 }
-
 
 .post-date {
   color: #888;
@@ -228,9 +226,33 @@ img {
   font-size: 0.9rem;
 }
 
-.post-content li,
+/* Citações dentro de posts */
 .post-content blockquote {
+  font-family: 'iA Writer Duo Italic', monospace;
+  color: #cccccc;
+  border-left: 3px solid #88aaff;
+  margin: 1rem 0 1rem 2rem;
+  padding-left: 0rem;
+  border-left: none;
 }
+
+
+/* Listas dentro do conteúdo do post */
+.post-content ul,
+.post-content ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.post-content li {
+  margin-bottom: 0.5rem;
+}
+
+.post-content li img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 /* Item da lista de posts */
 .post-item {

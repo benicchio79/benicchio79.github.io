@@ -1,5 +1,6 @@
 {
-  "textFontFamily": "",
+  "textFontFamily": "iA Writer Duo V",
   "cssTheme": "Things",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "baseFontSize": 17
 }
