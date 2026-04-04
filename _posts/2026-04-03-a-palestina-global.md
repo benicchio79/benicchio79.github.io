@@ -34,13 +34,13 @@ Ele citou uma obra de Susan Sontag, "Diante da dor dos outros", publicada no in�
 
 ***
 
-A exposição em tempo real ao genocídio palestino ainda não foi capaz de para-lo. Pelo contrário, ele se expandiu, reutilizou velhas formas e criou novas maneiras de extermínio.
+A exposição em tempo real ao genocídio palestino ainda não foi capaz de detê-lo. Pelo contrário, ele se expandiu, reutilizou velhas formas e criou novas maneiras de extermínio.
 
-Vimos a destruição da Síria e a posse de um líder da Al-Qaeda apoiado pelo ocidente, o sequestro de um presidente na Venezuela, a expansão violenta de assentamentos ilegais nas Cisjordânia, a invasão e o bombardeio do Líbano, a utilização de pagers hackeados para explodir centenas de pessoas no mesmo Líbano, o assassinato de um líder espiritual no Irã, o início de uma guerra contra o mesmo Irã com o primeiro bombardeio matando 180 meninas em uma escola, o estrangulamento criminoso de Cuba, o lançamento de mísseis em barcos aleatórios no mar do Caribe, o massacre na favela da Maré, Pablo Marçal nas eleições paulistanas, milicianos encapuzados do ICE matando e sequestrando civis e por aí vai.
+Vimos a destruição da Síria e a posse de um líder da Al-Qaeda apoiado pelo ocidente, o sequestro de um presidente na Venezuela, a expansão violenta de assentamentos ilegais nas Cisjordânia, a invasão e o bombardeio do Líbano, a utilização de pagers hackeados para explodir centenas de pessoas no mesmo Líbano, o assassinato de um líder espiritual no Irã, o início de uma guerra contra o mesmo Irã com o primeiro bombardeio matando 180 meninas em uma escola, o estrangulamento criminoso de Cuba, o lançamento de mísseis em barcos aleatórios no mar do Caribe, o massacre na favela da Maré, Pablo Marçal nas eleições paulistanas, milicianos encapuzados do ICE matando e sequestrando pessoas e por aí vai.
 
 Vladimir Safatle, ainda em 2024, falou em sua aula inaugural na USP sobre ["Pensar após Gaza"](https://blogdaboitempo.com.br/2024/05/15/pensar-apos-gaza/). Segundo ele, a catástrofe no território palestino era um momento de inflexão, com grande chance de resultar em uma transformação estrutural da governabilidade das crises e da subjetividade humana.
 
-Safatle aponta que o laboratório genocidário de Gaza pretende responder às várias crises geradas pelo capitalismo: ecológica, demográfica, social, econômica, política, psíquica e epistêmica. Estabelecer a violência como parâmetro de governo e afeto político dominantes mediante a dessensibilização (diante da dor dos outros) permite "normalizar" e gerenciar estas crises para manter o capitalismo de pé.
+Safatle aponta que o laboratório genocidário em Gaza pretende responder às várias crises geradas pelo capitalismo: ecológica, demográfica, social, econômica, política, psíquica e epistêmica. Estabelecer a violência como parâmetro de governo e afeto político dominantes mediante a dessensibilização (diante da dor dos outros) permite "normalizar" e gerenciar estas crises para manter o capitalismo de pé.
 
 Tanto Safatle quanto [Bernice Bento](https://blogdaboitempo.com.br/2024/05/30/palestinizacao-do-mundo/) falam sobre uma "Palestinização do Mundo", mas descobri que o termo provavelmente foi usado pela primeira vez pelo cineasta Elia Suleiman, [ainda em 2019](https://web.archive.org/web/20240918001749/https://french.ahram.org.eg/NewsContent/54/2352/31101/AlAhram-Hebdo/Arts/Elia-Suleiman---Le-monde-est-devenu-le-microcosme-.aspx), durante o lançamento do filme [It Must Be Heaven](https://letterboxd.com/film/it-must-be-heaven/).
 
@@ -51,12 +51,12 @@ Tanto Safatle quanto [Bernice Bento](https://blogdaboitempo.com.br/2024/05/30/pa
 
 Comecei o rascunho desse texto em Outubro de 2024, dizendo que “o último texto desse blog foi publicado há um ano”. Foram mais 18 meses até voltar a ele e finalmente publicar.
 
-Não foi apenas apenas o colapso frente ao genocídio, descrito por Guilherme Terreri, mas certamente a sensação de vertigem cotidiana frente a tanto horror contribuiu com a dificuldade de expressão.
+Não foi apenas o colapso frente ao genocídio o responsável pela demora, mas certamente a vertigem cotidiana frente a tanto horror contribiu para a dificuldade de expressão.
 
 Elia Suleiman, em [entrevistas](https://elasombrario.publico.es/elia-suleiman-el-proceso-de-palestinizacion-del-mundo-comenzo-hace-tiempo/) mais [recentes](https://en.vijesti.me/news-b/culture/644081/news-director-from-palestine-the-problems-are-in-the-middle-east-because-this-is-a-world-by-western-standards), aponta que a "palestinização do mundo" também pode significar o despertar de uma consciência sobre as origens da opressão. Ele acredita que as pessoas começam a se dar conta que quem está causando o sofrimento palestino são os mesmos que oprimem cotidianamente diversos setores das populações.
 
 Olhando para o contexto brasileiro de 2026, não consigo ser tão otimista quanto Suleiman. Mas retomo mais uma vez o vídeo da Rita/Guilherme para trazer uma frase do final do vídeo, em que ele cita Georges Didi-Huberman ("A sobrevivência dos vagalumes") e Virginia Woolf ("Ao farol") e conclui:
 
-><em>Quando atravessamos longos momentos de escuridão e temos um clamor pelo canhão de um farol capaz de irromper a escuridão, essa expectativa pode nos cegar para algo perene e permanece que é a nossa capacidade de riscar fósforos inesperadamente no meio da escuridão.</em>
+><em>Quando atravessamos longos momentos de escuridão e temos um clamor pelo canhão de um farol capaz de irromper a escuridão, essa expectativa pode nos cegar para algo perene, que é a nossa capacidade de riscar fósforos inesperadamente no meio da escuridão.</em>
 
 Então este blog está no ar de novo, para que eu possa riscar meus fósforos no meio dessa escuridão.
