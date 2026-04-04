@@ -12,7 +12,8 @@ permalink: /outros-lugares/
 - Tenho meia dúzia de vídeos no [Vimeo](https://vimeo.com/benicchio) e no [Youtube](https://www.youtube.com/user/benicchio/videos)
 - Comecei um Tumblr em 2012 chamado [Bike Hype](https://bikehype.tumblr.com). De vez em quando volto pra lá.
 
-<p align=center>***</p>
+***
+
 Gosto de visitar estes espaços:
 - [Manual do Usuário](https://manualdousuario.net) - um espaço calmo sobre tecnologia
 - [sol2070](https://sol2070.in/)- inspiração para este blog com ótimos textos

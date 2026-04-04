@@ -7,13 +7,13 @@ Este blog foi iniciado em junho 2023 com um texto que se chamava [(re)começo](/
 
 Foram poucos os textos publicados. A vida e o mundo deram mais algumas voltas e cá estamos novamente, em abril de 2026, para mais um re-começo. *Like the legend of the phoenix, all ends with beginnings*
 
-<p align=center>***</p>
+***
 
 O blog segue o conceito mais ou menos recente (e ainda meio abstrato) de um jardim digital - metáfora que consigo traduzir como uma publicação artesanal e autoral que tenta escapar da lógica imposta pelas Big Tech a partir da década de 10. 
 
 Este é um espaço livre de algoritmos, vigilância e monetização, que prioriza textos sobre imagens e pessoas sobre perfis. Um jardim contra o agronegócio dos bits e bytes, um espaço para cultivar e espalhar pensamentos.
 
-<p align=center>***</p>
+***
 
 Sou formado em jornalismo, nascido no mundo analógico de 1979 em São Paulo. Gosto de política, tecnologia, cidades, música e cinema. Sou pai de uma criança e quero que o mundo dela volte a ter a perspectiva de ser melhor que o meu (ou que ela saiba lidar melhor que eu com o mundo).
 
