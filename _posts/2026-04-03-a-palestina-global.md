@@ -12,7 +12,7 @@ tags:
 description: Colapso frente ao genocídio, um hiato e o riscar de fósforos na escuridão. Sobre a Palestina global e a volta deste blog.
 image: /assets/images/2026-04/it-must-be-heaven.png
 ---
-{% include image-with-caption.html src="/assets/images/2026-04/it-must-be-heaven.png" alt="Reprodução: Elia Suleiman / It Must Be Heaven" %}
+{% include image-with-caption.html src="/assets/images/2026-04/it-must-be-heaven.png" alt="Reprodução: It Must Be Heaven / Elia Suleiman" %}
 
 O último texto deste blog foi publicado há 2 anos e meio, em 6 de Outubro de 2023. Naquela noite voltei para casa tarde depois de uma festa de aniversário, liguei o computador e li no Twitter que o Hamas tinha atacado Israel. De imediato bateu um frio na espinha.
 
@@ -36,7 +36,7 @@ Ele cita uma obra de Susan Sontag, "Diante da dor dos outros", publicada no iní
 
 A exposição em tempo real ao genocídio ainda não foi capaz de para-lo. Pelo contrário, ele se expandiu, reutilizou velhas formas e criou novas.
 
-Vimos a destruição da Síria e a posse de um líder da Al-Qaeda agora celebrado pelo ocidente, o sequestro de um presidente na Venezuela, a expansão violenta de assentamentos ilegais nas Cisjordânia, a invasão e o bombardeio do Líbano, a utilização de pagers hackeados para explodir centenas de pessoas no mesmo Líbano, o assassinato de um líder espiritual no Irã, o início de uma guerra contra o mesmo Irã, o estrangulamento criminoso de Cuba, o massacre na favela da Maré, Pablo Marçal nas eleições paulistanas, milicianos encapuzados do ICE matando e sequestrando civis e por aí vai.
+Vimos a destruição da Síria e a posse de um líder da Al-Qaeda apoiado pelo ocidente, o sequestro de um presidente na Venezuela, a expansão violenta de assentamentos ilegais nas Cisjordânia, a invasão e o bombardeio do Líbano, a utilização de pagers hackeados para explodir centenas de pessoas no mesmo Líbano, o assassinato de um líder espiritual no Irã, o início de uma guerra contra o mesmo Irã, o estrangulamento criminoso de Cuba, o lançamento de mísseis em barcos no Caribe, o massacre na favela da Maré, Pablo Marçal nas eleições paulistanas, milicianos encapuzados do ICE matando e sequestrando civis e por aí vai.
 
 Vladimir Safatle, ainda em 2024, falou em sua aula inaugural na USP sobre ["Pensar após Gaza"](https://blogdaboitempo.com.br/2024/05/15/pensar-apos-gaza/). Segundo ele, a catástrofe no território palestino era um momento de inflexão, com grande chance de resultar em uma transformação estrutural da governabilidade das crises e da subjetividade humana.
 
@@ -45,17 +45,17 @@ Safatle aponta que o laboratório genocidário de Gaza pretende responder às v�
 Tanto Safatle quanto [Bernice Bento](https://blogdaboitempo.com.br/2024/05/30/palestinizacao-do-mundo/) falam sobre uma "Palestinização do Mundo", mas descobri que o termo provavelmente foi usado pela primeira vez pelo cineasta Elia Suleiman, [ainda em 2019](https://web.archive.org/web/20240918001749/https://french.ahram.org.eg/NewsContent/54/2352/31101/AlAhram-Hebdo/Arts/Elia-Suleiman---Le-monde-est-devenu-le-microcosme-.aspx), durante o lançamento do filme [It Must Be Heaven](https://letterboxd.com/film/it-must-be-heaven/).
 
 
-><em>"No meu filme It Must Be Heaven, tentei simplesmente dizer que o conflito espalhou suas imagens e efeitos pelo mundo todo, a ponto de o mundo se tornar um microcosmo da Palestina. Isso é o que eu chamo de "Palestinização" global. O filme busca dizer que violência, tensão e angústia se tornaram parte da vida cotidiana em todo o mundo. Não é mais um conflito local"</em> Elia Suleiman, em [entrevista ao jornal egípcio Al Ahram](https://web.archive.org/web/20240918001749/https://french.ahram.org.eg/NewsContent/54/2352/31101/AlAhram-Hebdo/Arts/Elia-Suleiman---Le-monde-est-devenu-le-microcosme-.aspx)
+><em>"No meu filme It Must Be Heaven, tentei simplesmente dizer que o conflito espalhou suas imagens e efeitos pelo mundo todo, a ponto de o mundo se tornar um microcosmo da Palestina. Isso é o que eu chamo de "Palestinização" global. O filme busca dizer que violência, tensão e angústia se tornaram parte da vida cotidiana em todo o mundo. Não é mais um conflito local"</em>. Elia Suleiman, em [entrevista ao jornal egípcio Al Ahram](https://web.archive.org/web/20240918001749/https://french.ahram.org.eg/NewsContent/54/2352/31101/AlAhram-Hebdo/Arts/Elia-Suleiman---Le-monde-est-devenu-le-microcosme-.aspx)
 
 ***
 
 Comecei o rascunho desse texto em Outubro de 2024, dizendo que “o último texto desse blog foi publicado há um ano”. Foram mais 18 meses até voltar a ele e finalmente publicar.
 
-Não foi apenas apenas o colapso frente ao genocídio, descrito por Guilherme Terreri, mas certamente a sensação de vertigem cotidiana contribuiu com a dificuldade de expressão.
+Não foi apenas apenas o colapso frente ao genocídio, descrito por Guilherme Terreri, mas certamente a sensação de vertigem cotidiana frente a tanto horror contribuiu com a dificuldade de expressão.
 
 Elia Suleiman, em [entrevistas](https://elasombrario.publico.es/elia-suleiman-el-proceso-de-palestinizacion-del-mundo-comenzo-hace-tiempo/) mais [recentes](https://en.vijesti.me/news-b/culture/644081/news-director-from-palestine-the-problems-are-in-the-middle-east-because-this-is-a-world-by-western-standards), aponta que a "palestinização do mundo" também pode significar o despertar de uma consciência sobre as origens da opressão. Ele acredita que as pessoas começam a se dar conta que quem está causando o sofrimento palestino são os mesmos que oprimem cotidianamente diversos setores das populações.
 
-Olhando para o contexto brasileiro de 2026, não consigo ser tão otimista quanto Suleiman. Mas retomo mais uma vez o vídeo da Rita/Guilherme para trazer a uma frase do final do vídeo, em que ele cita Georges Didi-Huberman ("A sobrevivência dos vagalumes") e Virginia Woolf ("Ao farol") e conclui:
+Olhando para o contexto brasileiro de 2026, não consigo ser tão otimista quanto Suleiman. Mas retomo mais uma vez o vídeo da Rita/Guilherme para trazer uma frase do final do vídeo, em que ele cita Georges Didi-Huberman ("A sobrevivência dos vagalumes") e Virginia Woolf ("Ao farol") e conclui:
 
 ><em>Quando atravessamos longos momentos de escuridão e temos um clamor pelo canhão de um farol capaz de irromper a escuridão, essa expectativa pode nos cegar para algo perene e permanece que é a nossa capacidade de riscar fósforos inesperadamente no meio da escuridão.</em>
 
