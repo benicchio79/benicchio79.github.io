@@ -4,9 +4,9 @@ title: Obrigado!
 permalink: /obrigado/
 ---
 
-# 🎉 Quase lá!
+# ⚠️ Quase lá!
 
-Enviamos um email de confirmação para você.
+📬 Enviamos um email de confirmação para você.
 
 👉 É só abrir e clicar no link para finalizar sua inscrição.
 
