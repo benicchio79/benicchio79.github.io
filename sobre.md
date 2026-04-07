@@ -3,7 +3,7 @@ layout: page
 title: Sobre
 permalink: /sobre/
 ---
-Este é um epaço autoral e artesanal, um pequeno canteiro de ideias criado e mantido por mim, Thiago Benicchio.
+Este é um espaço autoral e artesanal, um pequeno canteiro de ideias criado e mantido por mim, Thiago Benicchio.
 
 Sou formado em jornalismo, nascido no mundo analógico de 1979 em São Paulo. Gosto de política, tecnologia, cidades, música e cinema. Sou pai de uma criança e quero que o mundo dela volte a ter a perspectiva de ser melhor que o meu (ou que ela saiba lidar melhor com o mundo do que eu).
 
