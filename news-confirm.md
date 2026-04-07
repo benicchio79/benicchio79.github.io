@@ -1,7 +1,7 @@
 ---
 layout: obrigado
-title: Obrigado!
-permalink: /obrigado/
+title: Quase lá!
+permalink: /news-confirm/
 ---
 
 # ⚠️ Quase lá!
