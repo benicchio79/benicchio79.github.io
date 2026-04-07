@@ -6,5 +6,7 @@ permalink: /news-obrigado/
 
 # 🎉 Agora sim!
 
-Você está inscrito na newsletter e irá receber o novos textos do blog.
+Deu tudo certo!
+
+A partir de agora, você irá receber o novos textos do blog por e-mail
 
