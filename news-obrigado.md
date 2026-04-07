@@ -8,5 +8,5 @@ permalink: /news-obrigado/
 
 Deu tudo certo!
 
-A partir de agora, você irá receber o novos textos do blog por e-mail
+A partir de agora você irá receber o novos textos do blog por e-mail
 
