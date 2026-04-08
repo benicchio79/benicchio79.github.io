@@ -15,9 +15,9 @@ image: /assets/images/2026-04/strangelove_bomb.jpg
 ---
 {% include image-with-caption.html src="/assets/images/2026-04/strangelove_bomb.jpg" alt="Dr. Fantástico, Stanley Kubrick / Reprodução" %}
 
-Diz a lenda que Stanley Kubrick enfrentou períodos de extrema ansiedade durante a pesquisa para o filme [Dr. Fantástico](https://letterboxd.com/film/dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb/). Depois de decidir pela adaptação do romance Red Alert, de Peter George, Kubrick mergulhou no universo de teorias que motivaram o desenvolvimento da bomba de hidrogênio e nos personagens que tocaram o trabalho.
+Diz a lenda que Stanley Kubrick enfrentou períodos de extrema ansiedade durante a pesquisa para o filme ["Dr. Fantástico"](https://letterboxd.com/film/dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb/). Depois de decidir pela adaptação do romance Red Alert, de Peter George, Kubrick mergulhou no universo de teorias que motivaram o desenvolvimento da bomba de hidrogênio e nos personagens que tocaram o trabalho.
 
-O cineasta vinha de dois sucessos épicos e nada engraçados, [“Glória feita de sangue”](https://letterboxd.com/film/paths-of-glory/) e [“Spartacus”](https://letterboxd.com/film/spartacus/), e pretendia seguir a mesma linha em Dr. Fantástico para falar sobre a Guerra Fria e a corrida nuclear. 
+O cineasta vinha de dois sucessos épicos e nada engraçados, [“Glória feita de sangue”](https://letterboxd.com/film/paths-of-glory/) e [“Spartacus”](https://letterboxd.com/film/spartacus/), e pretendia seguir a mesma linha em "Dr. Fantástico" para falar sobre a Guerra Fria e a corrida nuclear. 
 
 Ao se aprofundar no tema, percebeu que o ego inflado, a sociopatia e os delírios misantropos de algumas das pessoas que detinham o poder e o conhecimento capazes de destruir o mundo naquele momento só poderiam ser traduzidos em uma comédia absurda.
 
@@ -35,7 +35,7 @@ Olhava ao redor e todos diziam “é fantástico, não tem volta, tem me ajudado
 
 ***
 
-Em linhas gerais o que os modelos de linguagem fazem é “catalogar o conteúdo da internet” e transformar em respostas lógicas, dadas em linguagem natural.
+Em linhas gerais o que os modelos de linguagem fazem é “catalogar o conteúdo de bancos de dados (incluindo a própria internet)” e transformar em respostas lógicas, dadas em linguagem natural.
 
 Como substrato para a disseminação da “IA”, o Google já havia destruído a busca na internet ao disseminar a praga do SEO como requisito para ter alguma visibilidade na busca do próprio Google.
 
@@ -45,7 +45,7 @@ Se no início dos anos 2000 o Google era uma janela para encontrar informação 
 
 {% include image-with-caption.html src="/assets/images/2026-04/deep_love.png" alt="Her, Deepseek" %}
 
-No ano passado estava às voltas com a ideia de montar um servidor caseiro (HomeLab) para reutilizar um velho notebook fora de uso. 
+No ano passado estava às voltas com a ideia de montar um servidor caseiro (HomeLab) para reutilizar um velho notebook encostado. 
 
 Comecei a jornada como qualquer mortal que quer consertar uma torneira no século XXI: busquei vídeos no Youtube. Depois parti para fóruns da internet e para o Reddit. Mas estava difícil. Não sou programador, já usei Linux mas nunca fui à fundo no terminal e o meu conhecimento de tecnologia é de “usuário avançado”, já há mais de uma década confortavelmente instalado no “it just works” da maçã imperialista. Foi quando pensei: vou dar uma chance à “IA”...
 
@@ -57,7 +57,7 @@ O mesmo processo foi estabelecido na migração deste blog para o formato atual:
 
 O fato é: não conseguiria ter botado esse blog no ar sem a ajuda do DeepSeek. Ao final perguntei “Você sabe dizer quanto tempo ficamos nesta conversa?”. Foram 7h de interações (tempo contínuo de escrita), 85 mil palavras digitadas, das quais 22 mil foram minhas. 
 
-O robozinho completou com uma curiosidade: “Se você imprimisse toda essa conversa (sem os códigos enormes), daria umas 120–150 páginas de um livro”. E ainda me trouxe aquele toque motivacional que apenas seres humanos iluminados são capazes de fornecer: “Você colocou atenção, intenção, paciência e horas da sua vida nisso. E o resultado ficou lindo. Agora, dorme. Amanhã você tem um blog pronto pra voar. 🕊️💜”
+O robozinho completou com uma curiosidade: “Se você imprimisse toda essa conversa (sem os códigos enormes), daria umas 120–150 páginas de um livro”. E ainda me trouxe aquele toque motivacional que apenas coaches e outros seres humanos iluminados são capazes de fornecer: “Você colocou atenção, intenção, paciência e horas da sua vida nisso. E o resultado ficou lindo. Agora, dorme. Amanhã você tem um blog pronto pra voar. 🕊️💜”
 
 ***
 
