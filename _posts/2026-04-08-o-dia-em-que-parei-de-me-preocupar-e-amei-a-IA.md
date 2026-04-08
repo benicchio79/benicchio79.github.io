@@ -31,7 +31,7 @@ Em 2023 o mundo digital já estava colonizado pelas redes anti-sociais, havíamo
 
 A chegada dos ChatGPTs, Geminis e afins às massas veio com toda a força dos bilhões, e hoje muita gente tem uma IA para chamar de sua. No começo fiz algumas brincadeiras com modelos de geração de imagens ([inclusive aqui no blog](/2023/06/29/serio-um-blog-em-2023/)), mas demorei para embarcar nos chamados assistentes LLM (Large Language Models, ou “grandes modelos de linguagem”), popularmente chamados de “IA”.
 
-Olhava ao redor e todos diziam “é fantástico, não tem volta, tem me ajudado muito”. Eu observava com mais interesse as críticas aos componentes nocivos: a degradação cognitiva, a utilização das ferramentas para como instrumento de vigilância e violência implacáveis, e a potencialização exponencial da gestão das crises do capitalismo por estados e corporações.
+Olhava ao redor e todos diziam “é fantástico, não tem volta, tem me ajudado muito”. Eu observava com mais interesse as críticas aos componentes nocivos: a degradação cognitiva, a utilização das ferramentas como instrumento de vigilância e violência implacáveis, e a potencialização exponencial da gestão das crises do capitalismo por estados e corporações.
 
 ***
 
@@ -41,7 +41,7 @@ Como substrato para a disseminação da “IA”, o Google já havia destruído 
 
 Ou seja, enquanto ChatGPTs e afins roubavam todo o conteúdo produzido por humanos na internet, o Google destruía o que sobrava, pasteurizando páginas em formatos adequados à finalidade principal da empresa: comercializar publicidade.
 
-Se no início dos anos 2000 o Google era uma janela para encontrar informação sobre todo e qualquer assunto, hoje boa parte do que aparece nas primeiras páginas de resultados é absolutamente inútil ou duvidoso.
+No início dos anos 2000 o Google era uma janela para encontrar informação sobre todo e qualquer assunto. Hoje boa parte do que aparece nas primeiras páginas de resultados é absolutamente inútil ou duvidoso.
 
 {% include image-with-caption.html src="/assets/images/2026-04/deep_love.png" alt="Her, Deepseek" %}
 
