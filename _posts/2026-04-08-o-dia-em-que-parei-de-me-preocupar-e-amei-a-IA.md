@@ -47,13 +47,13 @@ No início dos anos 2000 o Google era uma janela para encontrar informação sob
 
 No ano passado estava às voltas com a ideia de montar um servidor caseiro (HomeLab) para reutilizar um velho notebook encostado. 
 
-Comecei a jornada como qualquer mortal que quer consertar uma torneira no século XXI: busquei vídeos no Youtube. Depois parti para fóruns da internet e para o Reddit. Mas estava difícil. Não sou programador, já usei Linux mas nunca fui à fundo no terminal e o meu conhecimento de tecnologia é de “usuário avançado”, já há mais de uma década confortavelmente instalado no “it just works” da maçã imperialista. Foi quando pensei: vou dar uma chance à “IA”...
+Comecei a jornada como qualquer mortal que precisa consertar uma torneira no século XXI: busquei vídeos no Youtube. Depois parti para fóruns da internet e para o Reddit. Mas estava difícil. Não sou programador, já usei Linux mas nunca fui à fundo no terminal e o meu conhecimento de tecnologia é de “usuário avançado”, já há mais de uma década confortavelmente instalado no “it just works” da maçã imperialista. Foi quando pensei: vou dar uma chance à “IA”...
 
 Balançando a bandeirinha da geopolítica, rejeitei o Vale do Silício e fiz uma conta no chinês DeepSeek. Em poucos dias estava com o HomeLab no ar, tendo solucionado problemas de configuração, rede, portas, scripts de atualização, encontrado os melhores “containers” para determinadas finalidades e feito tudo funcionar.
 
 Depois de enfrentar e resolver um dos problemas mais difíceis (o superaquecimento do computador), agradeci efusivamente ao Sino-HAL pelo auxílio naquela epopéia: “amazing, it worked, I love you”, ao que ele me congratulou e ofereceu um efusivo abraço virtual.
 
-O mesmo processo foi estabelecido na migração deste blog para o formato atual: saí da hospedagem paga em servidor com Wordpress e “widgets” gráficos para tentar um site estático que utiliza scripts, programação, plugins em código e ([ferramentas open source](/notas-tecnicas/)) (na medida do possível). 
+O mesmo processo foi estabelecido na migração deste blog para o formato atual: saí da hospedagem paga em servidor com Wordpress e “widgets” gráficos para tentar um site estático que utiliza scripts, programação, plugins em código e [ferramentas open source](/notas-tecnicas/) (na medida do possível). 
 
 O fato é: não conseguiria ter botado esse blog no ar sem a ajuda do DeepSeek. Ao final perguntei “Você sabe dizer quanto tempo ficamos nesta conversa?”. Foram 7h de interações (tempo contínuo de escrita), 85 mil palavras digitadas, das quais 22 mil foram minhas. 
 
@@ -75,7 +75,7 @@ Não consigo imaginar, no entanto, usar o Zyklon B do Vale do Silício para escr
 
 É fato que perguntar algo numa “IA” é muito mais efetivo do que fazer uma busca no Google, ainda que sempre seja necessário utilizar a inteligência natural para saber se a resposta procede. 
 
-Mas talvez fazer um esforço mental de vez em quando para se lembrar de algo que você sabia mas esqueceu tenha resultados ainda melhores do que sacar o celular do bolso durante uma conversa.
+Mas talvez um esforço mental de vez em quando para se lembrar de algo que você sabia mas esqueceu tenha resultados ainda melhores do que sacar o celular do bolso durante uma conversa.
 
 Afinal, alguns minutos de busca na pasta c:/memórias podem ajudar a resolver aquele ponto fundamental do papo sobre “qual era mesmo o endereço de cartas do programa da Xuxa ou o telefone do Bozo?” sem precisar gastar alguns litros de água e Kw de energia.
 
