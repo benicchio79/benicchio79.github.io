@@ -11,6 +11,7 @@
       var inputs = document.querySelectorAll('#isso-thread input');
       inputs.forEach(function(input) {
         if (input.name === 'author') input.placeholder = 'opcional';
+        if (input.tagName === 'TEXTAREA') input.placeholder = 'Seu comentário (suporta Markdown)';
         if (input.type === 'email') input.placeholder = 'opcional';
         if (input.type === 'url' || input.name === 'website') input.placeholder = 'opcional';
         if (input.placeholder && input.placeholder.includes('example.com')) {
@@ -119,9 +120,9 @@
   }
   
   #isso-thread .isso-subscribe-to-replies label {
-    font-size: 0.8rem !important;
+    font-size: 0.7rem !important;
     color: #cccccc !important;
-    margin: 0 !important;
+    margin-left: 4px !important;
   }
   
   #isso-thread .isso-subscribe-to-replies input[type="checkbox"] {
