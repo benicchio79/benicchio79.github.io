@@ -21,3 +21,73 @@
     setTimeout(ajustarPlaceholders, 800);
   })();
 </script>
+
+<style>
+  /* ========== BOTÕES LADO A LADO (SELETOR CIRÚRGICO) ========== */
+  #isso-thread .isso-post-action {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 10px !important;
+    align-items: center !important;
+  }
+
+  #isso-thread .isso-post-action input[type="submit"] {
+    padding: 5px 14px !important;
+    font-size: 0.85rem !important;
+    background-color: #88aaff !important;
+    color: #0e0525 !important;
+    border: none !important;
+    border-radius: 4px !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+    width: auto !important;
+  }
+
+  /* Se houver botão Prévia (quando ativado nas configs) */
+  #isso-thread .isso-post-action .isso-preview__button {
+    padding: 5px 14px !important;
+    font-size: 0.85rem !important;
+    background-color: #2a2a2a !important;
+    color: #cccccc !important;
+    border: 1px solid #555555 !important;
+    border-radius: 4px !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+  }
+
+  @media (max-width: 400px) {
+    #isso-thread .isso-post-action {
+      flex-direction: column !important;
+      align-items: stretch !important;
+    }
+    #isso-thread .isso-post-action input,
+    #isso-thread .isso-post-action button {
+      width: 100% !important;
+    }
+  }
+
+  /* ========== LABELS - REMOVE "(OPCIONAL)" (SEM QUEBRAR LAYOUT) ========== */
+  #isso-thread label[for="isso-postbox-author"],
+  #isso-thread label[for="isso-postbox-email"],
+  #isso-thread label[for="isso-postbox-website"] {
+    font-size: 0 !important;
+  }
+
+  #isso-thread label[for="isso-postbox-author"]::before {
+    content: "Nome" !important;
+    font-size: 1rem !important;
+    color: #cccccc !important;
+  }
+
+  #isso-thread label[for="isso-postbox-email"]::before {
+    content: "E-mail" !important;
+    font-size: 1rem !important;
+    color: #cccccc !important;
+  }
+
+  #isso-thread label[for="isso-postbox-website"]::before {
+    content: "Website" !important;
+    font-size: 1rem !important;
+    color: #cccccc !important;
+  }
+</style>
