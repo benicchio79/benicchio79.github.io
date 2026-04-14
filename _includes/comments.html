@@ -66,28 +66,37 @@
     }
   }
 
-  /* ========== LABELS - REMOVE "(OPCIONAL)" (SEM QUEBRAR LAYOUT) ========== */
+   /* ========== LABELS - REMOVE "(OPCIONAL)" (CORRIGIDO) ========== */
   #isso-thread label[for="isso-postbox-author"],
   #isso-thread label[for="isso-postbox-email"],
   #isso-thread label[for="isso-postbox-website"] {
-    font-size: 0 !important;
+    display: inline-block !important;
+    min-height: 1.5rem !important;
+    line-height: 1.5 !important;
+    color: transparent !important;  /* Esconde o texto original sem colapsar */
   }
 
   #isso-thread label[for="isso-postbox-author"]::before {
     content: "Nome" !important;
-    font-size: 1rem !important;
+    position: absolute !important;
     color: #cccccc !important;
+    font-size: 1rem !important;
+    font-weight: normal !important;
   }
 
   #isso-thread label[for="isso-postbox-email"]::before {
     content: "E-mail" !important;
-    font-size: 1rem !important;
+    position: absolute !important;
     color: #cccccc !important;
+    font-size: 1rem !important;
+    font-weight: normal !important;
   }
 
   #isso-thread label[for="isso-postbox-website"]::before {
     content: "Website" !important;
-    font-size: 1rem !important;
+    position: absolute !important;
     color: #cccccc !important;
+    font-size: 1rem !important;
+    font-weight: normal !important;
   }
 </style>
