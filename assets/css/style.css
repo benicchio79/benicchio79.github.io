@@ -699,6 +699,39 @@ img {
   content: "(opcional)" !important;
 }
 
+/* ========== ISSO - CORREÇÃO BOTÕES (MOBILE/DESKTOP) ========== */
+
+/* Container dos botões - flex wrap para caber em telas pequenas */
+#isso-thread .isso-postbox__actions {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  margin-top: 12px !important;
+}
+
+/* Botões com tamanho responsivo */
+#isso-thread .isso-preview__button,
+#isso-thread .isso-postbox__button {
+  flex: 0 1 auto !important;
+  padding: 6px 14px !important;
+  font-size: 0.9rem !important;
+  white-space: nowrap !important;
+}
+
+/* Em telas muito pequenas, botões ocupam linha inteira */
+@media (max-width: 480px) {
+  #isso-thread .isso-preview__button,
+  #isso-thread .isso-postbox__button {
+    flex: 1 1 100% !important;
+    width: 100% !important;
+  }
+}
+
+/* Ajuste de margem entre os botões */
+#isso-thread .isso-preview__button {
+  margin-right: 0 !important;
+}
+
 /* Busca */
 .search-container {
   margin: 2rem 0;

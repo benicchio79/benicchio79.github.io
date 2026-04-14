@@ -3,3 +3,30 @@
 <script data-isso="https://isso.divagar.blog/"
         data-isso-lang="pt_BR"
         src="https://isso.divagar.blog/js/embed.min.js"></script>
+
+<!-- Ajustes de tradução e placeholders -->
+<script>
+  window.addEventListener('load', function() {
+    setTimeout(function() {
+      // Placeholders
+      var authorInput = document.querySelector('#isso-thread input[name="author"]');
+      if (authorInput) authorInput.placeholder = 'opcional';
+      
+      var emailInput = document.querySelector('#isso-thread input[type="email"]');
+      if (emailInput) emailInput.placeholder = 'opcional';
+      
+      var websiteInput = document.querySelector('#isso-thread input[type="url"]');
+      if (websiteInput) websiteInput.placeholder = 'opcional';
+      
+      // Labels
+      var authorLabel = document.querySelector('#isso-thread .isso-postbox__label[for="isso-postbox-author"]');
+      if (authorLabel) authorLabel.textContent = 'Nome';
+      
+      var emailLabel = document.querySelector('#isso-thread .isso-postbox__label[for="isso-postbox-email"]');
+      if (emailLabel) emailLabel.textContent = 'E-mail';
+      
+      var websiteLabel = document.querySelector('#isso-thread .isso-postbox__label[for="isso-postbox-website"]');
+      if (websiteLabel) websiteLabel.textContent = 'Website';
+    }, 1000);
+  });
+</script>
