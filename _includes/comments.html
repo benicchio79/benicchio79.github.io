@@ -11,7 +11,9 @@
       var inputs = document.querySelectorAll('#isso-thread input');
       inputs.forEach(function(input) {
         if (input.name === 'author') input.placeholder = 'opcional';
-        if (input.tagName === 'TEXTAREA') input.placeholder = 'Seu comentário (suporta Markdown)';
+        if (input.classList.contains('isso-textarea')) {
+    input.placeholder = 'Seu comentário (Markdown suportado)';
+  }
         if (input.type === 'email') input.placeholder = 'opcional';
         if (input.type === 'url' || input.name === 'website') input.placeholder = 'opcional';
         if (input.placeholder && input.placeholder.includes('example.com')) {
