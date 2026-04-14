@@ -546,36 +546,79 @@ img {
   font-weight: bold;
 }
 
-/* ========== ISSO - TEMA ESCURO ========== */
-#isso-thread {
-  color: #ffffff;
-  font-family: 'iA Writer Duo', monospace;
-}
+/* ========== ISSO - CAMPOS DE ENTRADA (TEMA ESCURO) ========== */
 
-#isso-thread input,
+/* Todos os campos de texto - Nome, Email, Site, Comentário */
+#isso-thread input[type="text"],
+#isso-thread input[type="email"],
+#isso-thread input[type="url"],
 #isso-thread textarea {
-  background-color: #111 !important;
-  color: #ffffff !important;
-  border: 1px solid #444 !important;
+  background-color: #2a2a2a !important;  /* Cinza médio */
+  color: #ffffff !important;             /* Texto branco */
+  border: 1px solid #444444 !important;  /* Borda sutil */
+  border-radius: 4px !important;         /* Cantos levemente arredondados */
+  padding: 10px 12px !important;         /* Espaçamento interno */
   font-family: 'iA Writer Duo', monospace !important;
+  font-size: 0.95rem !important;
+  transition: border-color 0.2s ease, background-color 0.2s ease !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
 }
 
-#isso-thread .isso-comment {
-  background-color: #111 !important;
-  border: 1px solid #333 !important;
+/* Efeito hover - quando passa o mouse */
+#isso-thread input[type="text"]:hover,
+#isso-thread input[type="email"]:hover,
+#isso-thread input[type="url"]:hover,
+#isso-thread textarea:hover {
+  background-color: #333333 !important;  /* Clareia um pouco */
+  border-color: #666666 !important;
 }
 
-#isso-thread .isso-author {
-  color: #88aaff !important;
+/* Efeito focus - quando clica no campo */
+#isso-thread input[type="text"]:focus,
+#isso-thread input[type="email"]:focus,
+#isso-thread input[type="url"]:focus,
+#isso-thread textarea:focus {
+  background-color: #333333 !important;
+  border-color: #88aaff !important;      /* Cor de destaque do seu tema */
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(136, 170, 255, 0.2) !important;
 }
 
-#isso-thread .isso-text {
-  color: #ddd !important;
+/* Placeholder (texto de exemplo dentro dos campos) */
+#isso-thread input::placeholder,
+#isso-thread textarea::placeholder {
+  color: #888888 !important;             /* Cinza mais claro */
+  opacity: 0.7 !important;
+  font-style: italic !important;
+  font-size: 0.9rem !important;
 }
 
-#isso-thread .isso-postbox__button {
-  background-color: #88aaff !important;
-  color: #0e0525 !important;
+/* Área de texto (comentário) - altura específica */
+#isso-thread textarea {
+  min-height: 120px !important;
+  resize: vertical !important;           /* Permite redimensionar apenas verticalmente */
+  line-height: 1.5 !important;
+}
+
+/* Labels (Nome, Email, etc.) */
+#isso-thread .isso-postbox__label {
+  color: #cccccc !important;
+  font-weight: normal !important;
+  margin-bottom: 4px !important;
+  font-size: 0.9rem !important;
+}
+
+/* Remove o fundo branco padrão de autocomplete do navegador */
+#isso-thread input:-webkit-autofill,
+#isso-thread input:-webkit-autofill:hover,
+#isso-thread input:-webkit-autofill:focus,
+#isso-thread textarea:-webkit-autofill,
+#isso-thread textarea:-webkit-autofill:hover,
+#isso-thread textarea:-webkit-autofill:focus {
+  -webkit-text-fill-color: #ffffff !important;
+  -webkit-box-shadow: 0 0 0px 1000px #2a2a2a inset !important;
+  transition: background-color 5000s ease-in-out 0s !important;
 }
 
 /* Busca */
@@ -723,4 +766,67 @@ mark {
   font-size: 0.7rem;
   color: #888;
   margin-top: 0.25rem;
+}
+
+
+/* ========== TRADUÇÃO ISSO PARA PT-BR ========== */
+#isso-thread [data-isso-lang="pt_BR"],
+#isso-thread .isso-text,
+#isso-thread .isso-postbox__label {
+  font-family: 'iA Writer Duo', monospace !important;
+}
+
+/* Oculta textos originais e insere traduções */
+#isso-thread .isso-postbox__label::before {
+  content: "Comentário (Markdown permitido)";
+}
+#isso-thread .isso-postbox__button::before {
+  content: "Enviar";
+}
+#isso-thread .isso-reply__button::before {
+  content: "Responder";
+}
+#isso-thread .isso-comment__edit::before {
+  content: "Editar";
+}
+#isso-thread .isso-comment__delete::before {
+  content: "Excluir";
+}
+#isso-thread .isso-loadmore__button::before {
+  content: "Carregar mais comentários";
+}
+#isso-thread .isso-preview__button::before {
+  content: "Visualizar";
+}
+#isso-thread .isso-postbox__preview .isso-preview__label::before {
+  content: "Pré-visualização";
+}
+#isso-thread .isso-author__suffix::before {
+  content: "(você)";
+}
+#isso-thread .isso-comment__awaiting-moderation::before {
+  content: "Aguardando moderação...";
+}
+
+/* Oculta o texto original dos botões */
+#isso-thread .isso-postbox__button,
+#isso-thread .isso-reply__button,
+#isso-thread .isso-comment__edit,
+#isso-thread .isso-comment__delete,
+#isso-thread .isso-loadmore__button,
+#isso-thread .isso-preview__button,
+#isso-thread .isso-author__suffix,
+#isso-thread .isso-comment__awaiting-moderation {
+  font-size: 0; /* Esconde o texto original */
+}
+#isso-thread .isso-postbox__button::before,
+#isso-thread .isso-reply__button::before,
+#isso-thread .isso-comment__edit::before,
+#isso-thread .isso-comment__delete::before,
+#isso-thread .isso-loadmore__button::before,
+#isso-thread .isso-preview__button::before,
+#isso-thread .isso-author__suffix::before,
+#isso-thread .isso-comment__awaiting-moderation::before {
+  font-size: 0.9rem; /* Restaura o tamanho da fonte apenas para o texto traduzido */
+  display: inline-block;
 }
