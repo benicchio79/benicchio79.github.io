@@ -1,0 +1,135 @@
+<!-- Isso Comments -->
+<section id="isso-thread"></section>
+
+<script data-isso="https://isso.divagar.blog/"
+        data-isso-lang="pt_BR"
+        src="https://isso.divagar.blog/js/embed.min.js"></script>
+
+<script>
+  (function() {
+    function ajustarPlaceholders() {
+      var inputs = document.querySelectorAll('#isso-thread input, #isso-thread textarea');
+      inputs.forEach(function(input) {
+        if (input.name === 'author') input.placeholder = 'opcional';
+        if (input.classList.contains('isso-textarea')) input.placeholder = 'Seu comentário (Markdown suportado)';
+        if (input.type === 'email') input.placeholder = 'opcional';
+        if (input.type === 'url' || input.name === 'website') input.placeholder = 'opcional';
+        if (input.placeholder && input.placeholder.includes('example.com')) {
+          input.placeholder = 'opcional';
+        }
+      });
+    }
+    ajustarPlaceholders();
+    setTimeout(ajustarPlaceholders, 300);
+    setTimeout(ajustarPlaceholders, 800);
+    setTimeout(ajustarPlaceholders, 1500);
+  })();
+</script>
+
+<style>
+  /* ========== BOTÕES LADO A LADO (SELETOR CIRÚRGICO) ========== */
+  #isso-thread .isso-post-action {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 10px !important;
+    align-items: center !important;
+  }
+
+  #isso-thread .isso-post-action input[type="submit"] {
+    padding: 5px 14px !important;
+    font-size: 0.85rem !important;
+    background-color: #88aaff !important;
+    color: #0e0525 !important;
+    border: none !important;
+    border-radius: 4px !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+    width: auto !important;
+  }
+
+  /* Se houver botão Prévia (quando ativado nas configs) */
+  #isso-thread .isso-post-action .isso-preview__button {
+    padding: 5px 14px !important;
+    font-size: 0.85rem !important;
+    background-color: #2a2a2a !important;
+    color: #cccccc !important;
+    border: 1px solid #555555 !important;
+    border-radius: 4px !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+  }
+
+  @media (max-width: 400px) {
+    #isso-thread .isso-post-action {
+      flex-direction: column !important;
+      align-items: stretch !important;
+    }
+    #isso-thread .isso-post-action input,
+    #isso-thread .isso-post-action button {
+      width: 100% !important;
+    }
+  }
+
+   /* ========== LABELS - REMOVE "(OPCIONAL)" (CORRIGIDO) ========== */
+  #isso-thread label[for="isso-postbox-author"],
+  #isso-thread label[for="isso-postbox-email"],
+  #isso-thread label[for="isso-postbox-website"] {
+    display: inline-block !important;
+    min-height: 1.5rem !important;
+    line-height: 1.5 !important;
+    color: transparent !important;  /* Esconde o texto original sem colapsar */
+  }
+
+  #isso-thread label[for="isso-postbox-author"]::before {
+    content: "Nome" !important;
+    position: absolute !important;
+    color: #cccccc !important;
+    font-size: 1rem !important;
+    font-weight: normal !important;
+  }
+
+  #isso-thread label[for="isso-postbox-email"]::before {
+    content: "E-mail" !important;
+    position: absolute !important;
+    color: #cccccc !important;
+    font-size: 1rem !important;
+    font-weight: normal !important;
+  }
+
+  #isso-thread label[for="isso-postbox-website"]::before {
+    content: "Website" !important;
+    position: absolute !important;
+    color: #cccccc !important;
+    font-size: 1rem !important;
+    font-weight: normal !important;
+  }
+
+    /* ========== CHECKBOX DE NOTIFICAÇÃO (FINAL) ========== */
+  #isso-thread .isso-notification-section,
+  #isso-thread .isso-subscribe-to-replies,
+  #isso-thread .isso-subscribe-to-replies label {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  
+  #isso-thread .isso-subscribe-to-replies {
+    display: flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+    margin-top: 12px !important;
+  }
+  
+  #isso-thread .isso-subscribe-to-replies label {
+    font-size: 0.7rem !important;
+    color: #cccccc !important;
+    margin-left: 4px !important;
+  }
+  
+  #isso-thread .isso-subscribe-to-replies input[type="checkbox"] {
+    width: 14px !important;
+    height: 14px !important;
+    margin: 0 !important;
+    accent-color: #88aaff !important;
+  }
+</style>
