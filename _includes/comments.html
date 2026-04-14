@@ -3,21 +3,22 @@
         data-isso-lang="pt_BR"
         src="https://isso.divagar.blog/js/embed.min.js"></script>
 
-<script>
-  (function() {
-    function ajustarPlaceholders() {
-      // Exclui inputs do tipo submit e button
-      var campos = document.querySelectorAll('#isso-thread input:not([type="submit"]):not([type="button"]), #isso-thread textarea');
-      campos.forEach(function(campo) {
-        if (campo.name === 'author') campo.placeholder = 'opcional';
-        if (campo.type === 'email') campo.placeholder = 'opcional';
-        if (campo.type === 'url' || campo.name === 'website') campo.placeholder = 'opcional';
-        if (campo.classList.contains('isso-textarea')) campo.placeholder = 'Seu comentário (Markdown suportado)';
-        if (campo.placeholder && campo.placeholder.includes('example.com')) campo.placeholder = 'opcional';
-      });
-    }
-    ajustarPlaceholders();
-    setTimeout(ajustarPlaceholders, 300);
-    setTimeout(ajustarPlaceholders, 800);
-  })();
-</script>
+<style>
+  /* Placeholders via CSS (funciona na maioria dos navegadores modernos) */
+  #isso-thread input[name="author"]::placeholder {
+    content: "opcional" !important;
+  }
+  
+  #isso-thread input[type="email"]::placeholder {
+    content: "opcional" !important;
+  }
+  
+  #isso-thread input[type="url"]::placeholder {
+    content: "opcional" !important;
+  }
+  
+  /* Placeholder do textarea */
+  #isso-thread .isso-textarea::placeholder {
+    content: "Seu comentário (Markdown suportado)" !important;
+  }
+</style>
