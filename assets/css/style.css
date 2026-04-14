@@ -621,6 +621,84 @@ img {
   transition: background-color 5000s ease-in-out 0s !important;
 }
 
+/* 1. Muda o placeholder do campo Nome de "John Doe" para "(opcional)" */
+#isso-thread input[type="text"][name="author"]::placeholder,
+#isso-thread .isso-postbox__author::placeholder {
+  content: "(opcional)" !important;
+}
+
+/* 2. Remove "(optional)" do label do campo Nome */
+#isso-thread .isso-postbox__label[for="isso-postbox-author"]::after {
+  content: "" !important;
+  display: none !important;
+}
+
+#isso-thread .isso-postbox__label[for="isso-postbox-author"]::before {
+  content: "Nome" !important;
+  font-size: 0.95rem !important;
+  color: #cccccc !important;
+}
+
+/* 3. Aumenta a fonte geral dos campos e botões */
+#isso-thread input,
+#isso-thread textarea,
+#isso-thread button {
+  font-size: 1rem !important;  /* Aumentado de 0.95rem */
+}
+
+/* 4. Botões "Prévia" e "Enviar" maiores e com mais destaque */
+#isso-thread .isso-preview__button,
+#isso-thread .isso-postbox__button {
+  padding: 8px 18px !important;  /* Mais largos */
+  font-size: 1rem !important;
+  font-weight: bold !important;
+  border-radius: 6px !important;
+  margin-right: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+/* Botão Enviar - cor de destaque */
+#isso-thread .isso-postbox__button {
+  background-color: #88aaff !important;
+  color: #0e0525 !important;
+  border: none !important;
+}
+
+#isso-thread .isso-postbox__button:hover {
+  background-color: #ffffff !important;
+  color: #0e0525 !important;
+}
+
+/* Botão Prévia - estilo secundário */
+#isso-thread .isso-preview__button {
+  background-color: #2a2a2a !important;
+  color: #cccccc !important;
+  border: 1px solid #555555 !important;
+}
+
+#isso-thread .isso-preview__button:hover {
+  background-color: #3a3a3a !important;
+  color: #ffffff !important;
+  border-color: #888888 !important;
+}
+
+/* Espaçamento entre os botões */
+#isso-thread .isso-preview__button {
+  margin-right: 10px !important;
+}
+
+/* Placeholder para Email - (opcional) */
+#isso-thread input[type="email"]::placeholder,
+#isso-thread .isso-postbox__email::placeholder {
+  content: "(opcional)" !important;
+}
+
+/* Placeholder para Website - (opcional) */
+#isso-thread input[type="url"]::placeholder,
+#isso-thread .isso-postbox__website::placeholder {
+  content: "(opcional)" !important;
+}
+
 /* Busca */
 .search-container {
   margin: 2rem 0;
