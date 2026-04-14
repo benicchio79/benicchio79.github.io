@@ -6,12 +6,14 @@
 <script>
   (function() {
     function ajustarPlaceholders() {
-      var campos = document.querySelectorAll('#isso-thread input, #isso-thread textarea');
+      // Exclui inputs do tipo submit e button
+      var campos = document.querySelectorAll('#isso-thread input:not([type="submit"]):not([type="button"]), #isso-thread textarea');
       campos.forEach(function(campo) {
         if (campo.name === 'author') campo.placeholder = 'opcional';
         if (campo.type === 'email') campo.placeholder = 'opcional';
         if (campo.type === 'url' || campo.name === 'website') campo.placeholder = 'opcional';
         if (campo.classList.contains('isso-textarea')) campo.placeholder = 'Seu comentário (Markdown suportado)';
+        if (campo.placeholder && campo.placeholder.includes('example.com')) campo.placeholder = 'opcional';
       });
     }
     ajustarPlaceholders();
