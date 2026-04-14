@@ -1,103 +1,65 @@
 <!-- Isso Comments -->
 <section id="isso-thread"></section>
+
 <script data-isso="https://isso.divagar.blog/"
         data-isso-lang="pt_BR"
+        data-isso-reply-notifications-default-enabled="true"
         src="https://isso.divagar.blog/js/embed.min.js"></script>
 
 <script>
-(function() {
+  (function() {
     function ajustarPlaceholders() {
-        var inputs = document.querySelectorAll('#isso-thread input, #isso-thread textarea');
-        inputs.forEach(function(input) {
-            if (input.name === 'author') input.placeholder = 'opcional';
-            if (input.type === 'email') input.placeholder = 'opcional';
-            if (input.type === 'url') input.placeholder = 'opcional';
-        });
+      // Placeholders em português
+      var inputs = document.querySelectorAll('#isso-thread input');
+      inputs.forEach(function(input) {
+        if (input.name === 'author') input.placeholder = 'opcional';
+        if (input.type === 'email') input.placeholder = 'opcional';
+        if (input.type === 'url') input.placeholder = 'opcional';
+      });
     }
+    // Tenta imediatamente e mais algumas vezes para garantir
     ajustarPlaceholders();
-    setTimeout(ajustarPlaceholders, 500);
-    setTimeout(ajustarPlaceholders, 1000);
-})();
+    setTimeout(ajustarPlaceholders, 300);
+    setTimeout(ajustarPlaceholders, 800);
+  })();
 </script>
 
 <style>
-    /* ========== LABELS - (opcional) REMOVIDO ========== */
-    #isso-thread label[for="isso-postbox-author"],
-    #isso-thread label[for="isso-postbox-email"],
-    #isso-thread label[for="isso-postbox-website"] {
-        position: relative !important;
-        color: transparent !important;
-    }
-    
-    #isso-thread label[for="isso-postbox-author"]::before {
-        content: "Nome" !important;
-        position: absolute !important;
-        left: 0 !important;
-        top: 0 !important;
-        color: #cccccc !important;
-        font-size: 1rem !important;
-        font-weight: normal !important;
-    }
-    
-    #isso-thread label[for="isso-postbox-email"]::before {
-        content: "E-mail" !important;
-        position: absolute !important;
-        left: 0 !important;
-        top: 0 !important;
-        color: #cccccc !important;
-        font-size: 1rem !important;
-        font-weight: normal !important;
-    }
-    
-    #isso-thread label[for="isso-postbox-website"]::before {
-        content: "Website" !important;
-        position: absolute !important;
-        left: 0 !important;
-        top: 0 !important;
-        color: #cccccc !important;
-        font-size: 1rem !important;
-        font-weight: normal !important;
-    }
-    
-    /* ========== BOTÕES - FORÇA LADO A LADO ========== */
-    #isso-thread .isso-postbox {
-        container-type: inline-size;
-    }
-    
+  /* 1. Remove "(opcional)" dos labels e traduz */
+  #isso-thread label[for="isso-postbox-author"]::after,
+  #isso-thread label[for="isso-postbox-email"]::after,
+  #isso-thread label[for="isso-postbox-website"]::after {
+    content: none !important;
+  }
+
+  #isso-thread label[for="isso-postbox-author"] {
+    visibility: visible !important;
+    color: #cccccc !important;
+  }
+
+  /* 2. Botões lado a lado (seletor mais genérico e seguro) */
+  #isso-thread .isso-postbox > div:last-of-type {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 10px !important;
+    margin-top: 15px !important;
+  }
+
+  #isso-thread .isso-preview__button,
+  #isso-thread .isso-postbox__button {
+    padding: 5px 14px !important;
+    font-size: 0.85rem !important;
+    margin: 0 !important;
+    width: auto !important;
+  }
+
+  @media (max-width: 400px) {
     #isso-thread .isso-postbox > div:last-of-type {
-        display: flex !important;
-        flex-direction: row !important;
-        gap: 10px !important;
-        margin-top: 15px !important;
+      flex-direction: column !important;
     }
-    
     #isso-thread .isso-preview__button,
     #isso-thread .isso-postbox__button {
-        padding: 5px 14px !important;
-        font-size: 0.85rem !important;
-        margin: 0 !important;
-        width: auto !important;
+      width: 100% !important;
     }
-    
-    #isso-thread .isso-postbox__button {
-        background-color: #88aaff !important;
-        color: #0e0525 !important;
-        border: none !important;
-    }
-    
-    #isso-thread .isso-preview__button {
-        background-color: #2a2a2a !important;
-        color: #cccccc !important;
-        border: 1px solid #555555 !important;
-    }
-    
-    @media (max-width: 400px) {
-        #isso-thread .isso-postbox > div:last-of-type {
-            flex-direction: column !important;
-        }
-        #isso-thread .isso-preview__button,
-        #isso-thread .isso-postbox__button {
-            width: 100% !important;
-        }
-    }
+  }
 </style>
