@@ -1,27 +1,12 @@
+<!-- Isso Comments -->
 <section id="isso-thread"></section>
+
 <script data-isso="https://isso.divagar.blog/"
         data-isso-lang="pt_BR"
+        data-isso-reply-notifications="true"
         src="https://isso.divagar.blog/js/embed.min.js"></script>
 
 <style>
-  /* Placeholders via CSS (funciona na maioria dos navegadores modernos) */
-  #isso-thread input[name="author"]::placeholder {
-    content: "opcional" !important;
-  }
-  
-  #isso-thread input[type="email"]::placeholder {
-    content: "opcional" !important;
-  }
-  
-  #isso-thread input[type="url"]::placeholder {
-    content: "opcional" !important;
-  }
-  
-  /* Placeholder do textarea */
-  #isso-thread .isso-textarea::placeholder {
-    content: "Seu comentário (Markdown suportado)" !important;
-  }
-
   /* ========== BOTÕES LADO A LADO ========== */
   #isso-thread .isso-post-action {
     display: flex !important;
@@ -52,6 +37,37 @@
     }
   }
 
+  /* ========== LABELS - REMOVE "(OPCIONAL)" ========== */
+  #isso-thread label[for="isso-postbox-author"],
+  #isso-thread label[for="isso-postbox-email"],
+  #isso-thread label[for="isso-postbox-website"] {
+    display: inline-block !important;
+    min-height: 1.5rem !important;
+    line-height: 1.5 !important;
+    color: transparent !important;
+  }
+
+  #isso-thread label[for="isso-postbox-author"]::before {
+    content: "Nome" !important;
+    position: absolute !important;
+    color: #cccccc !important;
+    font-size: 1rem !important;
+  }
+
+  #isso-thread label[for="isso-postbox-email"]::before {
+    content: "E-mail" !important;
+    position: absolute !important;
+    color: #cccccc !important;
+    font-size: 1rem !important;
+  }
+
+  #isso-thread label[for="isso-postbox-website"]::before {
+    content: "Website" !important;
+    position: absolute !important;
+    color: #cccccc !important;
+    font-size: 1rem !important;
+  }
+
   /* ========== CHECKBOX DE NOTIFICAÇÃO ========== */
   #isso-thread .isso-subscribe-to-replies {
     display: flex !important;
@@ -72,32 +88,4 @@
     margin: 0 !important;
     accent-color: #88aaff !important;
   }
-
 </style>
-
-<script>
-  (function() {
-    function ajustarPlaceholders() {
-      // Campo Nome - seletor específico
-      var author = document.querySelector('#isso-thread input[name="author"]');
-      if (author) author.placeholder = 'opcional';
-      
-      // Campo Email - seletor específico
-      var email = document.querySelector('#isso-thread input[type="email"]');
-      if (email) email.placeholder = 'opcional';
-      
-      // Campo Website - seletor específico
-      var website = document.querySelector('#isso-thread input[type="url"]');
-      if (website) website.placeholder = 'opcional';
-      
-      // Campo Comentário - seletor específico
-      var textarea = document.querySelector('#isso-thread .isso-textarea');
-      if (textarea) textarea.placeholder = 'Seu comentário (Markdown suportado)';
-    }
-    
-    // Executa após a página carregar
-    window.addEventListener('load', ajustarPlaceholders);
-    setTimeout(ajustarPlaceholders, 500);
-    setTimeout(ajustarPlaceholders, 1000);
-  })();
-</script>
