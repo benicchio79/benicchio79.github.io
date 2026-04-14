@@ -4,79 +4,90 @@
         data-isso-lang="pt_BR"
         src="https://isso.divagar.blog/js/embed.min.js"></script>
 
-<!-- Ajustes para o Isso -->
+<!-- Ajustes para o Isso - Labels, Placeholders e Botões -->
 <script>
-  (function() {
+(function() {
     function ajustarIsso() {
-      // Placeholders
-      var inputs = document.querySelectorAll('#isso-thread input, #isso-thread textarea');
-      inputs.forEach(function(input) {
-        if (input.name === 'author') input.placeholder = 'opcional';
-        if (input.type === 'email') input.placeholder = 'opcional';
-        if (input.type === 'url' || input.name === 'website') input.placeholder = 'opcional';
-      });
-      
-      // Labels - remove "(optional)"
-      var labels = document.querySelectorAll('#isso-thread .isso-postbox__label');
-      labels.forEach(function(label) {
-        var text = label.textContent;
-        if (text.includes('Nome') || text.includes('Name')) label.textContent = 'Nome';
-        if (text.includes('E-mail') || text.includes('Email')) label.textContent = 'E-mail';
-        if (text.includes('Website') || text.includes('Site')) label.textContent = 'Website';
-      });
-      
-      // Força os botões a caberem
-      var actions = document.querySelector('#isso-thread .isso-postbox__actions');
-      if (actions) {
-        actions.style.display = 'flex';
-        actions.style.flexWrap = 'wrap';
-        actions.style.gap = '8px';
-      }
-      
-      var botoes = document.querySelectorAll('#isso-thread .isso-preview__button, #isso-thread .isso-postbox__button');
-      botoes.forEach(function(btn) {
-        btn.style.padding = '6px 12px';
-        btn.style.fontSize = '0.85rem';
-        btn.style.whiteSpace = 'nowrap';
-      });
+        // ===== PLACEHOLDERS =====
+        var inputs = document.querySelectorAll('#isso-thread input, #isso-thread textarea');
+        inputs.forEach(function(input) {
+            if (input.name === 'author') input.placeholder = 'opcional';
+            if (input.type === 'email') input.placeholder = 'opcional';
+            if (input.type === 'url' || input.name === 'website') input.placeholder = 'opcional';
+        });
+        
+        // ===== LABELS - Remove "(opcional)" =====
+        var labels = document.querySelectorAll('#isso-thread .isso-postbox__label');
+        labels.forEach(function(label) {
+            var forAttr = label.getAttribute('for');
+            if (forAttr && forAttr.includes('author')) label.textContent = 'Nome';
+            if (forAttr && forAttr.includes('email')) label.textContent = 'E-mail';
+            if (forAttr && forAttr.includes('website')) label.textContent = 'Website';
+        });
+        
+        // ===== BOTÕES - Força layout lado a lado =====
+        var actions = document.querySelector('#isso-thread .isso-postbox__actions');
+        if (actions) {
+            actions.style.display = 'flex';
+            actions.style.flexDirection = 'row';
+            actions.style.flexWrap = 'wrap';
+            actions.style.gap = '10px';
+        }
+        
+        var previewBtn = document.querySelector('#isso-thread .isso-preview__button');
+        var submitBtn = document.querySelector('#isso-thread .isso-postbox__button');
+        
+        if (previewBtn) {
+            previewBtn.style.margin = '0';
+            previewBtn.style.padding = '6px 14px';
+            previewBtn.style.fontSize = '0.85rem';
+            previewBtn.textContent = 'Prévia';
+        }
+        
+        if (submitBtn) {
+            submitBtn.style.margin = '0';
+            submitBtn.style.padding = '6px 14px';
+            submitBtn.style.fontSize = '0.85rem';
+            submitBtn.textContent = 'Enviar';
+        }
     }
     
-    // Tenta imediatamente
+    // Executa várias vezes para garantir
     ajustarIsso();
-    
-    // Tenta novamente após carregar
     window.addEventListener('load', ajustarIsso);
-    
-    // Tenta mais uma vez após 1 segundo (para o Isso carregar)
+    setTimeout(ajustarIsso, 500);
     setTimeout(ajustarIsso, 1000);
     setTimeout(ajustarIsso, 2000);
-  })();
+})();
 </script>
 
 <style>
-  /* Estilos críticos inline para garantir aplicação */
-  #isso-thread .isso-postbox__actions {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    gap: 8px !important;
-    flex-direction: row !important;
-  }
-  
-  #isso-thread .isso-preview__button,
-  #isso-thread .isso-postbox__button {
-    padding: 6px 12px !important;
-    font-size: 0.85rem !important;
-    white-space: nowrap !important;
-    margin: 0 !important;
-  }
-  
-  @media (max-width: 400px) {
+    /* Força botões lado a lado */
     #isso-thread .isso-postbox__actions {
-      flex-direction: column !important;
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        gap: 10px !important;
     }
+    
     #isso-thread .isso-preview__button,
     #isso-thread .isso-postbox__button {
-      width: 100% !important;
+        display: inline-block !important;
+        width: auto !important;
+        min-width: 80px !important;
+        padding: 6px 14px !important;
+        font-size: 0.85rem !important;
+        margin: 0 !important;
     }
-  }
+    
+    /* Mobile: empilha apenas em telas muito pequenas */
+    @media (max-width: 400px) {
+        #isso-thread .isso-postbox__actions {
+            flex-direction: column !important;
+        }
+        #isso-thread .isso-preview__button,
+        #isso-thread .isso-postbox__button {
+            width: 100% !important;
+        }
+    }
 </style>
