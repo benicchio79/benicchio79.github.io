@@ -347,7 +347,7 @@ img {
 }
 
 /* ==========================================================================
-   ISSO - Estilos Completos e Otimizados
+   ISSO - Estilos Completos e Otimizados (CORRIGIDO)
    ========================================================================== */
 #isso-thread {
   font-family: 'iA Writer Duo', monospace !important;
@@ -414,7 +414,7 @@ img {
   transition: background-color 5000s ease-in-out 0s !important;
 }
 
-/* ========== ISSO - BOTÕES CORRIGIDOS ========== */
+/* --- Botões (Layout) --- */
 #isso-thread .isso-postbox__actions {
   display: flex !important;
   flex-direction: row !important;
@@ -441,10 +441,21 @@ img {
   border: none !important;
 }
 
+#isso-thread .isso-postbox__button:hover {
+  background-color: #ffffff !important;
+  color: #0e0525 !important;
+}
+
 #isso-thread .isso-preview__button {
   background-color: #2a2a2a !important;
   color: #cccccc !important;
   border: 1px solid #555555 !important;
+}
+
+#isso-thread .isso-preview__button:hover {
+  background-color: #3a3a3a !important;
+  color: #ffffff !important;
+  border-color: #888888 !important;
 }
 
 @media (max-width: 400px) {
@@ -457,32 +468,26 @@ img {
   }
 }
 
-/* --- Traduções e Ajustes de Texto (CSS) --- */
-#isso-thread .isso-postbox__button,
+/* --- Traduções para elementos que NÃO têm texto HTML (apenas ícones ou gerados dinamicamente) --- */
 #isso-thread .isso-reply__button,
 #isso-thread .isso-comment__edit,
 #isso-thread .isso-comment__delete,
 #isso-thread .isso-loadmore__button,
-#isso-thread .isso-preview__button,
 #isso-thread .isso-author__suffix,
 #isso-thread .isso-comment__awaiting-moderation {
   font-size: 0;
 }
 
-#isso-thread .isso-postbox__button::before,
 #isso-thread .isso-reply__button::before,
 #isso-thread .isso-comment__edit::before,
 #isso-thread .isso-comment__delete::before,
 #isso-thread .isso-loadmore__button::before,
-#isso-thread .isso-preview__button::before,
 #isso-thread .isso-author__suffix::before,
 #isso-thread .isso-comment__awaiting-moderation::before {
-  font-size: 1rem;
+  font-size: 0.9rem;
   display: inline-block;
 }
 
-#isso-thread .isso-postbox__button::before { content: "Enviar"; }
-#isso-thread .isso-preview__button::before { content: "Prévia"; }
 #isso-thread .isso-reply__button::before { content: "Responder"; }
 #isso-thread .isso-comment__edit::before { content: "Editar"; }
 #isso-thread .isso-comment__delete::before { content: "Excluir"; }
