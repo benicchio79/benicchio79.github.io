@@ -9,7 +9,6 @@
 <script>
   (function() {
     function ajustarPlaceholders() {
-      // Placeholders em português
       var inputs = document.querySelectorAll('#isso-thread input');
       inputs.forEach(function(input) {
         if (input.name === 'author') input.placeholder = 'opcional';
@@ -17,49 +16,8 @@
         if (input.type === 'url') input.placeholder = 'opcional';
       });
     }
-    // Tenta imediatamente e mais algumas vezes para garantir
     ajustarPlaceholders();
     setTimeout(ajustarPlaceholders, 300);
     setTimeout(ajustarPlaceholders, 800);
   })();
 </script>
-
-<style>
-  /* 1. Remove "(opcional)" dos labels e traduz */
-  #isso-thread label[for="isso-postbox-author"]::after,
-  #isso-thread label[for="isso-postbox-email"]::after,
-  #isso-thread label[for="isso-postbox-website"]::after {
-    content: none !important;
-  }
-
-  #isso-thread label[for="isso-postbox-author"] {
-    visibility: visible !important;
-    color: #cccccc !important;
-  }
-
-  /* 2. Botões lado a lado (seletor mais genérico e seguro) */
-  #isso-thread .isso-postbox > div:last-of-type {
-    display: flex !important;
-    flex-direction: row !important;
-    gap: 10px !important;
-    margin-top: 15px !important;
-  }
-
-  #isso-thread .isso-preview__button,
-  #isso-thread .isso-postbox__button {
-    padding: 5px 14px !important;
-    font-size: 0.85rem !important;
-    margin: 0 !important;
-    width: auto !important;
-  }
-
-  @media (max-width: 400px) {
-    #isso-thread .isso-postbox > div:last-of-type {
-      flex-direction: column !important;
-    }
-    #isso-thread .isso-preview__button,
-    #isso-thread .isso-postbox__button {
-      width: 100% !important;
-    }
-  }
-</style>
