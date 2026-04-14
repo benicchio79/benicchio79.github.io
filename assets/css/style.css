@@ -414,25 +414,23 @@ img {
   transition: background-color 5000s ease-in-out 0s !important;
 }
 
-/* --- Botões (Layout) --- */
+/* ========== ISSO - BOTÕES (VERSÃO FINAL) ========== */
 #isso-thread .isso-postbox__actions {
   display: flex !important;
   flex-direction: row !important;
-  flex-wrap: wrap !important;
-  gap: 10px !important;
+  gap: 8px !important;
   margin-top: 12px !important;
 }
 
 #isso-thread .isso-preview__button,
 #isso-thread .isso-postbox__button {
-  flex: 0 0 auto !important;
-  padding: 6px 16px !important;
-  font-size: 0.9rem !important;
+  padding: 5px 12px !important;
+  font-size: 0.85rem !important;
   font-weight: bold !important;
   border-radius: 4px !important;
   margin: 0 !important;
   width: auto !important;
-  min-width: 80px !important;
+  min-width: 75px !important;
 }
 
 #isso-thread .isso-postbox__button {
@@ -441,24 +439,13 @@ img {
   border: none !important;
 }
 
-#isso-thread .isso-postbox__button:hover {
-  background-color: #ffffff !important;
-  color: #0e0525 !important;
-}
-
 #isso-thread .isso-preview__button {
   background-color: #2a2a2a !important;
   color: #cccccc !important;
   border: 1px solid #555555 !important;
 }
 
-#isso-thread .isso-preview__button:hover {
-  background-color: #3a3a3a !important;
-  color: #ffffff !important;
-  border-color: #888888 !important;
-}
-
-@media (max-width: 400px) {
+@media (max-width: 360px) {
   #isso-thread .isso-postbox__actions {
     flex-direction: column !important;
   }

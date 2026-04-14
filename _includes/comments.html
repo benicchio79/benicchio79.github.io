@@ -4,90 +4,82 @@
         data-isso-lang="pt_BR"
         src="https://isso.divagar.blog/js/embed.min.js"></script>
 
-<!-- Ajustes para o Isso - Labels, Placeholders e Botões -->
-<script>
-(function() {
-    function ajustarIsso() {
-        // ===== PLACEHOLDERS =====
-        var inputs = document.querySelectorAll('#isso-thread input, #isso-thread textarea');
-        inputs.forEach(function(input) {
-            if (input.name === 'author') input.placeholder = 'opcional';
-            if (input.type === 'email') input.placeholder = 'opcional';
-            if (input.type === 'url' || input.name === 'website') input.placeholder = 'opcional';
-        });
-        
-        // ===== LABELS - Remove "(opcional)" =====
-        var labels = document.querySelectorAll('#isso-thread .isso-postbox__label');
-        labels.forEach(function(label) {
-            var forAttr = label.getAttribute('for');
-            if (forAttr && forAttr.includes('author')) label.textContent = 'Nome';
-            if (forAttr && forAttr.includes('email')) label.textContent = 'E-mail';
-            if (forAttr && forAttr.includes('website')) label.textContent = 'Website';
-        });
-        
-        // ===== BOTÕES - Força layout lado a lado =====
-        var actions = document.querySelector('#isso-thread .isso-postbox__actions');
-        if (actions) {
-            actions.style.display = 'flex';
-            actions.style.flexDirection = 'row';
-            actions.style.flexWrap = 'wrap';
-            actions.style.gap = '10px';
-        }
-        
-        var previewBtn = document.querySelector('#isso-thread .isso-preview__button');
-        var submitBtn = document.querySelector('#isso-thread .isso-postbox__button');
-        
-        if (previewBtn) {
-            previewBtn.style.margin = '0';
-            previewBtn.style.padding = '6px 14px';
-            previewBtn.style.fontSize = '0.85rem';
-            previewBtn.textContent = 'Prévia';
-        }
-        
-        if (submitBtn) {
-            submitBtn.style.margin = '0';
-            submitBtn.style.padding = '6px 14px';
-            submitBtn.style.fontSize = '0.85rem';
-            submitBtn.textContent = 'Enviar';
-        }
+<style>
+    /* ========== CORREÇÕES RADICAIS ISSO ========== */
+    
+    /* Esconde os labels originais e recria sem "(optional)" */
+    #isso-thread .isso-postbox__label[for="isso-postbox-author"],
+    #isso-thread .isso-postbox__label[for="isso-postbox-email"],
+    #isso-thread .isso-postbox__label[for="isso-postbox-website"] {
+        visibility: hidden !important;
+        position: relative !important;
     }
     
-    // Executa várias vezes para garantir
-    ajustarIsso();
-    window.addEventListener('load', ajustarIsso);
-    setTimeout(ajustarIsso, 500);
-    setTimeout(ajustarIsso, 1000);
-    setTimeout(ajustarIsso, 2000);
-})();
-</script>
-
-<style>
-    /* Força botões lado a lado */
+    #isso-thread .isso-postbox__label[for="isso-postbox-author"]::after {
+        content: "Nome" !important;
+        visibility: visible !important;
+        position: absolute !important;
+        left: 0 !important;
+        top: 0 !important;
+        color: #cccccc !important;
+        font-size: 1rem !important;
+        font-weight: normal !important;
+        white-space: nowrap !important;
+    }
+    
+    #isso-thread .isso-postbox__label[for="isso-postbox-email"]::after {
+        content: "E-mail" !important;
+        visibility: visible !important;
+        position: absolute !important;
+        left: 0 !important;
+        top: 0 !important;
+        color: #cccccc !important;
+        font-size: 1rem !important;
+        font-weight: normal !important;
+        white-space: nowrap !important;
+    }
+    
+    #isso-thread .isso-postbox__label[for="isso-postbox-website"]::after {
+        content: "Website" !important;
+        visibility: visible !important;
+        position: absolute !important;
+        left: 0 !important;
+        top: 0 !important;
+        color: #cccccc !important;
+        font-size: 1rem !important;
+        font-weight: normal !important;
+        white-space: nowrap !important;
+    }
+    
+    /* Placeholders */
+    #isso-thread input[name="author"]::placeholder,
+    #isso-thread input[type="email"]::placeholder,
+    #isso-thread input[type="url"]::placeholder {
+        content: "opcional" !important;
+    }
+    
+    /* Botões - tamanho reduzido e lado a lado FORÇADO */
     #isso-thread .isso-postbox__actions {
         display: flex !important;
         flex-direction: row !important;
-        flex-wrap: wrap !important;
-        gap: 10px !important;
+        gap: 8px !important;
+        margin-top: 10px !important;
     }
     
     #isso-thread .isso-preview__button,
     #isso-thread .isso-postbox__button {
-        display: inline-block !important;
+        padding: 4px 12px !important;
+        font-size: 0.8rem !important;
+        min-width: 70px !important;
         width: auto !important;
-        min-width: 80px !important;
-        padding: 6px 14px !important;
-        font-size: 0.85rem !important;
+        display: inline-block !important;
         margin: 0 !important;
     }
     
-    /* Mobile: empilha apenas em telas muito pequenas */
-    @media (max-width: 400px) {
+    /* Mobile: só empilha em tela muito pequena */
+    @media (max-width: 360px) {
         #isso-thread .isso-postbox__actions {
             flex-direction: column !important;
-        }
-        #isso-thread .isso-preview__button,
-        #isso-thread .isso-postbox__button {
-            width: 100% !important;
         }
     }
 </style>
