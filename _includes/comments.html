@@ -5,19 +5,18 @@
         src="https://isso.divagar.blog/js/embed.min.js"></script>
 
 <style>
-    /* ========== CORREÇÕES RADICAIS ISSO ========== */
+    /* ========== CORREÇÕES RADICAIS ISSO (BASEADO NO HTML REAL) ========== */
     
-    /* Esconde os labels originais e recria sem "(optional)" */
-    #isso-thread .isso-postbox__label[for="isso-postbox-author"],
-    #isso-thread .isso-postbox__label[for="isso-postbox-email"],
-    #isso-thread .isso-postbox__label[for="isso-postbox-website"] {
-        visibility: hidden !important;
+    /* --- LABELS: esconde o texto original e recria sem "(opcional)" --- */
+    #isso-thread label[for="isso-postbox-author"],
+    #isso-thread label[for="isso-postbox-email"],
+    #isso-thread label[for="isso-postbox-website"] {
         position: relative !important;
+        color: transparent !important;  /* Esconde o texto original */
     }
     
-    #isso-thread .isso-postbox__label[for="isso-postbox-author"]::after {
+    #isso-thread label[for="isso-postbox-author"]::before {
         content: "Nome" !important;
-        visibility: visible !important;
         position: absolute !important;
         left: 0 !important;
         top: 0 !important;
@@ -27,9 +26,8 @@
         white-space: nowrap !important;
     }
     
-    #isso-thread .isso-postbox__label[for="isso-postbox-email"]::after {
+    #isso-thread label[for="isso-postbox-email"]::before {
         content: "E-mail" !important;
-        visibility: visible !important;
         position: absolute !important;
         left: 0 !important;
         top: 0 !important;
@@ -39,9 +37,8 @@
         white-space: nowrap !important;
     }
     
-    #isso-thread .isso-postbox__label[for="isso-postbox-website"]::after {
+    #isso-thread label[for="isso-postbox-website"]::before {
         content: "Website" !important;
-        visibility: visible !important;
         position: absolute !important;
         left: 0 !important;
         top: 0 !important;
@@ -51,35 +48,38 @@
         white-space: nowrap !important;
     }
     
-    /* Placeholders */
+    /* --- PLACEHOLDERS --- */
     #isso-thread input[name="author"]::placeholder,
     #isso-thread input[type="email"]::placeholder,
     #isso-thread input[type="url"]::placeholder {
         content: "opcional" !important;
     }
     
-    /* Botões - tamanho reduzido e lado a lado FORÇADO */
-    #isso-thread .isso-postbox__actions {
+    /* --- BOTÕES: lado a lado e menores --- */
+    #isso-thread .isso-postbox .isso-form-wrapper > div:last-child {
         display: flex !important;
         flex-direction: row !important;
         gap: 8px !important;
-        margin-top: 10px !important;
+        margin-top: 12px !important;
     }
     
     #isso-thread .isso-preview__button,
     #isso-thread .isso-postbox__button {
         padding: 4px 12px !important;
         font-size: 0.8rem !important;
-        min-width: 70px !important;
+        min-width: 65px !important;
         width: auto !important;
         display: inline-block !important;
         margin: 0 !important;
     }
     
-    /* Mobile: só empilha em tela muito pequena */
     @media (max-width: 360px) {
-        #isso-thread .isso-postbox__actions {
+        #isso-thread .isso-postbox .isso-form-wrapper > div:last-child {
             flex-direction: column !important;
+        }
+        #isso-thread .isso-preview__button,
+        #isso-thread .isso-postbox__button {
+            width: 100% !important;
         }
     }
 </style>
