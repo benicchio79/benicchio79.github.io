@@ -19,10 +19,27 @@ layout: default
 <br>
 <br>
 <h3>>> Gostou? <a href="/receba-atualizacoes/">Receba a newsletter ou assine o RSS</a></h3>
-  <!-- Comentários Cusdis -->
-  <div class="comments">
-    <h3>Comentários</h3>
-    <div class="post-date">Devido a limitações técnicas, os comentários são aprovados manualmente. Isso significa que não irão aparecer no momento da postagem.</p>
-    {% include comments.html %}
-  </div>
+<br>
+<br>
+<!-- COMENTÁRIOS REMARK42 -->
+  <div id="remark42"></div>
+  <script>
+    var remark_config = {
+      host: 'https://comentarios.divagar.blog',
+      site_id: 'divagar-blog',
+      components: ['embed'],
+      max_shown_comments: 5,
+      theme: 'dark',
+      locale: 'bp',
+      show_email_subscription: true,
+      no_footer: true
+    };
+  </script>
+  <script>
+    !function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);
+  </script>
+  <noscript>Please enable JavaScript to view the comments.</noscript>
+
+
+
 </article>
