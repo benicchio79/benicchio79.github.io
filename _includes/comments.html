@@ -8,12 +8,10 @@
 <script>
   (function() {
     function ajustarPlaceholders() {
-      var inputs = document.querySelectorAll('#isso-thread input');
+      var inputs = document.querySelectorAll('#isso-thread input, #isso-thread textarea');
       inputs.forEach(function(input) {
         if (input.name === 'author') input.placeholder = 'opcional';
-        if (input.classList.contains('isso-textarea')) {
-    input.placeholder = 'Seu comentário (Markdown suportado)';
-  }
+        if (input.classList.contains('isso-textarea')) input.placeholder = 'Seu comentário (Markdown suportado)';
         if (input.type === 'email') input.placeholder = 'opcional';
         if (input.type === 'url' || input.name === 'website') input.placeholder = 'opcional';
         if (input.placeholder && input.placeholder.includes('example.com')) {
@@ -24,6 +22,7 @@
     ajustarPlaceholders();
     setTimeout(ajustarPlaceholders, 300);
     setTimeout(ajustarPlaceholders, 800);
+    setTimeout(ajustarPlaceholders, 1500);
   })();
 </script>
 
