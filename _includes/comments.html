@@ -4,29 +4,79 @@
         data-isso-lang="pt_BR"
         src="https://isso.divagar.blog/js/embed.min.js"></script>
 
-<!-- Ajustes de tradução e placeholders -->
+<!-- Ajustes para o Isso -->
 <script>
-  window.addEventListener('load', function() {
-    setTimeout(function() {
+  (function() {
+    function ajustarIsso() {
       // Placeholders
-      var authorInput = document.querySelector('#isso-thread input[name="author"]');
-      if (authorInput) authorInput.placeholder = 'opcional';
+      var inputs = document.querySelectorAll('#isso-thread input, #isso-thread textarea');
+      inputs.forEach(function(input) {
+        if (input.name === 'author') input.placeholder = 'opcional';
+        if (input.type === 'email') input.placeholder = 'opcional';
+        if (input.type === 'url' || input.name === 'website') input.placeholder = 'opcional';
+      });
       
-      var emailInput = document.querySelector('#isso-thread input[type="email"]');
-      if (emailInput) emailInput.placeholder = 'opcional';
+      // Labels - remove "(optional)"
+      var labels = document.querySelectorAll('#isso-thread .isso-postbox__label');
+      labels.forEach(function(label) {
+        var text = label.textContent;
+        if (text.includes('Nome') || text.includes('Name')) label.textContent = 'Nome';
+        if (text.includes('E-mail') || text.includes('Email')) label.textContent = 'E-mail';
+        if (text.includes('Website') || text.includes('Site')) label.textContent = 'Website';
+      });
       
-      var websiteInput = document.querySelector('#isso-thread input[type="url"]');
-      if (websiteInput) websiteInput.placeholder = 'opcional';
+      // Força os botões a caberem
+      var actions = document.querySelector('#isso-thread .isso-postbox__actions');
+      if (actions) {
+        actions.style.display = 'flex';
+        actions.style.flexWrap = 'wrap';
+        actions.style.gap = '8px';
+      }
       
-      // Labels
-      var authorLabel = document.querySelector('#isso-thread .isso-postbox__label[for="isso-postbox-author"]');
-      if (authorLabel) authorLabel.textContent = 'Nome';
-      
-      var emailLabel = document.querySelector('#isso-thread .isso-postbox__label[for="isso-postbox-email"]');
-      if (emailLabel) emailLabel.textContent = 'E-mail';
-      
-      var websiteLabel = document.querySelector('#isso-thread .isso-postbox__label[for="isso-postbox-website"]');
-      if (websiteLabel) websiteLabel.textContent = 'Website';
-    }, 1000);
-  });
+      var botoes = document.querySelectorAll('#isso-thread .isso-preview__button, #isso-thread .isso-postbox__button');
+      botoes.forEach(function(btn) {
+        btn.style.padding = '6px 12px';
+        btn.style.fontSize = '0.85rem';
+        btn.style.whiteSpace = 'nowrap';
+      });
+    }
+    
+    // Tenta imediatamente
+    ajustarIsso();
+    
+    // Tenta novamente após carregar
+    window.addEventListener('load', ajustarIsso);
+    
+    // Tenta mais uma vez após 1 segundo (para o Isso carregar)
+    setTimeout(ajustarIsso, 1000);
+    setTimeout(ajustarIsso, 2000);
+  })();
 </script>
+
+<style>
+  /* Estilos críticos inline para garantir aplicação */
+  #isso-thread .isso-postbox__actions {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+    flex-direction: row !important;
+  }
+  
+  #isso-thread .isso-preview__button,
+  #isso-thread .isso-postbox__button {
+    padding: 6px 12px !important;
+    font-size: 0.85rem !important;
+    white-space: nowrap !important;
+    margin: 0 !important;
+  }
+  
+  @media (max-width: 400px) {
+    #isso-thread .isso-postbox__actions {
+      flex-direction: column !important;
+    }
+    #isso-thread .isso-preview__button,
+    #isso-thread .isso-postbox__button {
+      width: 100% !important;
+    }
+  }
+</style>

@@ -1,4 +1,6 @@
-/* iA Writer Duo - Variable Font */
+/* ==========================================================================
+   iA Writer Duo - Variable Font
+   ========================================================================== */
 @font-face {
   font-family: 'iA Writer Duo';
   src: url('/assets/fonts/iA-Writer-Duo/iAWriterDuoV.woff2') format('woff2-variations');
@@ -9,13 +11,15 @@
 
 @font-face {
   font-family: 'iA Writer Duo';
-  src: url('/assets/fonts/iA-Writer-Duo/iAWriterDuoV-Italic.woff2') format('woff2'-variations);
+  src: url('/assets/fonts/iA-Writer-Duo/iAWriterDuoV-Italic.woff2') format('woff2-variations');
   font-weight: 100 900;
   font-style: italic;
   font-display: swap;
 }
 
-/* Reset básico e cores */
+/* ==========================================================================
+   Reset e Estilos Base
+   ========================================================================== */
 body {
   background-color: #0e0525;
   color: #ffffff;
@@ -27,24 +31,23 @@ body {
   padding: 0;
 }
 
-/* Container principal - agora uma coluna */
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
 }
 
-/* Sidebar removida */
 .sidebar {
   display: none;
 }
 
-/* Main content ocupa toda largura */
 .main-content {
   width: 100%;
 }
 
-/* Header com logo à esquerda e menu à direita */
+/* ==========================================================================
+   Header e Navegação
+   ========================================================================== */
 .site-header {
   display: flex;
   justify-content: space-between;
@@ -69,7 +72,7 @@ body {
 
 .site-title a:hover {
   text-decoration: none;
-  color:#88aaff;
+  color: #88aaff;
 }
 
 .site-nav ul {
@@ -90,7 +93,6 @@ body {
   color: #88aaff;
   text-decoration: none;
   font-size: 1.1rem;
-  gap: 0.5rem;
   font-family: 'iA Writer Duo', monospace;
 }
 
@@ -99,21 +101,20 @@ body {
   color: #ffffff;
 }
 
-/* Responsivo: empilha em telas pequenas */
 @media (max-width: 600px) {
   .site-header {
     flex-direction: column;
     gap: 0.5rem;
   }
-  
   .site-nav ul {
     flex-wrap: wrap;
     gap: 1rem;
   }
 }
 
-
-/* Títulos e links */
+/* ==========================================================================
+   Tipografia e Links
+   ========================================================================== */
 h1 {
   color: #ffffff;
   font-weight: bold;
@@ -147,13 +148,14 @@ a:hover {
   font-weight: bold;
 }
 
-/* Imagens */
+/* ==========================================================================
+   Imagens
+   ========================================================================== */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* Imagem com legenda */
 .image-caption-figure {
   margin: 2rem 0;
   text-align: center;
@@ -174,10 +176,25 @@ img {
   margin: 0 auto;
 }
 
-/* Posts */
+/* ==========================================================================
+   Posts e Conteúdo
+   ========================================================================== */
 .post-list {
   list-style: none;
   padding: 0;
+}
+
+.post-item {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #222;
+  padding-bottom: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .post-date {
@@ -193,6 +210,8 @@ img {
   font-weight: normal;
   margin-left: 1.2rem;
   font-size: 1.05rem;
+  position: relative;
+  display: inline-block;
 }
 
 .post-title:hover {
@@ -200,7 +219,7 @@ img {
   text-decoration: none;
 }
 
-.post-content { 
+.post-content {
   font-size: 1.2rem;
   line-height: 1.6;
 }
@@ -209,35 +228,31 @@ img {
   margin-bottom: 1rem;
   font-family: 'iA Writer Duo', monospace;
   font-size: 1.1rem;
-  font-style: normal;
-  color:#ffffff
+  color: #ffffff;
 }
 
 .post-content h1 {
-  margin-bottom: 0.25rem;   /* reduz espaço abaixo do título */
+  margin-bottom: 0.25rem;
 }
 
 .post-content date {
-  display: block;           /* força a data a ocupar linha inteira */
-  margin-top: 0;            /* remove espaço acima */
-  margin-bottom: 0.5rem;    /* espaço abaixo da data (antes das tags) */
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
   color: #888;
   font-family: 'iA Writer Duo', monospace;
   font-size: 0.9rem;
 }
 
-/* Citações dentro de posts */
 .post-content blockquote {
-  font-family: 'iA Writer Duo Italic', monospace;
+  font-family: 'iA Writer Duo', monospace;
+  font-style: italic;
   color: #cccccc;
-  border-left: 3px solid #88aaff;
   margin: 1rem 0 1rem 2rem;
-  padding-left: 0rem;
+  padding-left: 0;
   border-left: none;
 }
 
-
-/* Listas dentro do conteúdo do post */
 .post-content ul,
 .post-content ol {
   margin: 1rem 0;
@@ -253,23 +268,9 @@ img {
   height: auto;
 }
 
-
-/* Item da lista de posts */
-.post-item {
-  margin-bottom: 1rem;
-  border-bottom: 1px solid #222;
-  padding-bottom: 0.5rem;
-  transition: all 0.2s ease;
-}
-
-/* Cabeçalho do post (título + data) */
-.post-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
-/* Tags no post individual */
+/* ==========================================================================
+   Tags e Categorias
+   ========================================================================== */
 .post-tags {
   margin: 0.5rem 0 2rem 0;
   font-size: 0.9rem;
@@ -294,6 +295,45 @@ img {
   text-decoration: underline;
 }
 
+.tag-cloud,
+.category-cloud {
+  margin: 2rem 0;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.tag-link,
+.category-link {
+  display: inline-block;
+  margin-right: 0.3rem;
+  color: #88aaff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.tag-link:hover,
+.category-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.tag-link.active,
+.category-link.active {
+  background-color: #88aaff22;
+  border-radius: 4px;
+  padding: 0.2rem 0.4rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.category-separator {
+  color: #666666;
+  margin: 0 0.1rem;
+}
+
+/* ==========================================================================
+   Comentários (Seção Base)
+   ========================================================================== */
 .comments {
   margin-top: 3rem;
   padding-top: 1rem;
@@ -306,21 +346,163 @@ img {
   color: #88aaff;
 }
 
-/* Tooltip para descrição do post */
-.post-title {
-  position: relative;
+/* ==========================================================================
+   ISSO - Estilos Completos e Otimizados
+   ========================================================================== */
+#isso-thread {
+  font-family: 'iA Writer Duo', monospace !important;
+}
+
+/* --- Campos de Entrada --- */
+#isso-thread input[type="text"],
+#isso-thread input[type="email"],
+#isso-thread input[type="url"],
+#isso-thread textarea {
+  background-color: #2a2a2a !important;
+  color: #ffffff !important;
+  border: 1px solid #444444 !important;
+  border-radius: 4px !important;
+  padding: 10px 12px !important;
+  font-family: 'iA Writer Duo', monospace !important;
+  font-size: 1rem !important;
+  transition: border-color 0.2s ease, background-color 0.2s ease !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+}
+
+#isso-thread input:hover,
+#isso-thread textarea:hover {
+  background-color: #333333 !important;
+  border-color: #666666 !important;
+}
+
+#isso-thread input:focus,
+#isso-thread textarea:focus {
+  background-color: #333333 !important;
+  border-color: #88aaff !important;
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(136, 170, 255, 0.2) !important;
+}
+
+#isso-thread input::placeholder,
+#isso-thread textarea::placeholder {
+  color: #888888 !important;
+  opacity: 0.7 !important;
+  font-style: italic !important;
+  font-size: 0.9rem !important;
+}
+
+#isso-thread textarea {
+  min-height: 120px !important;
+  resize: vertical !important;
+  line-height: 1.5 !important;
+}
+
+/* --- Labels --- */
+#isso-thread .isso-postbox__label {
+  color: #cccccc !important;
+  font-weight: normal !important;
+  margin-bottom: 4px !important;
+  font-size: 1rem !important;
+}
+
+/* --- Correção de Autocomplete --- */
+#isso-thread input:-webkit-autofill,
+#isso-thread textarea:-webkit-autofill {
+  -webkit-text-fill-color: #ffffff !important;
+  -webkit-box-shadow: 0 0 0px 1000px #2a2a2a inset !important;
+  transition: background-color 5000s ease-in-out 0s !important;
+}
+
+/* --- Botões --- */
+#isso-thread .isso-postbox__actions {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  margin-top: 12px !important;
+}
+
+#isso-thread .isso-preview__button,
+#isso-thread .isso-postbox__button {
+  flex: 0 1 auto !important;
+  padding: 8px 18px !important;
+  font-size: 1rem !important;
+  font-weight: bold !important;
+  border-radius: 6px !important;
+  transition: all 0.2s ease !important;
+  white-space: nowrap !important;
+  margin: 0 !important;
+}
+
+#isso-thread .isso-postbox__button {
+  background-color: #88aaff !important;
+  color: #0e0525 !important;
+  border: none !important;
+}
+
+#isso-thread .isso-postbox__button:hover {
+  background-color: #ffffff !important;
+  color: #0e0525 !important;
+}
+
+#isso-thread .isso-preview__button {
+  background-color: #2a2a2a !important;
+  color: #cccccc !important;
+  border: 1px solid #555555 !important;
+}
+
+#isso-thread .isso-preview__button:hover {
+  background-color: #3a3a3a !important;
+  color: #ffffff !important;
+  border-color: #888888 !important;
+}
+
+@media (max-width: 480px) {
+  #isso-thread .isso-postbox__actions {
+    flex-direction: column !important;
+  }
+  #isso-thread .isso-preview__button,
+  #isso-thread .isso-postbox__button {
+    width: 100% !important;
+  }
+}
+
+/* --- Traduções e Ajustes de Texto (CSS) --- */
+#isso-thread .isso-postbox__button,
+#isso-thread .isso-reply__button,
+#isso-thread .isso-comment__edit,
+#isso-thread .isso-comment__delete,
+#isso-thread .isso-loadmore__button,
+#isso-thread .isso-preview__button,
+#isso-thread .isso-author__suffix,
+#isso-thread .isso-comment__awaiting-moderation {
+  font-size: 0;
+}
+
+#isso-thread .isso-postbox__button::before,
+#isso-thread .isso-reply__button::before,
+#isso-thread .isso-comment__edit::before,
+#isso-thread .isso-comment__delete::before,
+#isso-thread .isso-loadmore__button::before,
+#isso-thread .isso-preview__button::before,
+#isso-thread .isso-author__suffix::before,
+#isso-thread .isso-comment__awaiting-moderation::before {
+  font-size: 1rem;
   display: inline-block;
-  text-decoration: none;
-  color: #dddddd;
-  font-weight: normal;
-  font-size: 1.05rem;
-  margin-left: 1.2rem;
 }
 
-.post-title:hover {
-  color: #88aaff;
-}
+#isso-thread .isso-postbox__button::before { content: "Enviar"; }
+#isso-thread .isso-preview__button::before { content: "Prévia"; }
+#isso-thread .isso-reply__button::before { content: "Responder"; }
+#isso-thread .isso-comment__edit::before { content: "Editar"; }
+#isso-thread .isso-comment__delete::before { content: "Excluir"; }
+#isso-thread .isso-loadmore__button::before { content: "Carregar mais"; }
+#isso-thread .isso-author__suffix::before { content: "(você)"; }
+#isso-thread .isso-comment__awaiting-moderation::before { content: "Aguardando moderação..."; }
 
+/* ==========================================================================
+   Tooltip para Descrição do Post
+   ========================================================================== */
 .post-title:hover::after {
   content: attr(data-description);
   position: absolute;
@@ -346,17 +528,16 @@ img {
   word-wrap: break-word;
 }
 
-/* Para telas pequenas, ajusta o tooltip */
 @media (max-width: 600px) {
   .post-title:hover::after {
-    white-space: normal;
     max-width: 200px;
     left: -10px;
   }
 }
 
-
-/* Pages */
+/* ==========================================================================
+   Páginas (Pages)
+   ========================================================================== */
 .page-content {
   font-size: 1.1rem;
   line-height: 1.6;
@@ -368,8 +549,9 @@ img {
   font-size: 1.1rem;
 }
 
-
-/* Seção de destaques */
+/* ==========================================================================
+   Seção de Destaques (Featured Posts)
+   ========================================================================== */
 .featured-posts {
   margin: 2rem 0;
 }
@@ -456,7 +638,6 @@ img {
   text-decoration: underline;
 }
 
-/* Responsivo: em telas pequenas, uma coluna */
 @media (max-width: 700px) {
   .featured-grid {
     grid-template-columns: 1fr;
@@ -464,35 +645,9 @@ img {
   }
 }
 
-/* Nuvem de tags */
-.tag-cloud {
-  margin: 2rem 0;
-  line-height: 1.4;
-  text-align: center;
-}
-
-.tag-link {
-  display: inline-block;
-  margin-right: 0.3rem;
-  color: #88aaff;
-  text-decoration: none;
-}
-
-.tag-link:hover {
-  color:#ffffff ;
-  text-decoration: none;
-}
-
-/* Tag ativa (quando na página da tag) */
-.tag-link.active {
-  background-color: #88aaff22;
-  border-radius: 4px;
-  padding: 0.2rem 0.4rem;
-  color: #ffffff;
-  font-weight: bold;
-}
-
-/* Paginação */
+/* ==========================================================================
+   Paginação
+   ========================================================================== */
 .pagination {
   text-align: center;
   margin: 2rem 0;
@@ -510,229 +665,9 @@ img {
   color: #ffffff;
 }
 
-
-/* Nuvem de categorias */
-.category-cloud {
-  margin: 2rem 0;
-  line-height: 1.2;
-  text-align: center;
-  font-family: 'iA Writer Duo', monospace;
-}
-
-.category-link {
-  display: inline-block;
-  color: #88aaff;
-  text-decoration: none;
-  font-size: 0.9rem;
-  transition: color 0.2s;
-}
-
-.category-link:hover {
-  color:#ffffff ;
-  text-decoration: none;
-}
-
-.category-separator {
-  color: #666666;
-  margin: 0 0.1rem;
-}
-
-/* Categoria ativa (quando na página da categoria) */
-.category-link.active {
-  background-color: #88aaff22;
-  border-radius: 4px;
-  padding: 0.2rem 0.4rem;
-  color: #ffffff;
-  font-weight: bold;
-}
-
-/* ========== ISSO - CAMPOS DE ENTRADA (TEMA ESCURO) ========== */
-
-/* Todos os campos de texto - Nome, Email, Site, Comentário */
-#isso-thread input[type="text"],
-#isso-thread input[type="email"],
-#isso-thread input[type="url"],
-#isso-thread textarea {
-  background-color: #2a2a2a !important;  /* Cinza médio */
-  color: #ffffff !important;             /* Texto branco */
-  border: 1px solid #444444 !important;  /* Borda sutil */
-  border-radius: 4px !important;         /* Cantos levemente arredondados */
-  padding: 10px 12px !important;         /* Espaçamento interno */
-  font-family: 'iA Writer Duo', monospace !important;
-  font-size: 0.95rem !important;
-  transition: border-color 0.2s ease, background-color 0.2s ease !important;
-  box-sizing: border-box !important;
-  width: 100% !important;
-}
-
-/* Efeito hover - quando passa o mouse */
-#isso-thread input[type="text"]:hover,
-#isso-thread input[type="email"]:hover,
-#isso-thread input[type="url"]:hover,
-#isso-thread textarea:hover {
-  background-color: #333333 !important;  /* Clareia um pouco */
-  border-color: #666666 !important;
-}
-
-/* Efeito focus - quando clica no campo */
-#isso-thread input[type="text"]:focus,
-#isso-thread input[type="email"]:focus,
-#isso-thread input[type="url"]:focus,
-#isso-thread textarea:focus {
-  background-color: #333333 !important;
-  border-color: #88aaff !important;      /* Cor de destaque do seu tema */
-  outline: none !important;
-  box-shadow: 0 0 0 2px rgba(136, 170, 255, 0.2) !important;
-}
-
-/* Placeholder (texto de exemplo dentro dos campos) */
-#isso-thread input::placeholder,
-#isso-thread textarea::placeholder {
-  color: #888888 !important;             /* Cinza mais claro */
-  opacity: 0.7 !important;
-  font-style: italic !important;
-  font-size: 0.9rem !important;
-}
-
-/* Área de texto (comentário) - altura específica */
-#isso-thread textarea {
-  min-height: 120px !important;
-  resize: vertical !important;           /* Permite redimensionar apenas verticalmente */
-  line-height: 1.5 !important;
-}
-
-/* Labels (Nome, Email, etc.) */
-#isso-thread .isso-postbox__label {
-  color: #cccccc !important;
-  font-weight: normal !important;
-  margin-bottom: 4px !important;
-  font-size: 0.9rem !important;
-}
-
-/* Remove o fundo branco padrão de autocomplete do navegador */
-#isso-thread input:-webkit-autofill,
-#isso-thread input:-webkit-autofill:hover,
-#isso-thread input:-webkit-autofill:focus,
-#isso-thread textarea:-webkit-autofill,
-#isso-thread textarea:-webkit-autofill:hover,
-#isso-thread textarea:-webkit-autofill:focus {
-  -webkit-text-fill-color: #ffffff !important;
-  -webkit-box-shadow: 0 0 0px 1000px #2a2a2a inset !important;
-  transition: background-color 5000s ease-in-out 0s !important;
-}
-
-/* 1. Muda o placeholder do campo Nome de "John Doe" para "(opcional)" */
-#isso-thread input[type="text"][name="author"]::placeholder,
-#isso-thread .isso-postbox__author::placeholder {
-  content: "(opcional)" !important;
-}
-
-/* 2. Remove "(optional)" do label do campo Nome */
-#isso-thread .isso-postbox__label[for="isso-postbox-author"]::after {
-  content: "" !important;
-  display: none !important;
-}
-
-#isso-thread .isso-postbox__label[for="isso-postbox-author"]::before {
-  content: "Nome" !important;
-  font-size: 0.95rem !important;
-  color: #cccccc !important;
-}
-
-/* 3. Aumenta a fonte geral dos campos e botões */
-#isso-thread input,
-#isso-thread textarea,
-#isso-thread button {
-  font-size: 1rem !important;  /* Aumentado de 0.95rem */
-}
-
-/* 4. Botões "Prévia" e "Enviar" maiores e com mais destaque */
-#isso-thread .isso-preview__button,
-#isso-thread .isso-postbox__button {
-  padding: 8px 18px !important;  /* Mais largos */
-  font-size: 1rem !important;
-  font-weight: bold !important;
-  border-radius: 6px !important;
-  margin-right: 8px !important;
-  transition: all 0.2s ease !important;
-}
-
-/* Botão Enviar - cor de destaque */
-#isso-thread .isso-postbox__button {
-  background-color: #88aaff !important;
-  color: #0e0525 !important;
-  border: none !important;
-}
-
-#isso-thread .isso-postbox__button:hover {
-  background-color: #ffffff !important;
-  color: #0e0525 !important;
-}
-
-/* Botão Prévia - estilo secundário */
-#isso-thread .isso-preview__button {
-  background-color: #2a2a2a !important;
-  color: #cccccc !important;
-  border: 1px solid #555555 !important;
-}
-
-#isso-thread .isso-preview__button:hover {
-  background-color: #3a3a3a !important;
-  color: #ffffff !important;
-  border-color: #888888 !important;
-}
-
-/* Espaçamento entre os botões */
-#isso-thread .isso-preview__button {
-  margin-right: 10px !important;
-}
-
-/* Placeholder para Email - (opcional) */
-#isso-thread input[type="email"]::placeholder,
-#isso-thread .isso-postbox__email::placeholder {
-  content: "(opcional)" !important;
-}
-
-/* Placeholder para Website - (opcional) */
-#isso-thread input[type="url"]::placeholder,
-#isso-thread .isso-postbox__website::placeholder {
-  content: "(opcional)" !important;
-}
-
-/* ========== ISSO - CORREÇÃO BOTÕES (MOBILE/DESKTOP) ========== */
-
-/* Container dos botões - flex wrap para caber em telas pequenas */
-#isso-thread .isso-postbox__actions {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  gap: 8px !important;
-  margin-top: 12px !important;
-}
-
-/* Botões com tamanho responsivo */
-#isso-thread .isso-preview__button,
-#isso-thread .isso-postbox__button {
-  flex: 0 1 auto !important;
-  padding: 6px 14px !important;
-  font-size: 0.9rem !important;
-  white-space: nowrap !important;
-}
-
-/* Em telas muito pequenas, botões ocupam linha inteira */
-@media (max-width: 480px) {
-  #isso-thread .isso-preview__button,
-  #isso-thread .isso-postbox__button {
-    flex: 1 1 100% !important;
-    width: 100% !important;
-  }
-}
-
-/* Ajuste de margem entre os botões */
-#isso-thread .isso-preview__button {
-  margin-right: 0 !important;
-}
-
-/* Busca */
+/* ==========================================================================
+   Busca
+   ========================================================================== */
 .search-container {
   margin: 2rem 0;
 }
@@ -751,7 +686,6 @@ img {
   margin-top: 1rem;
 }
 
-/* Resultados aprimorados */
 .search-summary {
   margin: 1rem 0;
   padding: 0.5rem;
@@ -759,10 +693,6 @@ img {
   border-left: 3px solid #88aaff;
   font-size: 0.9rem;
   color: #ccc;
-}
-
-.search-results-list {
-  margin-top: 1rem;
 }
 
 .search-result-item {
@@ -800,21 +730,6 @@ img {
   margin: 0.5rem 0;
 }
 
-.search-result-meta {
-  margin-top: 0.5rem;
-}
-
-.search-result-meta .read-more {
-  font-size: 0.8rem;
-  color: #88aaff;
-  text-decoration: none;
-}
-
-.search-result-meta .read-more:hover {
-  color: #ffffff;
-  text-decoration: underline;
-}
-
 mark {
   background-color: #88aaff;
   color: #0e0525;
@@ -830,7 +745,9 @@ mark {
   font-style: italic;
 }
 
-/* Rodapé */
+/* ==========================================================================
+   Rodapé
+   ========================================================================== */
 .site-footer {
   text-align: center;
   border-top: 1px solid #333;
@@ -840,7 +757,9 @@ mark {
   color: #666;
 }
 
-/* Newsletter */
+/* ==========================================================================
+   Newsletter
+   ========================================================================== */
 .newsletter-form {
   display: flex;
   gap: 0.5rem;
@@ -877,67 +796,4 @@ mark {
   font-size: 0.7rem;
   color: #888;
   margin-top: 0.25rem;
-}
-
-
-/* ========== TRADUÇÃO ISSO PARA PT-BR ========== */
-#isso-thread [data-isso-lang="pt_BR"],
-#isso-thread .isso-text,
-#isso-thread .isso-postbox__label {
-  font-family: 'iA Writer Duo', monospace !important;
-}
-
-/* Oculta textos originais e insere traduções */
-#isso-thread .isso-postbox__label::before {
-  content: "Comentário (Markdown permitido)";
-}
-#isso-thread .isso-postbox__button::before {
-  content: "Enviar";
-}
-#isso-thread .isso-reply__button::before {
-  content: "Responder";
-}
-#isso-thread .isso-comment__edit::before {
-  content: "Editar";
-}
-#isso-thread .isso-comment__delete::before {
-  content: "Excluir";
-}
-#isso-thread .isso-loadmore__button::before {
-  content: "Carregar mais comentários";
-}
-#isso-thread .isso-preview__button::before {
-  content: "Visualizar";
-}
-#isso-thread .isso-postbox__preview .isso-preview__label::before {
-  content: "Pré-visualização";
-}
-#isso-thread .isso-author__suffix::before {
-  content: "(você)";
-}
-#isso-thread .isso-comment__awaiting-moderation::before {
-  content: "Aguardando moderação...";
-}
-
-/* Oculta o texto original dos botões */
-#isso-thread .isso-postbox__button,
-#isso-thread .isso-reply__button,
-#isso-thread .isso-comment__edit,
-#isso-thread .isso-comment__delete,
-#isso-thread .isso-loadmore__button,
-#isso-thread .isso-preview__button,
-#isso-thread .isso-author__suffix,
-#isso-thread .isso-comment__awaiting-moderation {
-  font-size: 0; /* Esconde o texto original */
-}
-#isso-thread .isso-postbox__button::before,
-#isso-thread .isso-reply__button::before,
-#isso-thread .isso-comment__edit::before,
-#isso-thread .isso-comment__delete::before,
-#isso-thread .isso-loadmore__button::before,
-#isso-thread .isso-preview__button::before,
-#isso-thread .isso-author__suffix::before,
-#isso-thread .isso-comment__awaiting-moderation::before {
-  font-size: 0.9rem; /* Restaura o tamanho da fonte apenas para o texto traduzido */
-  display: inline-block;
 }
