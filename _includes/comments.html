@@ -13,7 +13,10 @@
       inputs.forEach(function(input) {
         if (input.name === 'author') input.placeholder = 'opcional';
         if (input.type === 'email') input.placeholder = 'opcional';
-        if (input.type === 'url') input.placeholder = 'opcional';
+        if (input.type === 'url' || input.name === 'website') input.placeholder = 'opcional';
+        if (input.placeholder && input.placeholder.includes('example.com')) {
+          input.placeholder = 'opcional';
+        }
       });
     }
     ajustarPlaceholders();
@@ -98,5 +101,27 @@
     color: #cccccc !important;
     font-size: 1rem !important;
     font-weight: normal !important;
+  }
+
+    /* ========== GARANTE VISIBILIDADE DO CHECKBOX DE NOTIFICAÇÃO ========== */
+  #isso-thread .isso-notification-section,
+  #isso-thread .isso-subscribe-to-replies,
+  #isso-thread input[type="checkbox"],
+  #isso-thread .isso-subscribe-to-replies label {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    margin-top: 10px !important;
+  }
+  
+  #isso-thread .isso-subscribe-to-replies {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+  }
+  
+  #isso-thread .isso-subscribe-to-replies input[type="checkbox"] {
+    width: auto !important;
+    margin: 0 !important;
   }
 </style>
