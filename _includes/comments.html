@@ -125,11 +125,27 @@
   }
 
   
- /* ========== LABELS - CORRIGIDO (COM ALTURA E POSICIONAMENTO) ========== */
-  #isso-thread .isso-input-wrapper {
+   /* ========== LABELS - CORRIGIDO (APENAS NOME/EMAIL/WEBSITE) ========== */
+  
+  /* Espaço apenas para os wrappers que contêm os labels específicos */
+  #isso-thread .isso-input-wrapper:has(label[for="isso-postbox-author"]),
+  #isso-thread .isso-input-wrapper:has(label[for="isso-postbox-email"]),
+  #isso-thread .isso-input-wrapper:has(label[for="isso-postbox-website"]) {
     position: relative !important;
-    padding-top: 22px !important;  /* Espaço para o label flutuar */
+    padding-top: 20px !important;
     margin-bottom: 8px !important;
+  }
+  
+  /* Se o seletor :has não funcionar no seu navegador, use esta alternativa */
+  #isso-thread .isso-auth-section .isso-input-wrapper {
+    position: relative !important;
+    padding-top: 20px !important;
+    margin-bottom: 8px !important;
+  }
+  
+  /* O wrapper do textarea NÃO deve ter padding-top */
+  #isso-thread .isso-textarea-wrapper {
+    padding-top: 0 !important;
   }
   
   #isso-thread label[for="isso-postbox-author"],
@@ -139,7 +155,7 @@
     top: 0 !important;
     left: 0 !important;
     font-size: 0 !important;
-    pointer-events: none !important;  /* Permite clicar no input sem interferência */
+    pointer-events: none !important;
   }
   
   #isso-thread label[for="isso-postbox-author"]::before {
