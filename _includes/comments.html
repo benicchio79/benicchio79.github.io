@@ -280,24 +280,23 @@
 <script>
   (function() {
     function aplicarPlaceholders() {
-      // Nome
-      var author = document.querySelector('#isso-thread input[name="author"]');
-      if (author) author.placeholder = 'opcional';
+      // Seleciona TODOS os campos, inclusive dentro de replies
+      var todosCampos = document.querySelectorAll('#isso-thread input, #isso-thread textarea');
       
-      // E-mail
-      var email = document.querySelector('#isso-thread input[type="email"]');
-      if (email) email.placeholder = 'opcional';
-      
-      // Website - múltiplos seletores
-      var website = document.querySelector('#isso-thread input[type="url"]');
-      if (!website) website = document.querySelector('#isso-thread input[name="website"]');
-      if (!website) website = document.querySelector('#isso-thread input[id*="website"]');
-      if (!website) website = document.querySelector('#isso-thread .isso-input-wrapper:nth-child(3) input');
-      if (website) website.placeholder = 'opcional';
-      
-      // Textarea
-      var textarea = document.querySelector('#isso-thread .isso-textarea');
-      if (textarea) textarea.placeholder = 'Seu comentário (Markdown suportado)';
+      todosCampos.forEach(function(campo) {
+        // Nome
+        if (campo.name === 'author') campo.placeholder = 'opcional';
+        // E-mail
+        if (campo.type === 'email') campo.placeholder = 'opcional';
+        // Website
+        if (campo.type === 'url' || campo.name === 'website' || (campo.id && campo.id.includes('website'))) {
+          campo.placeholder = 'opcional';
+        }
+        // Textarea
+        if (campo.classList.contains('isso-textarea')) {
+          campo.placeholder = 'Seu comentário (Markdown suportado)';
+        }
+      });
     }
     
     // Tenta imediatamente
@@ -309,8 +308,8 @@
     setTimeout(aplicarPlaceholders, 1000);
     setTimeout(aplicarPlaceholders, 2000);
     
-    // Usa MutationObserver para detectar quando os campos são adicionados
-    var observer = new MutationObserver(function(mutations) {
+    // Observa mudanças no DOM (quando reply é aberto)
+    var observer = new MutationObserver(function() {
       aplicarPlaceholders();
     });
     
