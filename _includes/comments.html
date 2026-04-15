@@ -125,37 +125,54 @@
   }
 
   
- /* ========== LABELS - CORRIGIDO (SEM SOBREPOSIÇÃO) ========== */
+ /* ========== LABELS - CORRIGIDO (COM ALTURA E POSICIONAMENTO) ========== */
+  #isso-thread .isso-input-wrapper {
+    position: relative !important;
+    padding-top: 22px !important;  /* Espaço para o label flutuar */
+    margin-bottom: 8px !important;
+  }
+  
   #isso-thread label[for="isso-postbox-author"],
   #isso-thread label[for="isso-postbox-email"],
   #isso-thread label[for="isso-postbox-website"] {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
     font-size: 0 !important;
-    display: block !important;
-    margin-bottom: 2px !important;
+    pointer-events: none !important;  /* Permite clicar no input sem interferência */
   }
   
   #isso-thread label[for="isso-postbox-author"]::before {
     content: "Nome" !important;
     font-size: 0.8rem !important;
     color: #cccccc !important;
-    display: block !important;
-    margin-bottom: 4px !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
   }
   
   #isso-thread label[for="isso-postbox-email"]::before {
     content: "E-mail" !important;
     font-size: 0.8rem !important;
     color: #cccccc !important;
-    display: block !important;
-    margin-bottom: 4px !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
   }
   
   #isso-thread label[for="isso-postbox-website"]::before {
     content: "Website" !important;
     font-size: 0.8rem !important;
     color: #cccccc !important;
-    display: block !important;
-    margin-bottom: 4px !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+  
+  /* Ajuste para os inputs */
+  #isso-thread .isso-input-wrapper input {
+    width: 100% !important;
+    margin-top: 0 !important;
   }
 
   /* ========== FORÇA CHECKBOX ========== */
@@ -180,15 +197,6 @@
     height: 14px !important;
     margin: 0 !important;
     accent-color: #88aaff !important;
-  }
-
-  /* ========== ESPAÇAMENTO DOS INPUTS ========== */
-  #isso-thread .isso-input-wrapper {
-    margin-bottom: 8px !important;
-  }
-  
-  #isso-thread .isso-input-wrapper input {
-    margin-top: 2px !important;
   }
 
 </style>
