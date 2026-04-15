@@ -99,27 +99,3 @@
     font-style: italic;
   }
 </style>
-
-<!-- Script cirúrgico para placeholders (NÃO TOCA NO BOTÃO) -->
-<script>
-  (function() {
-    function ajustarPlaceholders() {
-      // Apenas elementos específicos, NUNCA o botão
-      var author = document.querySelector('#isso-thread input[name="author"]');
-      if (author) author.placeholder = 'opcional';
-      
-      var email = document.querySelector('#isso-thread input[type="email"]');
-      if (email) email.placeholder = 'opcional';
-      
-      var website = document.querySelector('#isso-thread input[type="url"]');
-      if (website) website.placeholder = 'opcional';
-      
-      var textarea = document.querySelector('#isso-thread .isso-textarea');
-      if (textarea) textarea.placeholder = 'Seu comentário (Markdown suportado)';
-    }
-    
-    // Executa após carregar
-    window.addEventListener('load', ajustarPlaceholders);
-    setTimeout(ajustarPlaceholders, 500);
-  })();
-</script>
