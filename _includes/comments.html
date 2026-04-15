@@ -254,23 +254,44 @@
 <!-- Script de placeholders (CIRÚRGICO - NÃO TOCA NO BOTÃO) -->
 <script>
   (function() {
-    function ajustarPlaceholders() {
+    function aplicarPlaceholders() {
+      // Nome
       var author = document.querySelector('#isso-thread input[name="author"]');
       if (author) author.placeholder = 'opcional';
       
+      // E-mail
       var email = document.querySelector('#isso-thread input[type="email"]');
       if (email) email.placeholder = 'opcional';
       
+      // Website - múltiplos seletores
       var website = document.querySelector('#isso-thread input[type="url"]');
       if (!website) website = document.querySelector('#isso-thread input[name="website"]');
       if (!website) website = document.querySelector('#isso-thread input[id*="website"]');
+      if (!website) website = document.querySelector('#isso-thread .isso-input-wrapper:nth-child(3) input');
       if (website) website.placeholder = 'opcional';
       
+      // Textarea
       var textarea = document.querySelector('#isso-thread .isso-textarea');
       if (textarea) textarea.placeholder = 'Seu comentário (Markdown suportado)';
     }
     
-    window.addEventListener('load', ajustarPlaceholders);
-    setTimeout(ajustarPlaceholders, 500);
+    // Tenta imediatamente
+    aplicarPlaceholders();
+    
+    // Tenta várias vezes com delays
+    setTimeout(aplicarPlaceholders, 300);
+    setTimeout(aplicarPlaceholders, 600);
+    setTimeout(aplicarPlaceholders, 1000);
+    setTimeout(aplicarPlaceholders, 2000);
+    
+    // Usa MutationObserver para detectar quando os campos são adicionados
+    var observer = new MutationObserver(function(mutations) {
+      aplicarPlaceholders();
+    });
+    
+    var thread = document.querySelector('#isso-thread');
+    if (thread) {
+      observer.observe(thread, { childList: true, subtree: true });
+    }
   })();
 </script>
