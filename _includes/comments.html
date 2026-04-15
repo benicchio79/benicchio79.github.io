@@ -3,7 +3,6 @@
 
 <script data-isso="https://isso.divagar.blog/"
         data-isso-lang="pt_BR"
-        data-isso-reply-notifications-default-enabled="true"
         src="https://isso.divagar.blog/js/embed.min.js"></script>
 
 <style>
@@ -126,29 +125,37 @@
   }
 
   
- /* ========== LABELS - REMOVE "(OPCIONAL)" E SUBSTITUI ========== */
+ /* ========== LABELS - CORRIGIDO (SEM SOBREPOSIÇÃO) ========== */
   #isso-thread label[for="isso-postbox-author"],
   #isso-thread label[for="isso-postbox-email"],
   #isso-thread label[for="isso-postbox-website"] {
-    font-size: 0 !important;  /* Esconde o texto original */
+    font-size: 0 !important;
+    display: block !important;
+    margin-bottom: 2px !important;
   }
   
   #isso-thread label[for="isso-postbox-author"]::before {
     content: "Nome" !important;
     font-size: 0.8rem !important;
     color: #cccccc !important;
+    display: block !important;
+    margin-bottom: 4px !important;
   }
   
   #isso-thread label[for="isso-postbox-email"]::before {
     content: "E-mail" !important;
     font-size: 0.8rem !important;
     color: #cccccc !important;
+    display: block !important;
+    margin-bottom: 4px !important;
   }
   
   #isso-thread label[for="isso-postbox-website"]::before {
     content: "Website" !important;
     font-size: 0.8rem !important;
     color: #cccccc !important;
+    display: block !important;
+    margin-bottom: 4px !important;
   }
 
   /* ========== FORÇA CHECKBOX ========== */
@@ -173,6 +180,15 @@
     height: 14px !important;
     margin: 0 !important;
     accent-color: #88aaff !important;
+  }
+
+  /* ========== ESPAÇAMENTO DOS INPUTS ========== */
+  #isso-thread .isso-input-wrapper {
+    margin-bottom: 8px !important;
+  }
+  
+  #isso-thread .isso-input-wrapper input {
+    margin-top: 2px !important;
   }
 
 </style>
