@@ -7,9 +7,8 @@
         src="https://isso.divagar.blog/js/embed.min.js"></script>
 
 <style>
-  /* ========== ISSO - ESTILOS QUE FUNCIONAM (BASEADO NO SOL2070.IN) ========== */
+  /* ========== ISSO - ESTILOS FUNCIONAIS (BASEADO NO SOL2070.IN) ========== */
   
-  /* Cabeçalho */
   h4.isso-thread-heading {
     color: #88aaff !important;
     text-align: center;
@@ -22,19 +21,11 @@
     border-top: 2px dotted rgba(136, 170, 255, 0.3);
   }
 
-  /* Placeholders */
   ::placeholder {
     font-size: 0.9rem !important;
     color: #888888 !important;
   }
 
-  /* Preview */
-  .isso-preview p, .isso-preview strong {
-    color: #88aaff !important;
-    font-size: 0.9rem !important;
-  }
-
-  /* Labels e textos */
   .isso-input-wrapper,
   .isso-text-wrapper,
   .isso-text p,
@@ -43,7 +34,7 @@
     color: #cccccc;
   }
 
-  /* BOTÃO ENVIAR - FÓRMULA QUE FUNCIONA */
+  /* BOTÃO ENVIAR - SELETOR QUE FUNCIONA */
   .isso-form-wrapper input[type=button],
   .isso-form-wrapper input[type=submit] {
     background-color: #2a2a2a !important;
@@ -63,7 +54,6 @@
     color: #0e0525 !important;
   }
 
-  /* Campos de texto */
   .isso-textarea,
   .isso-auth-section input {
     border-color: #444444 !important;
@@ -79,17 +69,17 @@
     font-size: 0.95rem;
   }
 
-  textarea.isso-textarea:focus {
+  textarea.isso-textarea:focus,
+  .isso-auth-section input:focus {
     border-color: #88aaff !important;
+    outline: none !important;
   }
 
-  /* Checkbox */
   .isso-form-wrapper input[type=checkbox] {
     margin-right: 0.6rem;
     accent-color: #88aaff;
   }
 
-  /* Cabeçalho do comentário */
   .isso-comment-header {
     font-size: 0.9rem !important;
   }
@@ -98,27 +88,23 @@
     color: #88aaff;
   }
 
-  /* Rodapé do comentário */
   .isso-comment-footer {
     font-size: 0.75rem !important;
     text-transform: lowercase;
     letter-spacing: 0.15rem;
   }
 
-  /* Autor */
   span.isso-author,
   span.isso-page-author-suffix {
     color: #ffffff;
   }
 
-  /* Links */
   a.isso-delete:hover,
   a.isso-edit:hover,
   a.isso-reply:hover {
     color: #88aaff !important;
   }
 
-  /* Texto do comentário */
   .isso-comment .isso-text p {
     color: #dddddd;
     font-size: 0.95rem;
@@ -129,15 +115,48 @@
     overflow-wrap: break-word;
   }
 
-  /* Bordas entre comentários */
   .isso-comment:not(:first-of-type),
   .isso-follow-up .isso-comment {
     border-top: 1px solid #333333 !important;
   }
 
-  /* Destaque para autor da página */
   .isso-comment.isso-is-page-author > .isso-text-wrapper {
     background: linear-gradient(to bottom, #1a1a2e, transparent);
     border-radius: 0 0 5px 5px;
   }
+
+  /* ========== LABELS - REMOVE "(OPCIONAL)" ========== */
+  #isso-thread label[for="isso-postbox-author"]::after {
+    content: "Nome" !important;
+  }
+  
+  #isso-thread label[for="isso-postbox-email"]::after {
+    content: "E-mail" !important;
+  }
+  
+  #isso-thread label[for="isso-postbox-website"]::after {
+    content: "Website" !important;
+  }
 </style>
+
+<!-- Script de placeholders (CIRÚRGICO - NÃO TOCA NO BOTÃO) -->
+<script>
+  (function() {
+    function ajustarPlaceholders() {
+      var author = document.querySelector('#isso-thread input[name="author"]');
+      if (author) author.placeholder = 'opcional';
+      
+      var email = document.querySelector('#isso-thread input[type="email"]');
+      if (email) email.placeholder = 'opcional';
+      
+      var website = document.querySelector('#isso-thread input[type="url"]');
+      if (website) website.placeholder = 'opcional';
+      
+      var textarea = document.querySelector('#isso-thread .isso-textarea');
+      if (textarea) textarea.placeholder = 'Seu comentário (Markdown suportado)';
+    }
+    
+    window.addEventListener('load', ajustarPlaceholders);
+    setTimeout(ajustarPlaceholders, 500);
+  })();
+</script>
