@@ -7,7 +7,7 @@
         src="https://isso.divagar.blog/js/embed.min.js"></script>
 
 <style>
-  /* ========== BOTÕES LADO A LADO (SEM TOCAR NO BOTÃO) ========== */
+  /* ========== BOTÕES LADO A LADO ========== */
   #isso-thread .isso-post-action {
     display: flex !important;
     flex-direction: row !important;
@@ -20,6 +20,23 @@
       flex-direction: column !important;
       align-items: stretch !important;
     }
+  }
+
+  /* ========== BOTÃO ENVIAR (FÓRMULA QUE FUNCIONA) ========== */
+  .isso-form-wrapper input[type=submit] {
+    background-color: #88aaff !important;
+    color: #0e0525 !important;
+    padding: 6px 14px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    font-size: 0.85rem !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+  }
+
+  .isso-form-wrapper input[type=submit]:hover {
+    background-color: #ffffff !important;
+    color: #0e0525 !important;
   }
 
   /* ========== LABELS - REMOVE "(OPCIONAL)" ========== */
@@ -73,29 +90,26 @@
     margin: 0 !important;
     accent-color: #88aaff !important;
   }
-
-  /* ========== PLACEHOLDERS (VIA CSS - ONDE SUPORTADO) ========== */
-  #isso-thread input[name="author"]::placeholder {
-    content: "opcional";
-    color: #888888;
-    font-style: italic;
-  }
-  
-  #isso-thread input[type="email"]::placeholder {
-    content: "opcional";
-    color: #888888;
-    font-style: italic;
-  }
-  
-  #isso-thread input[type="url"]::placeholder {
-    content: "opcional";
-    color: #888888;
-    font-style: italic;
-  }
-  
-  #isso-thread .isso-textarea::placeholder {
-    content: "Seu comentário (Markdown suportado)";
-    color: #888888;
-    font-style: italic;
-  }
 </style>
+
+<!-- Script de placeholders (NÃO TOCA NO BOTÃO) -->
+<script>
+  (function() {
+    function ajustarPlaceholders() {
+      var author = document.querySelector('#isso-thread input[name="author"]');
+      if (author) author.placeholder = 'opcional';
+      
+      var email = document.querySelector('#isso-thread input[type="email"]');
+      if (email) email.placeholder = 'opcional';
+      
+      var website = document.querySelector('#isso-thread input[type="url"]');
+      if (website) website.placeholder = 'opcional';
+      
+      var textarea = document.querySelector('#isso-thread .isso-textarea');
+      if (textarea) textarea.placeholder = 'Seu comentário (Markdown suportado)';
+    }
+    
+    window.addEventListener('load', ajustarPlaceholders);
+    setTimeout(ajustarPlaceholders, 500);
+  })();
+</script>
