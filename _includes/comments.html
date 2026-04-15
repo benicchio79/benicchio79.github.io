@@ -124,22 +124,22 @@
   }
 
   
-/* ========== CAMPOS LADO A LADO - LABELS ORGANIZADOS ========== */
+  /* ========== LAYOUT EXATO - COMENTÁRIO ACIMA, CAMPOS LADO A LADO COM BOTÕES ========== */
   
-/* Container dos campos Nome/Email/Website */
+  /* Container principal - flex para alinhar os campos com os botões */
   #isso-thread .isso-auth-section {
     display: flex !important;
     flex-wrap: wrap !important;
-    gap: 15px !important;
-    margin-bottom: 15px !important;
+    align-items: flex-end !important;
+    gap: 10px !important;
   }
   
-  /* Cada wrapper de input */
+  /* Cada wrapper de input (Nome, E-mail, Website) */
   #isso-thread .isso-input-wrapper {
     flex: 1 1 0px !important;
-    min-width: 130px !important;
+    min-width: 110px !important;
     position: relative !important;
-    padding-top: 22px !important;
+    padding-top: 20px !important;
   }
   
   /* Labels flutuando acima */
@@ -155,7 +155,7 @@
   
   #isso-thread label[for="isso-postbox-author"]::before {
     content: "Nome" !important;
-    font-size: 0.8rem !important;
+    font-size: 0.75rem !important;
     color: #cccccc !important;
     position: absolute !important;
     top: 0 !important;
@@ -164,7 +164,7 @@
   
   #isso-thread label[for="isso-postbox-email"]::before {
     content: "E-mail" !important;
-    font-size: 0.8rem !important;
+    font-size: 0.75rem !important;
     color: #cccccc !important;
     position: absolute !important;
     top: 0 !important;
@@ -173,7 +173,7 @@
   
   #isso-thread label[for="isso-postbox-website"]::before {
     content: "Website" !important;
-    font-size: 0.8rem !important;
+    font-size: 0.75rem !important;
     color: #cccccc !important;
     position: absolute !important;
     top: 0 !important;
@@ -184,22 +184,44 @@
   #isso-thread .isso-input-wrapper input {
     width: 100% !important;
     box-sizing: border-box !important;
+    padding: 6px 8px !important;
+    font-size: 0.8rem !important;
   }
   
-  /* Campo de comentário sem padding extra */
+  /* Container dos botões - alinhado à direita */
+  #isso-thread .isso-post-action {
+    display: flex !important;
+    gap: 8px !important;
+    margin-left: auto !important;
+    padding-top: 20px !important;
+  }
+  
+  /* Botões */
+  .isso-form-wrapper input[type=submit],
+  .isso-form-wrapper input[type=button] {
+    padding: 6px 12px !important;
+    font-size: 0.7rem !important;
+    white-space: nowrap !important;
+  }
+  
+  /* Campo de comentário */
   #isso-thread .isso-textarea-wrapper {
-    padding-top: 0 !important;
-    margin-top: 5px !important;
+    margin-bottom: 10px !important;
   }
   
   /* Mobile: empilha */
-  @media (max-width: 500px) {
+  @media (max-width: 700px) {
     #isso-thread .isso-auth-section {
       flex-direction: column !important;
-      gap: 5px !important;
+      align-items: stretch !important;
     }
     #isso-thread .isso-input-wrapper {
       min-width: 100% !important;
+    }
+    #isso-thread .isso-post-action {
+      margin-left: 0 !important;
+      justify-content: flex-start !important;
+      padding-top: 5px !important;
     }
   }
 
