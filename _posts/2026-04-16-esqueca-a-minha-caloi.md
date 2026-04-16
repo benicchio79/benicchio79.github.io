@@ -31,7 +31,7 @@ A promessa da vez, que também não saiu do papel, era uma [nova expansão da ci
 
 A única coisa que de fato saiu do papel foi a [privatização da Usina Elevatória de Traição](https://g1.globo.com/sp/sao-paulo/noticia/2020/09/04/doria-diz-que-repassou-usina-de-traicao-ao-setor-privado-para-criar-puerto-madero-no-rio-pinheiros-por-valor-acima-do-esperado.ghtml), que deverá ser transformada em mais um shopping center de luxo. A região é o foco mais antigo e rentável da especulação imobiliária e do novorriquismo paulistanos, com bizarrices como o [Shopping "Castelo Medieval" Cidade Jardim](https://www.apocalipsemotorizado.net/2006/08/13/concurso-de-ideias-ponte-daslu-pq-cidade-jardim/), a finada [sonegadora de luxo Daslu](https://economia.uol.com.br/noticias/redacao/2022/06/07/daslu-vai-a-leilao-auge-e-queda-do-imperio-de-luxo.htm) e a [Ponte Carrocrata Estaiada](https://www.apocalipsemotorizado.net/2009/05/11/o-x-do-tesouro-um-ano-depois/).
 
-A ideia anunciada é transformar a região em um “Puerto Madeiro Paulistano”, em referência à região mais cafona, gentrificada e sem alma de Buenos Aires.
+A ideia anunciada é transformar a região em um “Puerto Madero Paulistano”, em referência à região mais cafona, gentrificada e sem alma de Buenos Aires.
 
 {% include image-with-caption.html src="/assets/images/2026-04/ciclo-pinheiros02.jpg" alt="Momentos agradáveis sem Lycra / Foto: Thiago Benicchio" %}
 
@@ -39,7 +39,7 @@ Uma ciclovia junto ao poluído Rio Pinheiros tinha um componente simpático: apr
 
 A infância confinada de São Paulo é um problema crônico. Parques geralmente estão lotados aos sábados e domingos, as ruas continuam sendo território de selvageria motorizada e as ciclofaixas pintadas pela gestão Haddad estão muito longe de serem seguras para crianças. Sobram as ciclofaixas de lazer e o Minhocão, que permanecem locais agradáveis e não muito cheios para passeios mais tranquilos.
 
-Uma pena, pois experiência estética de pedalar junto ao rio na ciclovia da marginal poderia ser um instrumento de fomento à cidadania e ao pertencimento. Além disso, a ausência de veículos motorizados poderia ser um atrativo para que jovens ciclistas e famílias usassem a bicicleta de forma tranquila e lúdica. Infelizmente não é essa a realidade da ciclovia da Marginal Pinheiros no trecho "nobre".
+Uma pena, pois a experiência estética de pedalar junto ao rio na ciclovia da Marginal poderia ser um instrumento de fomento à cidadania e ao pertencimento. Além disso, a ausência de veículos motorizados poderia ser um atrativo para que jovens ciclistas e famílias usassem a bicicleta de forma tranquila e lúdica. Infelizmente não é essa a realidade da ciclovia da Marginal Pinheiros no trecho "nobre".
 
 
 PS aos jovens: nas décadas de 80 e 90 o slogan “Não esqueça minha Caloi” era frequente em propagandas da fabricante de bicicletas, em especial durante o Natal e o Dia das Crianças.
