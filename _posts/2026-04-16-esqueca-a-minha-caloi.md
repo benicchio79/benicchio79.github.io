@@ -8,7 +8,7 @@ tags:
   - bicicletas
   - ciclovia
   - marginal_pinheiros
-description: A ciclovia da Marginal Pinheiros poderia ser um ótimo local para levar crianças para andar de bicicleta, mas a experiência é tensa e pouco convidativa.
+description: A ciclovia da Marginal Pinheiros poderia ser um ótimo local para pedalar com crianças, mas a experiência é tensa e pouco convidativa.
 image: /assets/images/2026-04/ciclo-pinheiros01.jpg
 ---
 {% include image-with-caption.html src="/assets/images/2026-04/ciclo-pinheiros01.jpg" alt="Sai da frente, criança / Foto: Thiago Benicchio" %}
