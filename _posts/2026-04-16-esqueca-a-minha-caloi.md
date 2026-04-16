@@ -37,7 +37,7 @@ A ideia anunciada é transformar a região em um “Puerto Madero Paulistano”,
 
 Uma ciclovia junto ao poluído Rio Pinheiros tinha um componente simpático: aproximar o cidadão do problema como estratégia para resolvê-lo. Mas geralmente as iniciativas feitas para atender a classe dominante branca da zona sudoeste de São Paulo envolvem tramoias especulativas com o setor privado e resultam em locais horríveis.
 
-A infância confinada de São Paulo é um problema crônico. Parques geralmente estão lotados aos sábados e domingos, as ruas continuam sendo território de selvageria motorizada e as ciclofaixas pintadas pela gestão Haddad estão muito longe de serem seguras para crianças. Sobram as ciclofaixas de lazer e o Minhocão, que permanecem locais agradáveis e não muito cheios para passeios mais tranquilos.
+A infância confinada em São Paulo é um problema crônico. Parques geralmente estão lotados aos sábados e domingos, as ruas continuam sendo território de selvageria motorizada e as ciclofaixas pintadas pela gestão Haddad estão muito longe de serem seguras para crianças. Sobram as ciclofaixas de lazer e o Minhocão, que permanecem locais agradáveis e não muito cheios para passeios mais tranquilos.
 
 Uma pena, pois a experiência estética de pedalar junto ao rio na ciclovia da Marginal poderia ser um instrumento de fomento à cidadania e ao pertencimento. Além disso, a ausência de veículos motorizados poderia ser um atrativo para que jovens ciclistas e famílias usassem a bicicleta de forma tranquila e lúdica. Infelizmente não é essa a realidade da ciclovia da Marginal Pinheiros no trecho "nobre".
 
