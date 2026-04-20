@@ -36,9 +36,15 @@ title: Divagar
 
 <h2>Anteriores:</h2>
 <ul class="post-list">
-  {% for post in paginator.posts %}
-    {% include post-list-item.html post=post %}
-  {% endfor %}
+  {% if paginator.page == 1 %}
+    {% for post in paginator.posts offset:2 %}
+      {% include post-list-item.html post=post %}
+    {% endfor %}
+  {% else %}
+    {% for post in paginator.posts %}
+      {% include post-list-item.html post=post %}
+    {% endfor %}
+  {% endif %}
 </ul>
 
 {% if paginator.total_pages > 1 %}

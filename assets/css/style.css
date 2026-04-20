@@ -185,7 +185,7 @@ img {
 }
 
 .post-item {
-  margin-bottom: 1rem;
+  margin-bottom: 1.4rem;
   border-bottom: 1px solid #222;
   padding-bottom: 0.5rem;
   transition: all 0.2s ease;
@@ -207,7 +207,7 @@ img {
 .post-title {
   color: #dddddd;
   text-decoration: none;
-  font-weight: normal;
+  font-weight: bold;
   margin-left: 1.2rem;
   font-size: 1.05rem;
   position: relative;
@@ -217,6 +217,17 @@ img {
 .post-title:hover {
   color: #88aaff;
   text-decoration: none;
+}
+
+.post-description {
+  font-size: 0.9rem;
+  color: #aaaaaa;
+  line-height: 1.5;
+  margin-top: 0.3rem;
+  margin-left: 1.6rem;
+  white-space: normal;
+  font-style: normal;
+  word-wrap: break-word;
 }
 
 .post-content {
@@ -346,40 +357,6 @@ img {
   color: #88aaff;
 }
 
-/* ==========================================================================
-   Tooltip para Descrição do Post
-   ========================================================================== */
-.post-title:hover::after {
-  content: attr(data-description);
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  margin-bottom: 0.5rem;
-  background-color: #111;
-  color: #888;
-  padding: 0.5rem 0.8rem;
-  border-radius: 0px;
-  font-size: 0.8rem;
-  font-weight: normal;
-  font-style: normal;
-  white-space: normal;
-  width: 50vw;
-  min-width: 150px;
-  max-width: 300px;
-  z-index: 10;
-  border: 1px solid #333;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  font-family: 'iA Writer Duo', monospace;
-  line-height: 1.4;
-  word-wrap: break-word;
-}
-
-@media (max-width: 600px) {
-  .post-title:hover::after {
-    max-width: 200px;
-    left: -10px;
-  }
-}
 
 /* ==========================================================================
    Páginas (Pages)

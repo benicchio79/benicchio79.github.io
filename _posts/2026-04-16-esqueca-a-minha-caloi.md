@@ -3,7 +3,8 @@ layout: post
 title: Esqueça a minha Caloi
 date: 16-04-2026 14:32 -0300
 categories:
-  - cidades, paternidade
+  - cidades
+  - paternidade
 tags:
   - bicicletas
   - ciclovia
