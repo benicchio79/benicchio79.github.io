@@ -62,4 +62,4 @@ Tá certo que a parceria não é nova: na campanha que elegeu o prefeito oculto 
 
 Talvez o governador, em campanha de reeleição, não tenha muito o que mostrar de sua própria gestão, a não ser corpos de pessoas executadas pela PM. E agora tem também a “Times Square” paulistana. 
 
-É São Paulo de 2026, mas lembro da Detroit de 2028. E aí fico pensando se o vilão bilionário Dick Jones será arremessado do alto de um telão de LED pelo policial Robocop Alex Jones. Como diria a semiótica: simbolicamente, é claro.
+É São Paulo de 2026, mas lembro da Detroit de 2028. E aí fico pensando se o vilão bilionário Dick Jones será arremessado do alto de um telão de LED pelo policial Robocop Alex Murphy. Como diria a semiótica: simbolicamente, é claro.
