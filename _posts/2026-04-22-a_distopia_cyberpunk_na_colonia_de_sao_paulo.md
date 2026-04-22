@@ -20,7 +20,7 @@ Eu não frequentei aulas de semiótica suficientes na faculdade para analisar co
 
 Outra falha da minha formação é não conhecer tão a fundo o universo cyberpunk, portanto não consigo fazer ligações com as inúmeras referências que poderiam ser puxadas a partir do vídeo. 
 
-Do cyberpunk eu sei o básico: não é um desenho dos Jetsons, é uma distopia sobre a tentativa de dominação dos humanos pelas máquinas. De Blade Runner a Matrix, de Neuromancer a Robocop, o o cyberpunk apresenta a luta pela sobrevivência humana frente à hecatombe tecnológica, geralmente em cenários urbanos degradados.
+Do cyberpunk eu sei o básico: não é um desenho dos Jetsons, é uma distopia sobre a tentativa de dominação dos humanos pelas máquinas. De Blade Runner a Matrix, de Neuromancer a Robocop, o cyberpunk apresenta a luta pela sobrevivência humana frente à hecatombe tecnológica, geralmente em cenários urbanos degradados.
 
 {% include image-with-caption.html src="/assets/images/2026-04/centro_square.jpg" alt="Print de vídeo / Reprodução" %}
 
