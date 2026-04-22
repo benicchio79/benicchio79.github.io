@@ -50,11 +50,11 @@ A toada é sempre a mesma: a cidade é só um suporte pra reprodução do capita
 
 Nos tempos de Kassab prefeito, o discurso de “recuperação do centro” empregado por Tarcísio era chamado de “revitalização”, como se ali não houvessem vidas. Na verdade não haviam as vidas desejadas pelo capital: aquelas dispostas a “consumir, obedecer e se submeter”.
 
-A lógica permanece a mesma: incomodados (ou pobres) que se mudem.
+A lógica permanece: incomodados (ou pobres) que se mudem.
 
 Curioso é que Kassab, secretário de Tarcísio até o mês passado, ganhou palmas e prêmios pela Lei Cidade Limpa, aprovada vinte anos atrás. A iniciativa, vendida como combate à poluição visual, logo se transformou na consolidação de um oligopólio publicitário na cidade.
 
-À época foram retirados os outdoores e letreiros caóticos de pequenas e médias empresas, e logo toda a publicidade (em pontos de ônibus, relógios, lixeiras, etc.) foi parar nas mãos de grandes consórcios publicitários. Ficou tudo mais limpinho e eficiente.
+À época foram retirados os outdoores e letreiros caóticos de pequenas e médias empresas, e assim toda a publicidade (em pontos de ônibus, relógios, lixeiras, etc.) foi parar nas mãos de grandes consórcios publicitários. Ficou tudo mais limpinho e eficiente.
 
 É curioso também pensar o que Tarcísio está fazendo ao divulgar um projeto que é da prefeitura.
 
