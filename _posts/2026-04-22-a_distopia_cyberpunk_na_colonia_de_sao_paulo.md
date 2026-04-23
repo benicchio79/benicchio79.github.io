@@ -42,7 +42,7 @@ Mark Fisher diz ainda que o realismo capitalista é uma “patologia da esquerda
 
 {% include image-with-caption.html src="/assets/images/2026-04/kramer_centro.gif" alt="Venha morar no centro! - Seinfeld / Reprodução" %}
 
-Eu morei durante mais de uma década na Av. Paulista. Durante quase 1 ano perdi o sono e a paciência numa luta inglória contra a iluminação de um painel publicitário instalado no prédio da frente. 
+Eu morei mais de uma década na Av. Paulista. Durante quase 1 ano perdi o sono e a paciência numa luta inglória contra a iluminação de um painel publicitário instalado no prédio da frente. 
 
 A “Times Square” colonial chegou antes em Curitiba. E não demorou para [tirar o sono de moradores da cidade](https://www.plural.jor.br/moradores-perdem-o-sono-com-primeiro-telao-da-times-square-curitibana/). 
 
