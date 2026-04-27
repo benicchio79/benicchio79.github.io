@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ambientalismo mental
+title: Ambientalismo da mente
 date: 27-04-2026 17:35 -0300
 categories:
   - tecnologia
