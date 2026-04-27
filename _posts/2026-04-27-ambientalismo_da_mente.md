@@ -88,7 +88,11 @@ Nosso objetivo: limpar as correntezas da nossa psiquê.
 
 Junte-se à Frente pela Libertação da Mente.
 
-***
--> A antropóloga Letícia Cesarino utiliza o conceito de "ecologia da mente", para falar sobre a construção das nossas subjetividades extra-corpóreas. Vale escutar [esse podcast](https://chutandoaescada.com.br/2026/03/26/chute-391/), ler [esse texto](https://brunacastanheira.substack.com/p/existe-uma-saida) ou o livro [O Mundo do avesso](https://www.ubueditora.com.br/mundo-avesso.html)
 
--> Franco 'Bifo' Berardi escreveu sobre a apropriação do tempo e as relações homem-máquina no capitalismo tardio em [Depois do futuro](https://www.ubueditora.com.br/depois-do-futuro.html)
+
+:. *Traduzido de: [Adbusters](https://adbusters.substack.com/p/the-environmental-movement-of-the)*
+
+***
+-> A antropóloga Letícia Cesarino utiliza o conceito de "ecologia da mente", para falar sobre a construção das nossas subjetividades extra-corpóreas. Vale escutar [esse podcast](https://chutandoaescada.com.br/2026/03/26/chute-391/), ler [esse texto](https://brunacastanheira.substack.com/p/existe-uma-saida) ou o livro [O Mundo do avesso](https://www.ubueditora.com.br/mundo-avesso.html).
+
+-> Franco 'Bifo' Berardi escreveu sobre a apropriação do tempo e as relações homem-máquina no capitalismo tardio em [Depois do futuro](https://www.ubueditora.com.br/depois-do-futuro.html).
