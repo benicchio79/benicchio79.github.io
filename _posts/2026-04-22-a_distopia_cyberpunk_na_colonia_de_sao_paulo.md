@@ -16,7 +16,7 @@ image: /assets/images/2026-04/sonho_cyberpunk.jpg
 ---
 {% include image-with-caption.html src="/assets/images/2026-04/sonho_cyberpunk.jpg" alt="Saussure explica / Colagem - reprodução" %}
 
-Eu não frequentei aulas de semiótica suficientes na faculdade para analisar com o requinte acadêmico necessário o [vídeo publicado](https://bsky.app/profile/danielduncan.bsky.social/post/3mjxpnb2j7s2u) pelo governador de São Paulo sobre a “Times Square paulistana” (também não desenvolvi habilidades que me permitissem fazer uma colagem melhor do que a que está acima). 
+Eu não frequentei aulas de semiótica suficientes na faculdade para analisar com o requinte acadêmico necessário o [vídeo publicado](https://www.pixnoy.com/post/6739394952531063427215/) ([link alternativo](https://snappable.media/video/esse-maluco-vai-me-fazer-perder-o-r%C3%A9u-prim%C3%A1rio.ltBe)) pelo governador de São Paulo sobre a “Times Square paulistana” (também não desenvolvi habilidades que me permitissem fazer uma colagem melhor do que a que está acima). 
 
 Outra falha da minha formação é não conhecer tão a fundo o universo cyberpunk, portanto não consigo fazer ligações com as inúmeras referências que poderiam ser puxadas a partir do vídeo. 
 
