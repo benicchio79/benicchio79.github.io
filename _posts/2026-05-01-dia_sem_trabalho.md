@@ -7,8 +7,7 @@ categories:
 tags:
   - trabalho
   - capitalismo
-  - política
-description: Se organizar direitinho, todo mundo vive bem. Misturei Ayrton Senna com Hobsbawn para falar sobre o Primeiro de Maio.
+description: Se organizar direitinho, todo mundo vive bem. Misturei Ayrton Senna com Hobsbawm para falar sobre o Primeiro de Maio.
 image: /assets/images/2026-05/01-no_queremos_trabajo.jpg
 ---
 {% include image-with-caption.html src="/assets/images/2026-05/01-no_queremos_trabajo.jpg" alt="Dinero Gratis, coletivo EnMedio, Barcelona, 2001 / Foto: Maria Ruido" %}
@@ -53,7 +52,7 @@ O trabalho capitalista não é algo a ser celebrado, a não ser pelos capitalist
 
 “Arbeit macht frei” (o trabalho liberta), já diziam os portões de Auschwitz sobre o trabalho capitalista.
 
-***
+{% include image-with-caption.html src="/assets/images/2026-05/01-Turn-Left_byMonaCaron_1.jpg" alt="Turn Left, Mona Caron / Reprodução" %}
 
 Logo depois do primeiro Dia dos Trabalhadores, o mundo entrou no século XX, com suas guerras e tiranias, mas também com revoluções, revoltas, avanços científicos e tecnológicos, saneamento básico, eliminação de doenças, ampliação da expectativa de vida, direitos sociais e individuais, sonhos de emancipação e liberdade, alfabetização em massa, comunicação planetária, produções de arte fabulosas e até uns pulinhos na Lua...
 
