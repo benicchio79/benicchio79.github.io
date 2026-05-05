@@ -51,3 +51,8 @@ A ansiedade e a sensação de impotência me parecem ser o resultado mais previs
 Pensar em um metabolismo comunicacional mais saudável, tanto no âmbito individual quanto coletivo, pode nos ajudar a sair deste buraco. 
 
 É possível se alimentar melhor de informação, produzir mais palavras orgânicas, cultivar uma horta comunitária de trocas de ideias e evitar espalhar lixo de *fast food* nas calçadas digitais.
+
+***
+<u>PS:</u>
+
+-> Bruna Castanheira escreveu uma reflexão interessante sobre os processos criativos e a saturação dos modelos de IA: [O teto da originalidade](https://brunacastanheira.substack.com/p/o-teto-da-originalidade)
