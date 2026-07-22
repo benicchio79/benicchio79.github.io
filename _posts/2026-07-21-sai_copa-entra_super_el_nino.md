@@ -25,7 +25,7 @@ No meu caso, não em torno de alguma torcida pela medíocre seleção de jogador
 
 ***
 
-Enquanto acompanhávamos “influenciadores” que jogam bola no tempo livre entre uma propaganda de bet e uma ostentação no Instagram, mais de 5 mil pessoas morreram em um terremoto na Venezuela, outras mil foram vítimas de ondas de calor na Europa, um fascista de boné venceu as eleições na Colômbia, uma nepo-ditadora ganhou na Bolívia, o genocídio colonial continuou na Palestina e o imperialismo estadunidense apertou ainda mais o nó criminoso no pescoço de Cuba.
+Enquanto acompanhávamos “influenciadores” que jogam bola no tempo livre entre uma propaganda de bet e uma ostentação no Instagram, mais de 5 mil pessoas morreram em um terremoto na Venezuela, outras mil foram vítimas de ondas de calor na Europa, um fascista de boné venceu as eleições na Colômbia, uma nepo-ditadora ganhou no Peru, o genocídio colonial continuou na Palestina e o imperialismo estadunidense apertou ainda mais o nó criminoso no pescoço de Cuba.
 
 Em outros tempos, o pão e circo seria mais indigesto. Desta vez confesso que preferia mais alguns meses de Copa no lugar do que está por vir no segundo semestre.
 
