@@ -4,9 +4,12 @@ title: Receba atualizações
 permalink: /receba-atualizacoes/
 ---
 
-📬 Para receber as novas postagens por email, cadastre-se aqui:
+📬 Para receber as novas postagens por e-mail, cadastre-se aqui:
 
 {% include newsletter.html %}
+
+⚠️ Depois de clicar em "Inscrever", você receberá um e-mail com um link de confirmação. É necessário clicar neste link para concluir o processo de inscrição.
+<br>
 <br>
 
 <h1>Feed RSS</h1>

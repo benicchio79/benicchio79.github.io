@@ -6,7 +6,7 @@ permalink: /news-confirm/
 
 # ⚠️ Quase lá!
 
-📬 Enviamos um email de confirmação para você.
+📬 Enviamos um e-mail de confirmação para você.
 
 👉 É só abrir e clicar no link para finalizar sua inscrição.
 
