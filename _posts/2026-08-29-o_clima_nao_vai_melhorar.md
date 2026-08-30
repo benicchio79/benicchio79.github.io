@@ -39,7 +39,7 @@ Nos últimos anos ficou mais fácil notar a fragilidade da democracia liberal, m
 
 É curioso (ou talvez biologicamente prepotente) que sejamos capazes de acreditar mais na derrocada de um conceito abstrato do que no esfacelamento explícito das condições materiais necessárias à vida. 
 
-Talvez a perversão do nosso universo de crenças venha da vitória do individualismo neoliberal: até sabemos intimamente que o planeta vai colapsar, mas acreditamos que teremos dinheiro suficiente para comprar a nossa salvação. Para os mais ricos, um bunker. Para os menos, um ar condicionado.
+Talvez a perversão do nosso universo de crenças seja fruto da vitória do individualismo neoliberal: até sabemos intimamente que o planeta vai colapsar, mas acreditamos que teremos dinheiro suficiente para comprar a nossa salvação. Para os mais ricos, um bunker. Para os menos, um aparelho de ar condicionado.
 
 ***
 
@@ -47,13 +47,13 @@ A noção do colapso, como aponta Torturra, não é nova. Há mais de três déc
 
 Muitas conferências da ONU depois, escondemos o problema debaixo do carro elétrico e do mercado de créditos de carbono. Depois nos trouxeram a “transição energética”, uma distorção semelhante à ideia de reciclagem dos anos 2000. 
 
-Da mesma forma que nada adianta produzir toneladas embalagens plásticas acreditando que elas serão transformadas em novas embalagens com um passe de mágica, pouco serve um SUV elétrico que leva apenas uma pessoa dentro.
+Da mesma forma que nada adianta produzir toneladas embalagens plásticas acreditando que elas serão transformadas em novas embalagens com um passe de mágica, pouca serventia tem um SUV elétrico que leva apenas uma pessoa dentro.
 
 E quando nada disso pareceu ter algum efeito sobre a realidade, com os eventos extremos do clima acontecendo com cada vez mais frequência, entramos em estado de negação. A negação dos não-negacionistas.
 
 ***
 
-Logo depois do fim do inverno teremos eleições. A pauta climática ocupa menos espaço do que o roubo de celulares, que se tornou uma espécie de metonímia da violência urbana no Brasil (por sua vez a metonímia eleitoral de todos os males desta terra).
+Logo depois do fim do inverno teremos eleições. A pauta climática ocupa menos espaço que o roubo de celulares, que se tornou uma espécie de metonímia da violência urbana no Brasil (por sua vez a metonímia eleitoral de todos os males desta terra).
 
 Sem minimizar os transtornos que um roubo de celular traz à quem é vítima, estamos mais preocupados em não perder a nossa coleira eletrônica de vidro escuro do que em manter condições mínimas de sobrevivência biológica de boa parte da espécie. 
 
@@ -61,6 +61,6 @@ Seguimos em total negação quando o assunto é repensar a nossa forma de ocupar
 
 O El Niño de 2026 terá seu pico em alguns meses. Os efeitos crônicos para a estrutura que acreditamos ser eterna (a energia na tomada, a água na torneira e a comida no supermercado) deverão ser sentidos no ano que vem, com escassez de alimentos e falta de água. 
 
-A primavera e o verão prometem ainda enchentes, seca, ondas de calor, queimadas, ventanias e deslizamentos, a depender de onde você esteja no Brasil.
+A primavera e o verão prometem ainda enchentes, secas, ondas de calor, queimadas, ventanias e deslizamentos, a depender de onde você esteja no Brasil.
 
 As condições de vida cotidiana estão se agravando a cada dia. E não é porque esse texto catastrófico está dizendo, mas sim porque há mais de 30 anos todo mundo que entende do assunto diz que a bomba estava prestes a estourar. E porque quase todo mundo que tinha poder de fazer algo a respeito não o fez.
