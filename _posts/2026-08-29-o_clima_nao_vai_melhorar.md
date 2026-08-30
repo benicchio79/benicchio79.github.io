@@ -37,7 +37,7 @@ A eletricidade que chega pela tomada, a comida no supermercado, a água na torne
 
 Nos últimos anos ficou mais fácil notar a fragilidade da democracia liberal, mas seguimos confiando que as estruturas e processos reais que sustentam a vida biológica desta espécie e seus agrupamentos não irão colapsar. 
 
-É curioso (ou talvez biologicamente prepotente) que conseguimos acreditar mais na derrocada de um conceito abstrato do que no esfacelamento visível das condições materiais necessárias à vida. 
+É curioso (ou talvez biologicamente prepotente) que sejamos capazes de acreditar mais na derrocada de um conceito abstrato do que no esfacelamento explícito das condições materiais necessárias à vida. 
 
 Talvez a perversão do nosso universo de crenças venha da vitória do individualismo neoliberal: até sabemos intimamente que o planeta vai colapsar, mas acreditamos que teremos dinheiro suficiente para comprar a nossa salvação. Para os mais ricos, um bunker. Para os menos, um ar condicionado.
 
@@ -55,7 +55,9 @@ E quando nada disso pareceu ter algum efeito sobre a realidade, com os eventos e
 
 Logo depois do fim do inverno teremos eleições. A pauta climática ocupa menos espaço do que o roubo de celulares, que se tornou uma espécie de metonímia da violência urbana no Brasil (por sua vez a metonímia eleitoral de todos os males desta terra).
 
-Sem minimizar os transtornos que um roubo de celular traz à quem é vítima, estamos mais preocupados em não perder a nossa coleira eletrônica de vidro escuro do que em manter condições mínimas de sobrevivência biológica, ou de evitar catástrofes que dizimam territórios e populações em poucas horas.
+Sem minimizar os transtornos que um roubo de celular traz à quem é vítima, estamos mais preocupados em não perder a nossa coleira eletrônica de vidro escuro do que em manter condições mínimas de sobrevivência biológica de boa parte da espécie. 
+
+Seguimos em total negação quando o assunto é repensar a nossa forma de ocupar o espaço, usar os recursos ou evitar catástrofes que dizimam territórios e populações em poucas horas.
 
 O El Niño de 2026 terá seu pico em alguns meses. Os efeitos crônicos para a estrutura que acreditamos ser eterna (a energia na tomada, a água na torneira e a comida no supermercado) deverão ser sentidos no ano que vem, com escassez de alimentos e falta de água. 
 
