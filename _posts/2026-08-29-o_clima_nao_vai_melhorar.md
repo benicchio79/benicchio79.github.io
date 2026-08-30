@@ -11,7 +11,7 @@ tags:
 description: Marolas de calor com 30 graus no inverno, mas estamos mais preocupados com o roubo de celulares do que com o clima
 image: /assets/images/2026-08/03-bunker_sp.jpg
 ---
-{% include image-with-caption.html src="/assets/images/2026-08/03-bunker_sp.jpg" alt="Bunker termo-acústico. Foto: Thiago Benicchio" %}
+{% include image-with-caption.html src="/assets/images/2026-08/03-bunker_sp.jpg" alt="Proto-bunker termo-acústico. Foto: Thiago Benicchio" %}
 
 Na semana retrasada foram apenas dois dias com temperaturas acima de 30 graus em pleno inverno paulistano. No segundo dia, às 10 da noite, o termômetro do meu quarto estava marcando 27 graus e 33% de umidade do ar.
 
