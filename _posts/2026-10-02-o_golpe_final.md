@@ -23,7 +23,7 @@ Em outro 17 de Abril, só que em 1971, Ustra foi um dos torturadores que matou [
 
 Não conheci meu avô, que foi preso no dia 16, torturado por mais de 24 horas e depois assassinado por agentes do Estado a serviço da ditadura de plantão.
 
-Na manhã do dia 17, horas antes de sua execução nos porões do DOI-Codi, os jornais já exercitavam o jornalismo declaratório em defesa dos golpistas. Matérias mentirosas plantadas pelos órgãos de repressão noticiavam que meu avô tinha sido morto “em confronto” no dia anterior.
+Na manhã do dia 17, horas antes de sua execução nos porões do DOI-Codi, a imprensa já exercitava o jornalismo declaratório em defesa dos golpistas. Matérias mentirosas plantadas pelos órgãos de repressão noticiavam que meu avô tinha sido morto “em confronto” no dia anterior.
 
 {% include image-with-caption.html src="/assets/images/2026-10/seixas.png" alt="Jornalismo declaratório. Folha de São Paulo, 17 de abril de 1971" %}
 
