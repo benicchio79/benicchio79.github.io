@@ -35,17 +35,17 @@ Atuando como assessoria de imprensa de um grupo político-financeiro instalado d
 
 {% include image-with-caption.html src="/assets/images/2026-10/midia_mente.jpg" alt="A mídia mente" %}
 
-Iniciamos a década de 20 com outras duas tentativas de golpe, antes e depois das eleições de 2022. Neste momento as facções golpistas do bolsonarismo ameaçavam excluir do butim setores da mídia hegemônica, que foram obrigados temporariamente a defender “a democracia”.
+Iniciamos a década de 20 com outras duas tentativas de golpe, antes e depois das eleições de 2022. Naquele momento as facções golpistas do bolsonarismo ameaçavam excluir do butim setores da mídia hegemônica, que foram obrigados temporariamente a defender “a democracia”.
 
 Com a proximidade das eleições de 2026, a mídia voltou ao modo golpista. O primeiro movimento deste ano foi esconder Flavio Bolsonaro atuando (novamente) como como propagadora de vazamentos seletivos do judiciário.
 
 Desta vez a comarca do Marreco deu lugar ao STF e ao sinistro André Mendonça, o Terrível Evangélico. O alvo inicial foi o filho de Lula, que já goza de farto espaço no imaginário delirante do anti-petismo (“o dono da Friboi”, a Ferrari de ouro, as fazendas no Pará, etc, etc).
 
-O segundo movimento do Supremo Lavajatismo mirou Alexandre de Moraes, a vidraça do golpismo em 2022. A acusação de ligações do ministro com Daniel Vorcaro, o Epstein brasileiro, rendeu editoriais em uníssono pedindo sua renúncia. Sem investigações, comentaristas e analistas julgaram e condenaram Moraes, amplificando o clima de mar de lama. 
+O segundo movimento do Supremo Lavajatismo mirou Alexandre de Moraes, a vidraça do golpismo em 2022. A acusação de ligações do ministro com Daniel Vorcaro, o Epstein brasileiro, rendeu editoriais em uníssono pedindo sua renúncia. Sem investigações ou provas de crimes, comentaristas e analistas julgaram e condenaram Moraes, amplificando o clima de mar de lama. 
 
 Moraes trucou e obrigou o vazamento geral e irrestrito das conversas de Vorcaro. Descobrimos que quanto mais falso o cabelo do ministro, maiores as ligações com o trambiqueiro Master.
 
-A partir daí, instaurou-se uma “crise”. Escândalos, supostos escândalos, ilações e boatos envolvendo gente poderosa tiveram três finalidades: 1) evitar tratar das eleições, 2) esconder o pau de galinheiro Flavio Bolsonaro, e 3) estimular a velha e equivocada noção de que “são todos corruptos”.
+A partir daí, instaurou-se uma “crise”. Escândalos, supostos escândalos, ilações e boatos envolvendo gente poderosa tiveram três finalidades: 1) evitar tratar das eleições, 2) esconder o pau de galinheiro Flavio Bolsonaro, e 3) estimular a velha e equivocada noção de que “são todos corruptos”, muito útil para aumentar o número de abstenções e o voto "anti-sistema".
 
 As últimas semanas antes do primeiro turno ainda tiveram o affair Nossa Senhora de Aparecida e o cancelamento do debate pela Globo, que desistiu de botar seu candidato Flavio Bolsonaro no debate com Renan Santos, acusando a Justiça de “censura”. Nos dois casos, o papel da mídia foi o de propagar mentiras, repercutir declarações e criar falsas polêmicas.
 
