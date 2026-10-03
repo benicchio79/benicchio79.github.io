@@ -11,7 +11,7 @@ tags:
   - jornalismo
   - eleições
 description: "A bifurcação é simples: construir um país ou virar uma colônia teocrática gerenciada pelo crime organizado. A mídia hegemônica já escolheu um lado."
-image: assets/images/2026-10/17_abril_2016.jpg
+image: /assets/images/2026-10/17_abril_2016.jpg
 ---
 {% include image-with-caption.html src="/assets/images/2026-10/17_abril_2016.jpg" alt="Golpe contra Dilma, 17 de abril de 2016, Vale do Anhangabaú Foto: Thiago Benicchio" %}
 
