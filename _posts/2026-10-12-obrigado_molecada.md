@@ -39,7 +39,7 @@ E peço desculpas pela minha ignorância. Atualmente convivo essencialmente com 
 
 No futuro imediato, a derrota da extrema-direita no segundo turno é existencial para eles (e para todos nós). Com Bolsonaro II, é a aniquilação de qualquer perspectiva. Com Lula, a luta continua.
 
-E a luta, com ou sem Lula, precisa continuar. Primeiro, porque a vitória eleitoral está longe de ser garantida. Segundo, porque mesmo com Lula, as mudanças necessárias também não estão garantidas.
+E a luta, com ou sem Lula, precisa continuar. Primeiro, porque a vitória eleitoral está longe de ser algo garantido. Segundo, porque mesmo com Lula, as mudanças necessárias também não estão garantidas.
 
 Se esse caldo de mobilização criado no segundo turno conseguir se organizar e persistir, temos esperança. Como diria o título daquele filme sobre o Joe Strummer, “O futuro não está escrito”.
 
