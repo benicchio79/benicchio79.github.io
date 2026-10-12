@@ -13,6 +13,8 @@ image: /assets/images/2026-10/2026-10-11-meninas_superpoderosas.jpg
 ---
 {% include image-with-caption.html src="/assets/images/2026-10/2026-10-11-masp_celular.jpg" alt="A mídia não mostrou, mas muita gente viu. Foto: Thiago Benicchio" %}
 
+[-> ÁLBUM DE FOTOS](https://fotos.divagar.blog/gallery/bZHEjD4lixE6ktfFVXPfbUJD)
+
 700 mil? 1 milhão? Não importa, era gente demais na Av. Paulista no último domingo, ato de campanha de Lula em São Paulo. A mídia hegemônica, decrépita e apoiadora da vitória da extrema-direita, fez de tudo pra esconder o volume e a potência dessa e de outras manifestações que tem acontecido durante o segundo turno.
 
 Mas teve algo diferente: a presença de jovens. Muitos jovens. Segurando cartazes feitos em casa, entoando coros, empunhando bandeiras, dançando, tirando fotos...
@@ -41,7 +43,7 @@ E a luta, com ou sem Lula, precisa continuar. Primeiro, porque a vitória eleito
 
 Se esse caldo de mobilização criado no segundo turno conseguir se organizar e persistir, temos esperança. Como diria o título daquele filme sobre o Joe Strummer, “O futuro não está escrito”.
 
--> Fiz um álbum de fotos [aqui](https://fotos.divagar.blog/gallery/bZHEjD4lixE6ktfFVXPfbUJD)
+PS: Fiz um álbum de fotos [aqui](https://fotos.divagar.blog/gallery/bZHEjD4lixE6ktfFVXPfbUJD)
 
 
 
