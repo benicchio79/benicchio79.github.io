@@ -9,7 +9,7 @@ tags:
   - eleições
   - lula
 description: Pela primeira vez em mais de uma década, uma manifestação cheia de esperança no futuro.
-image: /assets/images/2026-10/2026-10-11-masp_celular.jpg
+image: /assets/images/2026-10/2026-10-11-meninas_superpoderosas.jpg
 ---
 {% include image-with-caption.html src="/assets/images/2026-10/2026-10-11-masp_celular.jpg" alt="A mídia não mostrou, mas muita gente viu. Foto: Thiago Benicchio" %}
 
