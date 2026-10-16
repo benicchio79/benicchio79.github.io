@@ -6,7 +6,7 @@ categories:
   - política
 tags:
   - eleições
-description: O fura-bolha orgânico não substitui as redes. E vice-versa.
+description: O fura-bolha orgânico não substitui as redes E vice-versa.
 image: /assets/images/2026-10/2026-10-15-lula_na_rua.jpg
 ---
 {% include image-with-caption.html src="/assets/images/2026-10/2026-10-15-lula_na_rua.jpg" alt="Nada se compara à experiência de estar com o outro. Foto: Thiago Benicchio" %}
@@ -47,4 +47,6 @@ Em primeiro lugar, porque a onda iniciada na semana passada deve se manter em to
 
 Em segundo lugar, porque não existe rede social que substitua o contato olho no olho, a conversa direta. O “fura-bolha” orgânico. Para ambos os lados.
 
-Tem muita gente se organizando para ações de rua. Procure entre os seus amigos e grupos, encontre um horário livre e vá!
+Tem muita gente se organizando para ações de rua. A eleição está longe de estar definida. E talvez a euforia das redes sociais seja (mais uma vez) um espelho um tanto enganoso.
+
+Então procure ou organize um grupo, encontre um horário livre e vai pra rua!
