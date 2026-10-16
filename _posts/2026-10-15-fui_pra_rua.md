@@ -33,11 +33,11 @@ Do jovem que trabalha na escala 6x1 há sete anos e contou sobre o dia de folga,
 
 Do baiano Gê, que passou fome em Feira de Santana, xingou até a última geração de ACM, veio pra São Paulo, estudou, se formou e hoje é professor. 
 
-Do pedreiro e músico que veio do Piauí, hoje tem uma casa e filhos na universidade.
+Do pedreiro e músico que veio do Piauí, hoje tem uma casa e netos na universidade.
 
 Do anarcopunk cinquentão vestido a caráter que viu um vizinho desaparecer na ditadura.
 
-Da jovem que ainda não tirou título mas que está organizada e nas ruas.
+Da jovem que ainda não tirou título, mas que está organizada e nas ruas.
 
 ***
 
