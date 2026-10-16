@@ -21,7 +21,7 @@ Na minha cabeça aquele não era lugar para longas conversas. As pessoas em gera
 
 Começava dando boa tarde e perguntando se já sabia em quem iria votar. Se deu conversa, oferecia um panfleto e tentava conversar. Se dizia “Lula”, um adesivo. Se não dizia nada ou fechava a cara, um “obrigado”.
 
-Em alguns poucos casos rendeu conversa. Sobre as ameaças de um possível governo Bolsonaro II, sobre a vida estar difícil, mas que era preciso preservar os avanços e exigir mais, sobre a maldade intrínseca ao projeto bolsonarista e por aí vai. 
+Em alguns casos rendeu conversa. Sobre as ameaças de um possível governo Bolsonaro II, sobre a vida estar difícil, mas que era preciso preservar os avanços e exigir mais, sobre a maldade intrínseca ao projeto bolsonarista e por aí vai. 
 
 Meu outro ponto era: “vá votar”. E estimule as pessoas ao redor a fazer o mesmo. Porque a diferença é pequena e cada voto conta.
 
