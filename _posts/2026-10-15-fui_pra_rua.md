@@ -6,10 +6,10 @@ categories:
   - política
 tags:
   - eleições
-description: O fura-bolha orgânico
+description: O fura-bolha orgânico não substitui as redes. E vice-versa.
 image: /assets/images/2026-10/2026-10-15-lula_na_rua.jpg
 ---
-{% include image-with-caption.html src="/assets/images/2026-10/2026-10-15-lula_na_rua.jpg" alt="A mídia não mostrou, mas muita gente viu. Foto: Thiago Benicchio" %}
+{% include image-with-caption.html src="/assets/images/2026-10/2026-10-15-lula_na_rua.jpg" alt="Nada se compara à experiência de estar com o outro. Foto: Thiago Benicchio" %}
 
 Depois da [euforia de domingo](https://www.divagar.blog/2026/10/12/obrigado_molecada/), procurei grupos e amigos para ações de rua. Minha única rede social é o boteco chamado Bluesky, então as missões do Janones não são pra mim.
 
