@@ -37,7 +37,7 @@ Não acredito que a questão seja simplesmente “regulamentar as plataformas”
 
 E, modestamente, acho que também devemos criar novas formas, que não dependam desse cabresto digital que carregamos no bolso. A internet ainda é bem maior e mais interessante que esses condomínios fechados. Isso sem falar no resgate daquela forma antiga, o tal encontro, a conversa, o inesperado.
 
-Talvez eu esteja equivocado e as redes sociais podem realmente ser a expressão mais pura do desejo coletivo humano, o ápice da democracia, bastando um ajuste aqui e uma regra ali para que a vontade das massas aflore em "trends", "threads", "hypes" ou sei lá como chamam.
+Talvez eu esteja equivocado e as redes sociais possam realmente ser a expressão mais pura do desejo coletivo humano, o ápice da democracia, bastando um ajuste aqui e uma regra ali para que a vontade das massas aflore em "trends", "threads", "hypes" ou sei lá como chamam.
 
 Talvez até Mark Zuckerberg esteja certo em acabar com a moderação de conteúdo, deixando que cada indivíduo se expresse como acredita, restando a um algoritmo mais “limpinho” processar e dar o resultado instantaneamente (e à Justiça correr atrás depois em caso de desvios criminais).
 
