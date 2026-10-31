@@ -13,7 +13,7 @@ image: /assets/images/2026-10/2026-10-31-lula_antifascismo.jpg
 ---
 {% include image-with-caption.html src="/assets/images/2026-10/2026-10-31-lula_antifascismo.jpg" alt="Visto no Bluesky. Artista desconhecid@" %}
 
-O título desse texto não é exagerado: vencemos e salvamos o mundo.
+O título desse texto não é exagerado: vencemos a batalha e salvamos o mundo.
 
 A nossa vitória elegendo Lula não nos coloca imediatamente no paraíso, mas uma derrota teria jogado o Brasil em um pesadelo que duraria décadas. E junto conosco afundaria boa parte do mundo, que agora ganhou fôlego para lutar contra a vertigem do fascismo latente.
 
