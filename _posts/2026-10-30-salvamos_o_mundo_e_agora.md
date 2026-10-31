@@ -8,7 +8,7 @@ tags:
   - eleições
   - lula
   - big_tech
-description: Como é gostoso derrotar o terror fascista. Vencemos! E isso não é pouco.
+description: A derrota do terror fascista, pistas para o futuro e o velório da outrora chamada de grande imprensa.
 image: /assets/images/2026-10/2026-10-31-lula_antifascismo.jpg
 ---
 {% include image-with-caption.html src="/assets/images/2026-10/2026-10-31-lula_antifascismo.jpg" alt="Visto no Bluesky. Artista desconhecid@" %}
